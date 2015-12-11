@@ -14,8 +14,8 @@
                     // phonegap.remote.password=mys3cr3tp@ssw0rd
                     //"remote":false,
 
-                    "id": "frontapp.driveo.m-w.solutions",
-                    "name": "frontapp"
+                    "id": "ecluse.app.driveo.m-w.solutions",
+                    "name": "ecluse"
                 }
             }
         }

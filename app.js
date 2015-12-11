@@ -259,14 +259,14 @@ Ext.application({
             }
 
             //redefinition du store COURSE
-            var produits = Ext.getStore('Produits');
+            /*var produits = Ext.getStore('Produits');
             produits.getProxy().setExtraParams({
                 user_id: frontapp.utils.Config.getCurrentUser().user_id,
                 logkey: frontapp.utils.Config.getCurrentKey()
             });
 
             //chargement des store
-            produits.load();
+            produits.load();*/
 
             //redefinition du store ORDONNANCES
             var ordonnances = Ext.getStore('Ordonnances');
@@ -279,14 +279,14 @@ Ext.application({
             ordonnances.load();
 
             //redefinition du store COMMANDES
-            var commandes = Ext.getStore('Commandes');
+            /*var commandes = Ext.getStore('Commandes');
             commandes.getProxy().setExtraParams({
                 user_id: frontapp.utils.Config.getCurrentUser().user_id,
                 logkey: frontapp.utils.Config.getCurrentKey()
             });
 
             //chargement des store
-            commandes.load();
+            commandes.load();*/
         }
     }
 });
