@@ -6,7 +6,6 @@ Ext.define('frontapp.utils.Config', {
         logkeyUrl: '/Systeme/Connexion/getToken.json',
         loginUrl: '/Systeme/Connexion/login.json',
         checkAlreadyLoggedUrl: '/Systeme/Connexion/isLogged.json',
-
         /**
          * user login definition
          */
@@ -15,9 +14,9 @@ Ext.define('frontapp.utils.Config', {
         currentUser: null,
         domain: null,
         /**
-         * views
+         * Server Urls
          */
-        mainView:null,
+        ordonnanceSaveUrl: '/Pharmacie/Ordonnance/',
         /**
          * Root app
          */
@@ -96,8 +95,8 @@ Ext.define('frontapp.utils.Config', {
      * override getter produitSaveUrl to include domain
      * @returns {*}
      */
-    getProduitSaveUrl: function () {
-        return this.getDomain()+this._produitSaveUrl;
+    getOrdonnanceSaveUrl: function () {
+        return this.getDomain()+this._ordonnanceSaveUrl;
     },
     /***
      * initLocation

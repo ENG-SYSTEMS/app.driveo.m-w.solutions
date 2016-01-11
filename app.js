@@ -29,10 +29,11 @@ Ext.application({
        /* 'Google',*/
         /*'Facebook',*/
         'Main',
-        'Produit'
+        'Produit',
+        'Ordonnance'
     ],
     views: [
-        'Main','Login','Produit','FicheProduit','Commande','Ordonnance'
+        'Main','Login','Produit','FicheProduit','Commande','Ordonnance','FicheOrdonnance'
     ],
 
     icon: {
@@ -182,12 +183,12 @@ Ext.application({
                 return this.callParent(arguments);
             }
         });
-
         //set config app
         frontapp.utils.Config.setApp(this);
-        
+
         //récupération de la clef
         this.checkKey();
+
         //recupération de la geolocalisation
         console.log('call geoloc');
         frontapp.utils.Config.initLocation();
@@ -259,14 +260,14 @@ Ext.application({
             }
 
             //redefinition du store COURSE
-            /*var produits = Ext.getStore('Produits');
+            var produits = Ext.getStore('Produits');
             produits.getProxy().setExtraParams({
                 user_id: frontapp.utils.Config.getCurrentUser().user_id,
                 logkey: frontapp.utils.Config.getCurrentKey()
             });
 
             //chargement des store
-            produits.load();*/
+            produits.load();
 
             //redefinition du store ORDONNANCES
             var ordonnances = Ext.getStore('Ordonnances');
@@ -279,14 +280,14 @@ Ext.application({
             ordonnances.load();
 
             //redefinition du store COMMANDES
-            /*var commandes = Ext.getStore('Commandes');
+            var commandes = Ext.getStore('Commandes');
             commandes.getProxy().setExtraParams({
                 user_id: frontapp.utils.Config.getCurrentUser().user_id,
                 logkey: frontapp.utils.Config.getCurrentKey()
             });
 
             //chargement des store
-            commandes.load();*/
+            commandes.load();
         }
     }
 });

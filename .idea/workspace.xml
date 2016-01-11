@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c309a758-0ec1-474b-b2b6-65492269fce9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/FicheOrdonnance.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/Ordonnance.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/sass/include/_panel.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0c9b600b7c2e7d7317af0e94103e32dfe9aeb85c/_AbstractChart.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_blueprint-grid.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_carbon-fiber.scssc" afterPath="" />
@@ -78,88 +82,26 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/ff0b1e6c46b34ae3f6016b6e43739047ff59dc78/_Dock.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/ff0b1e6c46b34ae3f6016b6e43739047ff59dc78/_Fit.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/ff0b1e6c46b34ae3f6016b6e43739047ff59dc78/_Float.scssc" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Abstract.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Abstract.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/d418961dab12e99c8bd5be412c423ccbeb35d412/_AbstractChart.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/d418961dab12e99c8bd5be412c423ccbeb35d412/_AbstractChart.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Box.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Box.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Button.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Button.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Card.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Card.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/cab605f10da13422245513c6805ba7c0c3dd625e/_Carousel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/cab605f10da13422245513c6805ba7c0c3dd625e/_Carousel.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/d3131b30c3fcac3a683f21557d7d120b5e87f1ab/_Class.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/d3131b30c3fcac3a683f21557d7d120b5e87f1ab/_Class.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Class.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Class.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/484414a50f59cf25325b2b60be50d33eef52ac28/_DataView.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/484414a50f59cf25325b2b60be50d33eef52ac28/_DataView.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/c0263bbaad562020472274022c04b6f726ee3432/_Default.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/c0263bbaad562020472274022c04b6f726ee3432/_Default.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Dock.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Dock.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Fit.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Fit.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Float.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Float.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/3ffb53c4d62c53c42ba707443600631cf967c384/_Grid.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ffb53c4d62c53c42ba707443600631cf967c384/_Grid.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Img.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Img.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/484414a50f59cf25325b2b60be50d33eef52ac28/_IndexBar.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/484414a50f59cf25325b2b60be50d33eef52ac28/_IndexBar.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/484414a50f59cf25325b2b60be50d33eef52ac28/_List.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/484414a50f59cf25325b2b60be50d33eef52ac28/_List.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/057d8d53910c873d74003a078c1d29c6406aa40f/_ListPaging.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/057d8d53910c873d74003a078c1d29c6406aa40f/_ListPaging.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Map.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Map.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Mask.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Mask.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Media.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Media.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Menu.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Menu.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_MessageBox.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_MessageBox.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/23fbf0ebf9dd75631d8ba4c3481813e59d690dc3/_PaintMonitor.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/23fbf0ebf9dd75631d8ba4c3481813e59d690dc3/_PaintMonitor.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/00e17f5051c44eedf927fcf7b0bd136967ad13d4/_Panel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/00e17f5051c44eedf927fcf7b0bd136967ad13d4/_Panel.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0a8c7c86f7f3e067db55c94d5ad10766dfc5b997/_Panel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0a8c7c86f7f3e067db55c94d5ad10766dfc5b997/_Panel.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Panel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Panel.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/9c9a5cf237ddf31b87e4cea9302dfe50b16d344a/_Picker.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/9c9a5cf237ddf31b87e4cea9302dfe50b16d344a/_Picker.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_ProgressIndicator.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_ProgressIndicator.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/057d8d53910c873d74003a078c1d29c6406aa40f/_PullRefresh.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/057d8d53910c873d74003a078c1d29c6406aa40f/_PullRefresh.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/bdd155a754acdbb5a96d5654b01fe1e9469636a2/_Scroller.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/bdd155a754acdbb5a96d5654b01fe1e9469636a2/_Scroller.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Sheet.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Sheet.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/23fbf0ebf9dd75631d8ba4c3481813e59d690dc3/_SizeMonitor.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/23fbf0ebf9dd75631d8ba4c3481813e59d690dc3/_SizeMonitor.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/9ade803f7fb2d8acd04c95d8d51c5b226c14be53/_Slider.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/9ade803f7fb2d8acd04c95d8d51c5b226c14be53/_Slider.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/08942a1c27cff14469b4da8214f9c768bfd875ac/_Table.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/08942a1c27cff14469b4da8214f9c768bfd875ac/_Table.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Toast.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Toast.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Toolbar.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Toolbar.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/23fbf0ebf9dd75631d8ba4c3481813e59d690dc3/_Translatable.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/23fbf0ebf9dd75631d8ba4c3481813e59d690dc3/_Translatable.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_all.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_all.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_animation.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_animation.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_autoComplete.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_autoComplete.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/f35816c4e7272f2bae3c0ea4ff4f432c7c1a231e/_base.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/f35816c4e7272f2bae3c0ea4ff4f432c7c1a231e/_base.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_blueprint-grid.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_blueprint-grid.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_body.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_body.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_buttons.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_buttons.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_carbon-fiber.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_carbon-fiber.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_checkerboard.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_checkerboard.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_cicada.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_cicada.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/926da4bf731baff5190a08870a3c52a73078dfc0/_color.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/926da4bf731baff5190a08870a3c52a73078dfc0/_color.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_fieldsets.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_fieldsets.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_footer.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_footer.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_gradients.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_gradients.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_houndstooth.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_houndstooth.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_lined-paper.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_lined-paper.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_loading.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_loading.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_login.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_login.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_madras.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_madras.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_message.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_message.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_noise.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_noise.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_polka-dot.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_polka-dot.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_popup.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_popup.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_product_list.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_product_list.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_radial-overlay.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_radial-overlay.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_scroll_container.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_scroll_container.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_selectfields.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_selectfields.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_sidebar.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_sidebar.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_striped.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_striped.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_stripes.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_stripes.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_tablecloth.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_tablecloth.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_tartan.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_tartan.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_textfields.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_textfields.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_titlebars.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_titlebars.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_toggle.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_toggle.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/6ad6ab3a7d506c3cb8d9c4d3031069891fe4477d/app.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/6ad6ab3a7d506c3cb8d9c4d3031069891fe4477d/app.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Commande.js" afterPath="$PROJECT_DIR$/app/model/Commande.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Commande.js" afterPath="$PROJECT_DIR$/app/view/Commande.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/utils/Config.js" afterPath="$PROJECT_DIR$/app/utils/Config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/Main.js" afterPath="$PROJECT_DIR$/app/controller/Main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Main.js" afterPath="$PROJECT_DIR$/app/view/Main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_sidebar.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_sidebar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Ordonnance.js" afterPath="$PROJECT_DIR$/app/model/Ordonnance.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Ordonnance.js" afterPath="$PROJECT_DIR$/app/view/Ordonnance.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Produit.js" afterPath="$PROJECT_DIR$/app/view/Produit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_animation.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_animation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_textfields.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_textfields.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/app.css" afterPath="$PROJECT_DIR$/resources/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/app.driveo.m-w.solutions.iml" afterPath="$PROJECT_DIR$/.idea/app.driveo.m-w.solutions.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/app.scss" afterPath="$PROJECT_DIR$/resources/sass/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.js" afterPath="$PROJECT_DIR$/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="app.driveo.m-w.solutions.iws" />
@@ -185,11 +127,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7716644" vertical-offset="3092" max-vertical-offset="3874">
-              <caret line="281" column="14" selection-start-line="281" selection-start-column="14" selection-end-line="281" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2980" max-vertical-offset="3887">
+              <caret line="289" column="29" selection-start-line="289" selection-start-column="29" selection-end-line="289" selection-end-column="29" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -197,31 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/utils/Config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="3471">
-              <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="989" max-vertical-offset="3094">
-              <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Produit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/form/Produit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="482" max-vertical-offset="2899">
-              <caret line="86" column="0" selection-start-line="34" selection-start-column="1" selection-end-line="86" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="2626">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -230,28 +152,48 @@
       <file leaf-file-name="Ordonnance.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/Ordonnance.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="1326">
-              <caret line="91" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="1430">
+              <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_buttons.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/include/_buttons.scss">
+      <file leaf-file-name="FicheOrdonnance.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/FicheOrdonnance.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1872">
+            <state vertical-scroll-proportion="0.0" vertical-offset="819" max-vertical-offset="2418">
+              <caret line="71" column="13043" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="13043" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ordonnances.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/store/Ordonnances.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="740">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/Login.js">
+      <file leaf-file-name="Ordonnance.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/model/Ordonnance.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="819" max-vertical-offset="1300">
-              <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/utils/Config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1971" max-vertical-offset="3458">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -260,28 +202,28 @@
       <file leaf-file-name="_sidebar.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sass/include/_sidebar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="364" max-vertical-offset="1573">
+            <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="1573">
               <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_login.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/include/_login.scss">
+      <file leaf-file-name="_animation.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sass/include/_animation.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="559" max-vertical-offset="637">
-              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="663">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_textfields.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/include/_textfields.scss">
+      <file leaf-file-name="Produit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/Produit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="1534">
-              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="1339">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -301,8 +243,24 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/resources/sass/include/_sidebar.scss" />
+        <option value="$PROJECT_DIR$/app/view/NewOrdonnance.js" />
+        <option value="$PROJECT_DIR$/resources/sass/include/_textfields.scss" />
+        <option value="$PROJECT_DIR$/resources/sass/include/_buttons.scss" />
+        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/resources/sass/include/_panel.scss" />
+        <option value="$PROJECT_DIR$/app/view/FicheOrdonnance.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/controller/Ordonnance.js" />
+        <option value="$PROJECT_DIR$/app/controller/Main.js" />
+        <option value="$PROJECT_DIR$/app/utils/Config.js" />
+        <option value="$PROJECT_DIR$/resources/sass/include/_animation.scss" />
         <option value="$PROJECT_DIR$/app/view/Main.js" />
+        <option value="$PROJECT_DIR$/app/model/Ordonnance.js" />
+        <option value="$PROJECT_DIR$/app/view/Ordonnance.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/app/view/Produit.js" />
+        <option value="$PROJECT_DIR$/app/model/Commande.js" />
+        <option value="$PROJECT_DIR$/app/view/Commande.js" />
       </list>
     </option>
   </component>
@@ -531,6 +489,12 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/view" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -547,15 +511,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -584,19 +548,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26128793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1761658" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -650,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="819" max-vertical-offset="1300">
           <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="364" max-vertical-offset="1573">
           <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="559" max-vertical-offset="637">
           <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="1534">
           <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="819" max-vertical-offset="1300">
           <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="364" max-vertical-offset="1573">
           <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="559" max-vertical-offset="637">
           <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="1534">
           <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="819" max-vertical-offset="1300">
           <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="1573">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="559" max-vertical-offset="637">
           <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="1534">
           <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,81 +764,208 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="559" max-vertical-offset="637">
           <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/include/_client_registration.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="939">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/include/_fieldsets.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="939">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_textfields.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="1534">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-          <folding />
+        <state vertical-scroll-proportion="-33.409092" vertical-offset="682" max-vertical-offset="1599">
+          <caret line="109" column="12" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/utils/Config.js">
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="3471">
-          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="0.45179373" vertical-offset="0" max-vertical-offset="892">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/include/_sidebar.scss">
+    <entry file="file://$PROJECT_DIR$/resources/sass/include/_panel.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="364" max-vertical-offset="1573">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding />
+        <state vertical-scroll-proportion="-5.909091" vertical-offset="0" max-vertical-offset="221">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Produit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16613418" vertical-offset="0" max-vertical-offset="1274">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1872">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Ordonnance.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="1326">
-          <caret line="91" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Produit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2503439" vertical-offset="507" max-vertical-offset="1430">
-          <caret line="53" column="49" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
-          <folding />
+        <state vertical-scroll-proportion="0.25517994" vertical-offset="0" max-vertical-offset="1872">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/form/Produit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="482" max-vertical-offset="2899">
-          <caret line="86" column="0" selection-start-line="34" selection-start-column="1" selection-end-line="86" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.29073483" vertical-offset="0" max-vertical-offset="2899">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.057522126" vertical-offset="0" max-vertical-offset="904">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Ordonnance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="1053">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1014" max-vertical-offset="3991">
+          <caret line="101" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/include/_sidebar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="1573">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/include/_animation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="663">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/Produit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="941">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/Produits.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="941">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2980" max-vertical-offset="3887">
+          <caret line="289" column="29" selection-start-line="289" selection-start-column="29" selection-end-line="289" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Produit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="1339">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/Commandes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/Commande.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24396783" vertical-offset="0" max-vertical-offset="746">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Commande.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2055336" vertical-offset="351" max-vertical-offset="1326">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="989" max-vertical-offset="3094">
-          <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2626">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/app/model/Ordonnance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7716644" vertical-offset="3092" max-vertical-offset="3874">
-          <caret line="281" column="14" selection-start-line="281" selection-start-column="14" selection-end-line="281" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="481" max-vertical-offset="559">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/utils/Config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1971" max-vertical-offset="3458">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Ordonnance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="489" max-vertical-offset="1430">
+          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/FicheOrdonnance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="819" max-vertical-offset="2418">
+          <caret line="71" column="13043" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="13043" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/Ordonnances.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="941">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

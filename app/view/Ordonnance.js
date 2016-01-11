@@ -36,7 +36,14 @@ Ext.define('frontapp.view.Ordonnance', {
                     },
                     {
                         xtype: 'spacer'
-                    }
+                    },
+                   {
+                       xtype: 'button',
+                       text: '',
+                       iconCls: 'fa fa-plus',
+                       action: 'menu-photo-ordonnance',
+                       cls: 'open-socials'
+                   }
                 ]
             },
            {
@@ -54,9 +61,10 @@ Ext.define('frontapp.view.Ordonnance', {
                         infinite: false,
                         action: 'listeproduit',
                         itemTpl: '<div class="product">'+
-                        '<span class="product-dist product-near">{MontantTTC} € TTC</span>'+
-                        '<h2>({Reference})</h2>'+
-                        '<span class="product-hours">{TarifText}</span>'+
+                        '<img src="'+frontapp.utils.Config.getDomain()+'/{Image}.mini.60x60.jpg" class="float-left product-avatar" alt="img">'+
+                        '{EtatText}'+
+                        '<h2>{Date}</h2>'+
+                        '<span class="product-hours">{Commentaire}</span>'+
                             /*'<span class="valet-address">Poids: {Poids}<br />Largeur: {Largeur} <br />Hauteur: {Hauteur} <br /> Profondeur: {Profondeur}</span>'+*/
                         '</div>',
                         grouped: false,

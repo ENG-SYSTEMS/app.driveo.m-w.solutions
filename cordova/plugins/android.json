@@ -1,0 +1,21 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
+        }
+    },
+    "dependent_plugins": {}
+}

@@ -6,10 +6,14 @@ Ext.define('frontapp.model.Commande', {
             {name: 'id',          type: 'int'},
             {name: 'label',          type: 'string'},
             {name: 'RefCommande',        type: 'string'},
+            {name: 'tmsCreate',        type: 'string'},
             {name: 'MontantHorsPromoHT',        type: 'float'},
             {name: 'MontantHorsPromoTTC',        type: 'float'},
             {name: 'MontantHT',        type: 'float'},
-            {name: 'MontantTTC',        type: 'float'},
+            {name: 'MontantTTC',        type: 'float', convert: function (value,record){
+                if (!value) return "0";
+                else return value;
+            }},
             {name: 'Remise',        type: 'float'},
             {name: 'MontantPaye',        type: 'float'},
             {name: 'MontantLivraison',        type: 'float'},

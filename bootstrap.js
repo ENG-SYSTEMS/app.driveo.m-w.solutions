@@ -785,6 +785,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "frontapp.controller.Facebook": [],
   "frontapp.controller.Google": [],
   "frontapp.controller.Main": [],
+  "frontapp.controller.Ordonnance": [],
   "frontapp.controller.Produit": [],
   "frontapp.form.Produit": [],
   "frontapp.model.Commande": [],
@@ -803,6 +804,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "frontapp.utils.TimePicker": [],
   "frontapp.utils.TimePickerField": [],
   "frontapp.view.Commande": [],
+  "frontapp.view.FicheOrdonnance": [],
   "frontapp.view.FicheProduit": [],
   "frontapp.view.Login": [],
   "frontapp.view.Main": [],
@@ -1768,6 +1770,7 @@ Ext.ClassManager.addNameAliasMappings({
   "frontapp.controller.Facebook": [],
   "frontapp.controller.Google": [],
   "frontapp.controller.Main": [],
+  "frontapp.controller.Ordonnance": [],
   "frontapp.controller.Produit": [],
   "frontapp.form.Produit": [
     "widget.formProduit"
@@ -1807,6 +1810,9 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "frontapp.view.Commande": [
     "widget.commande"
+  ],
+  "frontapp.view.FicheOrdonnance": [
+    "widget.fiche-ordonnance"
   ],
   "frontapp.view.FicheProduit": [
     "widget.main"

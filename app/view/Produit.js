@@ -36,14 +36,7 @@ Ext.define('frontapp.view.Produit', {
                     },
                     {
                         xtype: 'spacer'
-                    },
-                   {
-                       xtype: 'button',
-                       text: '',
-                       iconCls: 'fa fa-plus',
-                       action: 'addproduit',
-                       cls: 'open-socials'
-                   }
+                    }
                 ]
             },
            {

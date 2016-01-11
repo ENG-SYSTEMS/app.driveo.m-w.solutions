@@ -26,6 +26,7 @@ Ext.define('frontapp.controller.Main', {
             menuProduit: '[action=menu-produit]',
             menuCommande: '[action=menu-commande]',
             menuOrdonnance: '[action=menu-ordonnance]',
+            menuNewOrdonnance: '[action=menu-photo-ordonnance]',
 
             loginbutton: '[action=loginbutton]',
             logintext: '[action=logintext]',
@@ -68,6 +69,11 @@ Ext.define('frontapp.controller.Main', {
                     this.redirectTo('commande');
                 }
             },
+            menuNewOrdonnance: {
+                tap: function () {
+                    this.redirectTo('new-ordonnance');
+                }
+            },
             menuOrdonnance: {
                 tap: function () {
                     this.redirectTo('ordonnance');
@@ -80,6 +86,7 @@ Ext.define('frontapp.controller.Main', {
             'produit': 'showProduit',
             'commande': 'showCommande',
             'ordonnance': 'showOrdonnance',
+            'new-ordonnance': 'showNewOrdonnance',
             'login' : 'showLogin',
             'product/:id': 'showProduct',
             'product/add': 'addProduct',
@@ -270,6 +277,10 @@ Ext.define('frontapp.controller.Main', {
     showOrdonnance: function () {
         frontapp.utils.Config.hideMenu();
         this.manageView(1,'frontapp.view.Ordonnance');
+    },
+    showNewOrdonnance: function () {
+        frontapp.utils.Config.hideMenu();
+        this.manageView(1,'frontapp.view.FicheOrdonnance');
     },
     showProduct: function (id) {
         var ficheview = Ext.create('frontapp.view.FicheProduit');

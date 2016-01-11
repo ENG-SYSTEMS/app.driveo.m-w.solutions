@@ -55,8 +55,8 @@ Ext.define('frontapp.view.Commande', {
                         action: 'listeproduit',
                         itemTpl: '<div class="product">'+
                         '<span class="product-dist product-near">{MontantTTC} € TTC</span>'+
-                        '<h2>({Reference})</h2>'+
-                        '<span class="product-hours">{TarifText}</span>'+
+                        '<h2>{tmsCreate}</h2>'+
+                        '<span class="product-hours">{RefCommande}</span>'+
                             /*'<span class="valet-address">Poids: {Poids}<br />Largeur: {Largeur} <br />Hauteur: {Hauteur} <br /> Profondeur: {Profondeur}</span>'+*/
                         '</div>',
                         grouped: false,

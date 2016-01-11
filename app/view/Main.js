@@ -2,27 +2,18 @@ Ext.define('frontapp.view.Main', {
     extend: 'Ext.Container',
     xtype: 'main',
     requires: [
-        'Ext.TitleBar',
-        'Ext.Video',
-        'Ext.dataview.List',
-        'Ext.tab.Panel',
-        'Ext.Menu',
-        'Ext.Anim',
-        'Ext.util.Geolocation'
+        'Ext.util.Geolocation',
+        'Ext.Label'
     ],
     id: 'mainCard',
     config: {
         cls: 'product-list-page',
-        layout: {
-            type: 'card',
-            align: 'center',
-            animation: 'flip'
-        },
+        scrollable: true,
         items: [
             {
                xtype: 'toolbar',
                docked: 'top',
-               title: 'Envoyer une ordonnance',
+               title: 'Tableau de bord',
                cls: 'header',
                items: [
                     {
@@ -39,115 +30,82 @@ Ext.define('frontapp.view.Main', {
                     }
                 ]
             },
-           {
-                align: 'center',
-                items:[
+            {
+                width: '80%',
+                layout: {
+                    type: 'vbox'
+                },
+                style: 'margin: 10px 10%',
+                items: [
                     {
-                        width: '100%',
-                        layout: {
-                            type: 'hbox'
-                        },
-                        style: 'margin: 10px 10pxb',
+                        xtype: 'label',
+                        cls: 'driv-panel',
+                        html: '<h1>Mr MESSIN Enguerrand</h1>'+
+                            '<div>Email: enguer@enguer.com</div>'+
+                            '<div>Téléphone: 06 76 56 81 14 </div>'+
+                            '<div>Adresse: 1 chemin des alouettes, 30230 Bouillargues </div>'
+                    },
+                    {
+                        cls: 'driv-panel warning',
                         items: [
                             {
-                                xtype: 'image',
-                                width: '100px',
-                                action: 'produitImage',
-                                height: '100px',
-                                src: 'http://www.sencha.com/assets/images/sencha-avatar-64x64.png'
+                                html: '<h2>Ordonnances en cours</h2>'
                             },
                             {
-                                xtype: 'hiddenfield',
-                                name: 'Image',
-                                action: 'photo',
-                                value: ''
+                                action: 'ordonnances-info',
+                                style: 'margin: 0 0 10px 0',
+                                html: '<div>Il n\'y a pas d\'ordonnance en cours.</div>'
                             },
                             {
                                 xtype: 'button',
-                                flex: 1,
-                                text: 'Prendre une photo',
-                                action: 'take-photo',
-                                cls: 'ypm-button',
-                                handler: function () {
-                                    navigator.camera.getPicture(onSuccess, onFail, {
-                                        quality : 90,
-                                        destinationType : Camera.DestinationType.DATA_URL,
-                                        sourceType : Camera.PictureSourceType.CAMERA,
-                                        allowEdit : true,
-                                        encodingType: Camera.EncodingType.JPEG,
-                                        targetWidth: 800,
-                                        targetHeight: 600,
-                                        popoverOptions: CameraPopoverOptions,
-                                        saveToPhotoAlbum: false
-                                    });
-
-                                    function onSuccess(imageData) {
-                                        var image = Ext.Viewport.getActiveItem().down('[action=produitImage]');
-                                        image.setSrc("data:image/jpeg;base64," + imageData);
-                                        var hi = Ext.Viewport.getActiveItem().down('[action=photo]');
-                                        hi.setValue(imageData);
-                                    }
-
-                                    function onFail(message) {
-                                        alert('Failed because: ' + message);
-                                    }
-                                }
-                            }                        ]
-                    },
-                    {
-                        align: 'center',
-                        items:[
-                            {
-                                title: 'Ordonnances',
-                                style: 'overflow:hidden',
-                                iconCls: 'cart',
                                 width: '100%',
-                                height: '100%',
-                                xtype: 'list',
-                                store: 'Ordonnances',
-                                cls: 'product-list',
-                                infinite: false,
-                                action: 'listeproduit',
-                                itemTpl: '<div class="product">'+
-                                '<span class="product-dist product-near">{MontantTTC} € TTC</span>'+
-                                '<h2>({Reference})</h2>'+
-                                '<span class="product-hours">{TarifText}</span>'+
-                                    /*'<span class="valet-address">Poids: {Poids}<br />Largeur: {Largeur} <br />Hauteur: {Hauteur} <br /> Profondeur: {Profondeur}</span>'+*/
-                                '</div>',
-                                grouped: false,
-                                pinHeaders: false,
-                                plugins: [
-                                    {
-                                        xclass: 'Ext.plugin.ListPaging',
-                                        autoPaging: true,
-                                        showAnimation: 'slideIn',
-                                        loadMoreText: 'Chargement...',
-                                        noMoreRecordsText: 'Pas plus d\'enregistrements'
-                                    },
-                                    {
-                                        xclass: 'Ext.plugin.PullRefresh',
-                                        pullText: 'Glissez vers le bas pour rafraichir.',
-                                        releaseText:'Relachez pour rafraichir.',
-                                        loadingText: 'Chargement en cours ...',
-                                        loadedText: 'Chargement reussi.',
-                                        lastUpdatedText: 'Mise à jour:  ',
-                                        listeners : {
-                                            latestfetched: function () {
-                                                console.log('refresh list');
-                                                this.getList().getStore().currentPage = 1;
-                                                this.getList().getStore().removeAll();
-                                                this.getList().getStore().load();
-                                            }
-                                        }
-                                    }
-
-                                ]
+                                cls: 'ypm-button',
+                                action: 'menu-ordonnance',
+                                text: 'Liste des ordonnances'
+                            },
+                            {
+                                xtype: 'button',
+                                width: '100%',
+                                cls: 'ypm-button',
+                                action: 'menu-photo-ordonnance',
+                                text: 'Nouvelle ordonnance'
                             }
                         ]
+                    },
+                    {
+                        cls: 'driv-panel warning',
+                        items: [
+                            {
+                                html: '<h2>Commandes en cours</h2>'
+                            },
+                            {
+                                action: 'commandes-info',
+                                style: 'margin: 0 0 10px 0',
+                                html: '<div>Il n\'y a pas de commande en cours.</div>'
+                            },
+                            {
+                                xtype: 'button',
+                                width: '100%',
+                                cls: 'ypm-button',
+                                action: 'menu-commande',
+                                text: 'Liste des commandes'
+                            },
+                            {
+                                xtype: 'button',
+                                width: '100%',
+                                cls: 'ypm-button',
+                                action: 'menu-produit',
+                                text: 'Parcourir les produits'
+                            }
+                        ]
+                    },
+                    {
+                        cls: 'driv-panel info',
+                        xtype: 'label',
+                        html: '<div><strong>La pharmacie de l\'ecluse</strong> vous remercie d\'utiliser son application. <br/> Vous pouvez envoyer une ordonnance directement votre ordonnance depuis le menu "Nouvelle ordonnance" ou rechercher un produit et effectuer une commande depuis le menu "liste des produits". <br/></div>'
                     }
                 ]
             }
-
         ],
         listeners: {
             initialize: function(item){
@@ -182,7 +140,19 @@ Ext.define('frontapp.view.Main', {
                                     html: '<i class="fa fa-tablet"></i>' +
                                     '<strong>Tableau de bord</strong>'
                                 },
-/*                                {
+                                {
+                                    cls: 'menu-item',
+                                    action: 'menu-photo-ordonnance',
+                                    html: '<i class="fa fa-camera"></i>' +
+                                    '<strong>Nouvelle ordonnance</strong>'
+                                },
+                                {
+                                    cls: 'menu-item',
+                                    action: 'menu-ordonnance',
+                                    html: '<i class="fa fa-pagelines"></i>' +
+                                    '<strong>Liste des ordonnances</strong>'
+                                },
+                                {
                                     cls: 'menu-item',
                                     action: 'menu-produit',
                                     html: '<i class="fa fa-list"></i>' +
@@ -194,12 +164,6 @@ Ext.define('frontapp.view.Main', {
                                     html: '<i class="fa fa-shopping-cart"></i>' +
                                     '<strong>Liste des commandes</strong>'
                                 },
-                                {
-                                    cls: 'menu-item',
-                                    action: 'menu-ordonnance',
-                                    html: '<i class="fa fa-pagelines"></i>' +
-                                    '<strong>Liste des ordonnances</strong>'
-                                },*/
                                 {
                                     cls: 'menu-item',
                                     action: 'deconnexion',

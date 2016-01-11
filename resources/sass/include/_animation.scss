@@ -15,8 +15,8 @@
   top:0;
   bottom:0;
   z-index:0;
-  -webkit-transform: perspective(600px) translate3d(-250px, 0px, -1px) rotateY(90deg) !important;
-  transform: perspective(600px) translate3d(-250px, 0px, -1px) rotateY(90deg) !important;
+  -webkit-transform: perspective(600px) translate3d(-750px, 0px, -1000px) rotateY(90deg) !important;
+  transform: perspective(600px) translate3d(-750px, 0px, -1000px) rotateY(90deg) !important;
 }
 #ext-viewport{
   -webkit-transition:all 500ms ease;
