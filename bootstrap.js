@@ -787,7 +787,6 @@ Ext.ClassManager.addNameAlternateMappings({
   "frontapp.controller.Main": [],
   "frontapp.controller.Ordonnance": [],
   "frontapp.controller.Produit": [],
-  "frontapp.form.Produit": [],
   "frontapp.model.Commande": [],
   "frontapp.model.Ordonnance": [],
   "frontapp.model.Produit": [],
@@ -804,6 +803,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "frontapp.utils.TimePicker": [],
   "frontapp.utils.TimePickerField": [],
   "frontapp.view.Commande": [],
+  "frontapp.view.EnvoyerOrdonnance": [],
   "frontapp.view.FicheOrdonnance": [],
   "frontapp.view.FicheProduit": [],
   "frontapp.view.Login": [],
@@ -1772,9 +1772,6 @@ Ext.ClassManager.addNameAliasMappings({
   "frontapp.controller.Main": [],
   "frontapp.controller.Ordonnance": [],
   "frontapp.controller.Produit": [],
-  "frontapp.form.Produit": [
-    "widget.formProduit"
-  ],
   "frontapp.model.Commande": [],
   "frontapp.model.Ordonnance": [],
   "frontapp.model.Produit": [],
@@ -1810,6 +1807,9 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "frontapp.view.Commande": [
     "widget.commande"
+  ],
+  "frontapp.view.EnvoyerOrdonnance": [
+    "widget.envoyer-ordonnance"
   ],
   "frontapp.view.FicheOrdonnance": [
     "widget.fiche-ordonnance"

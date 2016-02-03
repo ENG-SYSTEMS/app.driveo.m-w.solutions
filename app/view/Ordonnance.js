@@ -59,7 +59,7 @@ Ext.define('frontapp.view.Ordonnance', {
                         store: 'Ordonnances',
                         cls: 'product-list',
                         infinite: false,
-                        action: 'listeproduit',
+                        action: 'listeordonnance',
                         itemTpl: '<div class="product">'+
                         '<img src="'+frontapp.utils.Config.getDomain()+'/{Image}.mini.60x60.jpg" class="float-left product-avatar" alt="img">'+
                         '{EtatText}'+

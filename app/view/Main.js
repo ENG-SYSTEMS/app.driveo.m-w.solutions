@@ -190,7 +190,62 @@ Ext.define('frontapp.view.Main', {
 
                 //ouverture du menu à l'initialisation
                 frontapp.utils.Config.showMenu();
+
+                //on refraichit les donnéess
+                this. refreshData();
+
+                //a chaque fois que la liste est rechargée
+                var commandes = Ext.getStore('Commandes'),
+                    me = this;
+
+                commandes.on('load', function () {
+                    me.refreshData();
+                })
+
             }
+        }
+    },
+    refreshData: function () {
+        //Définition des commandes
+        var commandes = Ext.getStore('Commandes'),
+            commande_input = this.down('[action=commandes-info]'),
+            tab_commande = [],
+            panier_encours = [];
+
+        //recherche des commandes
+        commandes.findBy(function (record){
+            if (!record.get('Cloture')){
+                if (record.get('Valide'))
+                    tab_commande.push(record);
+                else
+                    panier_encours.push(record);
+            }
+        });
+
+        //mise à jour des contenus
+        if (tab_commande.length==0){
+            commande_input.setHtml('<div>Il n\'y a pas de commande en cours.</div>');
+        }else{
+            commande_input.setHtml('<div>Il y a '+tab_commande.length+' commande(s) en cours.</div>');
+        }
+
+        //Définition des ordonnances
+        var ordonnances = Ext.getStore('Ordonnances'),
+            ordonnances_input = this.down('[action=ordonnances-info]'),
+            tab_ordonnance = [];
+
+        //recherche des commandes
+        ordonnances.findBy(function (record){
+            if (record.get('Etat')<4){
+                tab_ordonnance.push(record);
+            }
+        });
+
+        //mise à jour des contenus
+        if (tab_ordonnance.length==0){
+            ordonnances_input.setHtml('<div>Il n\'y a pas d\'ordonnance en cours.</div>');
+        }else{
+            ordonnances_input.setHtml('<div>Il y a '+tab_ordonnance.length+' ordonnance(s) en cours.</div>');
         }
     }
 });

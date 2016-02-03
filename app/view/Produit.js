@@ -43,6 +43,35 @@ Ext.define('frontapp.view.Produit', {
                 align: 'center',
                 items:[
                     {
+                        layout: 'hbox',
+                        cls: 'block-search',
+                        width: '100%',
+                        items: [
+                            {
+                                xtype: 'button',
+                                cls: 'ypm-button',
+                                action: 'produitbarcode',
+                                html: '<i class="fa fa-barcode"></i>'
+                            },
+                            {
+                                xtype: 'textfield',
+                                action: 'produitsearch',
+                                flex: 1,
+                                labelWidth: '0',
+                                clearIcon: false,
+                                placeHolder: 'Titre / Code barre / Référence ...',
+                                autoCapitalize: false,
+                                required      : 1
+                            },
+                            {
+                                xtype: 'button',
+                                action: 'produitsearchbutton',
+                                cls: 'ypm-button',
+                                text: 'OK'
+                            }
+                        ]
+                    },
+                    {
                         title: 'Produits',
                         style: 'overflow:hidden',
                         iconCls: 'home',
@@ -55,9 +84,9 @@ Ext.define('frontapp.view.Produit', {
                         action: 'listeproduit',
                         itemTpl: '<div class="product">'+
                         '<img src="'+frontapp.utils.Config.getDomain()+'/{Image}.mini.60x60.jpg" class="float-left product-avatar" alt="img">'+
-                        '<span class="product-dist product-near">{frontappReference} pièces</span>'+
+                        '<span class="product-dist product-near">{TarifText}</span>'+
                         '<h2>{Nom} ({Reference})</h2>'+
-                        '<span class="product-hours">{TarifText}</span>'+
+                        /*'<span class="product-hours">{Description}</span>'+*/
                             /*'<span class="valet-address">Poids: {Poids}<br />Largeur: {Largeur} <br />Hauteur: {Hauteur} <br /> Profondeur: {Profondeur}</span>'+*/
                         '</div>',
                         grouped: false,

@@ -65,7 +65,7 @@ Ext.define('frontapp.view.Login', {
                                         name : 'domain',
                                         clearIcon: false,
                                         hidden: true,
-                                        value: 'pharmaciedelecluse.fr',
+                                        value: '',
                                         placeHolder: 'Domaine'
                                     },
                                     {
@@ -83,6 +83,9 @@ Ext.define('frontapp.view.Login', {
             }
         ],
         listeners: {
+            initialize: function () {
+                this.down('[action=domaintext]').setValue(frontapp.utils.Config.getDomain());
+            },
             resize: function () {
                 console.log('RESIZE !!!!!!!');
             },

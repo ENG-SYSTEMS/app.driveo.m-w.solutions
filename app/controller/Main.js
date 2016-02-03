@@ -86,6 +86,7 @@ Ext.define('frontapp.controller.Main', {
             'produit': 'showProduit',
             'commande': 'showCommande',
             'ordonnance': 'showOrdonnance',
+            'ordonnance/:id': 'showFicheOrdonnance',
             'new-ordonnance': 'showNewOrdonnance',
             'login' : 'showLogin',
             'product/:id': 'showProduct',
@@ -115,14 +116,6 @@ Ext.define('frontapp.controller.Main', {
         var user = this.getLogintext().getValue();
         var pass = this.getPasstext().getValue();
         var domain = this.getDomaintext().getValue();
-        if (domain.length)
-            frontapp.utils.Config.setDomain(domain);
-        else {
-            Ext.Msg.alert('Erreur de saisie', 'Veuillez saisir le domaine de votre application.', function(){
-                return true;
-            });
-            curview.setMasked(null);
-        }
         if (user.length&&pass.length&&domain.length) {
             Ext.Ajax.request({
                 params: {
@@ -280,7 +273,15 @@ Ext.define('frontapp.controller.Main', {
     },
     showNewOrdonnance: function () {
         frontapp.utils.Config.hideMenu();
-        this.manageView(1,'frontapp.view.FicheOrdonnance');
+        this.manageView(1,'frontapp.view.EnvoyerOrdonnance');
+    },
+    showFicheOrdonnance: function (id) {
+        var ficheview = Ext.create('frontapp.view.FicheOrdonnance');
+        Ext.Viewport.setActiveItem(ficheview);
+        this._currentLevel = 1;
+        var ordoStore = Ext.getStore('Ordonnances');
+        var record = ordoStore.getById(id);
+        ficheview.setRecord(record);
     },
     showProduct: function (id) {
         var ficheview = Ext.create('frontapp.view.FicheProduit');

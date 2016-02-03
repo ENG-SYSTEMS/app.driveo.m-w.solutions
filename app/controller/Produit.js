@@ -15,12 +15,21 @@ Ext.define('frontapp.controller.Produit', {
         viewCache: [],
 
         refs: {
+            produitsearchbutton: '[action=produitsearchbutton]',
+            produitsearch: '[action=produitsearch]',
+            produitbarcode: '[action=produitbarcode]',
             listeproduit: '[action=listeproduit]',
             enregistrerproduit: '[action=enregistrerproduit]'
 
         },
 
         control: {
+            produitsearchbutton: {
+                tap: 'onSearch'
+            },
+            produitbarcode: {
+                tap: 'onBarcode'
+            },
             listeproduit: {
                 itemtap: 'onListeProduitTap'
             },
@@ -88,5 +97,39 @@ Ext.define('frontapp.controller.Produit', {
                 Ext.Msg.alert('Erreur de connexion', 'Il y a un problème veuillez réessayer ultérieurement.');
             }
         });
+    },
+    onSearch: function () {
+        var value = this.getProduitsearch().getValue(),
+            produits = Ext.getStore('Produits')
+
+        //lancement de la recherche
+        var ep = produits.getProxy().getExtraParams();
+        ep.search = value;
+        produits.getProxy().setExtraParams(ep);
+        produits.load();
+
+    },
+    onBarcode: function () {
+        var me = this;
+        try {
+            Ext.device.Scanner.scan({
+                success: function (result) {
+                    console.dir(result);
+                    if (!result.cancelled) {
+                        var code = result.text;
+                        me.getProduitsearch().setValue(code);
+                        me.onSearch();
+                    } else Ext.Msg.alert('Erreur', 'Vous avez annulé le scan.');
+                },
+                failure: function (error) {
+                    console.dir(error);
+                    Ext.Msg.alert('Erreur', 'Une erreur est survenue bizarrement...');
+                }
+            });
+        }catch (e){
+            console.log('Impossible de charger le plugin barcode');
+            me.getProduitsearch().setValue('Impossible de charger le scanner');
+            me.onSearch();
+        }
     }
 });

@@ -17,14 +17,28 @@ Ext.define('frontapp.controller.Ordonnance', {
         refs: {
             ordonnanceImage: '[action=ordonnancePhoto]',
             ordonnanceCommentaire: '[action=ordonnanceCommentaire]',
-            ordonnanceSubmit: '[action=ordonnanceSubmit]'
+            ordonnanceSubmit: '[action=ordonnanceSubmit]',
+            ordonnanceListe: '[action=listeordonnance]'
         },
 
         control: {
             ordonnanceSubmit: {
                 tap: 'onSubmitTap'
+            },
+            ordonnanceListe: {
+                itemtap: 'onListeOrdonnanceTap'
             }
         }
+    },
+    onListeOrdonnanceTap: function (list, index, target, record, e, eOpts) {
+        //double click bug
+        list.suspendEvents();
+        Ext.Function.defer(function(){
+            list.resumeEvents(true);
+        }, 300);
+
+        console.log('liste ordonnance tap '+record.get('id'));
+        this.redirectTo('ordonnance/'+record.get('id'));
     },
     onSubmitTap: function (button, e, eOpts) {
         var me = this;

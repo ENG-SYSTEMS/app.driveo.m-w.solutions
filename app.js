@@ -33,7 +33,7 @@ Ext.application({
         'Ordonnance'
     ],
     views: [
-        'Main','Login','Produit','FicheProduit','Commande','Ordonnance','FicheOrdonnance'
+        'Main','Login','Produit','FicheProduit','Commande','Ordonnance','FicheOrdonnance', 'EnvoyerOrdonnance'
     ],
 
     icon: {

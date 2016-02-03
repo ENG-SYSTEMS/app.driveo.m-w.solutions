@@ -12,7 +12,7 @@ Ext.define('frontapp.utils.Config', {
         currentKey: '',
         address: 'Adresse en cours d\'acquisition...',
         currentUser: null,
-        domain: null,
+        domain: 'pharmaciedelecluse.fr',
         /**
          * Server Urls
          */
@@ -42,8 +42,9 @@ Ext.define('frontapp.utils.Config', {
      * @returns {string}
      */
     applyDomain: function (domain){
+        console.log('set domaine', domain);
         localStorage.setItem('domain',domain);
-        return 'http://www.'+domain;
+        return domain;
     },
     /**
      * getDomain
@@ -53,9 +54,10 @@ Ext.define('frontapp.utils.Config', {
         if (!this._domain){
             var domainStore = localStorage.getItem('domain');
             if (domainStore)
-                this._domain = 'http://www.'+domainStore;
+                this._domain = domainStore;
+            else Ext.Msg.alert('Erreur', 'Impossible de récupérer le domaine !');
         }
-        return this._domain;
+        return 'http://www.'+this._domain;
     },
     /**
      * getLoginUrl
