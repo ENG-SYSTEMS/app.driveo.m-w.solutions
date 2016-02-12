@@ -23,17 +23,23 @@ Ext.application({
         'Ext.Toast',
         'frontapp.utils.TimePickerField',
         'frontapp.utils.TimePicker',
-        'Ext.Date'
+        'Ext.Date',
+        'Ext.field.Number',
+        'Ext.field.Hidden',
+        'Ext.field.Password',
+        'Ext.Toast'
     ],
     controllers: [
        /* 'Google',*/
         /*'Facebook',*/
         'Main',
         'Produit',
-        'Ordonnance'
+        'Ordonnance',
+        'Commande',
+        'Panier'
     ],
     views: [
-        'Main','Login','Produit','FicheProduit','Commande','Ordonnance','FicheOrdonnance', 'EnvoyerOrdonnance'
+        'Main','Login','Produit','FicheProduit','Commande','Ordonnance','FicheOrdonnance', 'EnvoyerOrdonnance', 'FicheCommande'
     ],
 
     icon: {
@@ -58,9 +64,9 @@ Ext.application({
         '1496x2048': 'resources/startup/1496x2048.png'
     },
     
-    models: ['Produit','Commande','Ordonnance'],
+    models: ['Produit','Commande','Ordonnance', 'LigneCommande'],
     
-    stores: ['Produits','Commandes','Ordonnances'],
+    stores: ['Produits','Commandes','Ordonnances', 'Panier', 'DetailCommande'],
 
     eventPublishers: {
         touchGesture: {
@@ -288,6 +294,16 @@ Ext.application({
 
             //chargement des store
             commandes.load();
+
+            //redefinition du store PANIER
+            var panier = Ext.getStore('Panier');
+            panier.getProxy().setExtraParams({
+                user_id: frontapp.utils.Config.getCurrentUser().user_id,
+                logkey: frontapp.utils.Config.getCurrentKey()
+            });
+
+            //chargement des store
+            panier.load();
         }
     }
 });

@@ -23,7 +23,7 @@ Ext.define('frontapp.view.Ordonnance', {
                xtype: 'toolbar',
                docked: 'top',
                title: 'Liste des ordonnances',
-               cls: 'header',
+               cls: 'header top',
                items: [
                     {
                         xtype: 'button',

@@ -46,7 +46,17 @@ Ext.define('frontapp.model.Commande', {
             {name: 'HtLivr',        type: 'float'},
             {name: 'TxTvaLiv',        type: 'float'},
             {name: 'MtTvaLiv',        type: 'float'},
-            {name: 'TTCLiv',        type: 'float'}
+            {name: 'TTCLiv',        type: 'float'},
+            {name: 'Etat', type: 'string', convert: function (value,record) {
+                if (record.get('Cloture'))
+                    return '<span class="label danger">commande cloturée</span>';
+                else if (record.get('Expedie')&&!record.get('Cloture'))
+                    return '<span class="label warning">commande retirée mais non cloturée.</span>';
+                else if (record.get('Prepare')&&!record.get('Expedie')&&!record.get('Cloture'))
+                    return '<span class="label warning">commande préparée en attente de retrait</span>';
+                else if (record.get('Valide')&&!record.get('Prepare')&&!record.get('Expedie')&&!record.get('Cloture'))
+                    return '<span class="label success">commande en attente de préparation</span>';
+            }}
         ]
     }
 });

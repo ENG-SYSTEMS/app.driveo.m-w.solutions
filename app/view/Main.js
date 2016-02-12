@@ -14,7 +14,7 @@ Ext.define('frontapp.view.Main', {
                xtype: 'toolbar',
                docked: 'top',
                title: 'Tableau de bord',
-               cls: 'header',
+               cls: 'header top',
                items: [
                     {
                         xtype: 'button',

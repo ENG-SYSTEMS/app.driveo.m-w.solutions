@@ -85,6 +85,7 @@ Ext.define('frontapp.controller.Main', {
             'main': 'showMain',
             'produit': 'showProduit',
             'commande': 'showCommande',
+            'commande/:id': 'showFicheCommande',
             'ordonnance': 'showOrdonnance',
             'ordonnance/:id': 'showFicheOrdonnance',
             'new-ordonnance': 'showNewOrdonnance',
@@ -267,6 +268,12 @@ Ext.define('frontapp.controller.Main', {
         frontapp.utils.Config.hideMenu();
         this.manageView(1,'frontapp.view.Commande');
     },
+    showFicheCommande: function (id) {
+        var ficheview = this.manageView(2,'frontapp.view.FicheCommande');
+        var comStore = Ext.getStore('Commandes');
+        var record = comStore.getById(id);
+        ficheview.setRecord(record);
+    },
     showOrdonnance: function () {
         frontapp.utils.Config.hideMenu();
         this.manageView(1,'frontapp.view.Ordonnance');
@@ -276,27 +283,16 @@ Ext.define('frontapp.controller.Main', {
         this.manageView(1,'frontapp.view.EnvoyerOrdonnance');
     },
     showFicheOrdonnance: function (id) {
-        var ficheview = Ext.create('frontapp.view.FicheOrdonnance');
-        Ext.Viewport.setActiveItem(ficheview);
-        this._currentLevel = 1;
+        var ficheview = this.manageView(2,'frontapp.view.FicheOrdonnance');
         var ordoStore = Ext.getStore('Ordonnances');
         var record = ordoStore.getById(id);
         ficheview.setRecord(record);
     },
     showProduct: function (id) {
-        var ficheview = Ext.create('frontapp.view.FicheProduit');
-        Ext.Viewport.setActiveItem(ficheview);
-        this._currentLevel = 1;
+        var ficheview = this.manageView(2,'frontapp.view.FicheProduit');
         var valetStore = Ext.getStore('Produits');
         var record = valetStore.getById(id);
-        ficheview.setRecord(record);
-    },
-    addProduct: function () {
-        var ficheview = Ext.create('frontapp.view.FicheProduit');
-        Ext.Viewport.setActiveItem(ficheview);
-        this._currentLevel = 1;
-/*        var valetStore = Ext.getStore('Produits');
-        var record = valetStore.get
-        ficheview.setRecord(record);*/
+        if (ficheview)
+            ficheview.setRecord(record);
     }
  });

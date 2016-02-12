@@ -72,7 +72,11 @@
         },
         {
             "path": "resources/js/fastclick.js",
-            "x-bootstrap": true
+            "remote": true
+        },
+        {
+            "path": "resources/js/TweenLite.min.js",
+            "remote": true
         },
         {
             "path": "app.js",

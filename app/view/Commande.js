@@ -23,7 +23,7 @@ Ext.define('frontapp.view.Commande', {
                xtype: 'toolbar',
                docked: 'top',
                title: 'Liste des commandes',
-               cls: 'header',
+               cls: 'header top',
                items: [
                     {
                         xtype: 'button',
@@ -52,12 +52,11 @@ Ext.define('frontapp.view.Commande', {
                         store: 'Commandes',
                         cls: 'product-list',
                         infinite: false,
-                        action: 'listeproduit',
+                        action: 'listecommande',
                         itemTpl: '<div class="product">'+
                         '<span class="product-dist product-near">{MontantTTC} € TTC</span>'+
-                        '<h2>{tmsCreate}</h2>'+
-                        '<span class="product-hours">{RefCommande}</span>'+
-                            /*'<span class="valet-address">Poids: {Poids}<br />Largeur: {Largeur} <br />Hauteur: {Hauteur} <br /> Profondeur: {Profondeur}</span>'+*/
+                        '<h2>{RefCommande}</h2>'+
+                        '{Etat}'+
                         '</div>',
                         grouped: false,
                         pinHeaders: false,

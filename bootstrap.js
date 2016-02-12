@@ -638,17 +638,6 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.layout.wrapper.BoxDock": [],
   "Ext.layout.wrapper.Dock": [],
   "Ext.layout.wrapper.Inner": [],
-  "Ext.log.Base": [],
-  "Ext.log.Logger": [],
-  "Ext.log.filter.Filter": [],
-  "Ext.log.filter.Priority": [],
-  "Ext.log.formatter.Default": [],
-  "Ext.log.formatter.Formatter": [],
-  "Ext.log.formatter.Identity": [],
-  "Ext.log.writer.Console": [],
-  "Ext.log.writer.DocumentTitle": [],
-  "Ext.log.writer.Remote": [],
-  "Ext.log.writer.Writer": [],
   "Ext.mixin.Bindable": [],
   "Ext.mixin.Filterable": [],
   "Ext.mixin.Mixin": [],
@@ -782,16 +771,23 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
+  "frontapp.components.DropdownMenu": [],
+  "frontapp.components.PanierTop": [],
+  "frontapp.controller.Commande": [],
   "frontapp.controller.Facebook": [],
   "frontapp.controller.Google": [],
   "frontapp.controller.Main": [],
   "frontapp.controller.Ordonnance": [],
+  "frontapp.controller.Panier": [],
   "frontapp.controller.Produit": [],
   "frontapp.model.Commande": [],
+  "frontapp.model.LigneCommande": [],
   "frontapp.model.Ordonnance": [],
   "frontapp.model.Produit": [],
   "frontapp.store.Commandes": [],
+  "frontapp.store.DetailCommande": [],
   "frontapp.store.Ordonnances": [],
+  "frontapp.store.Panier": [],
   "frontapp.store.Produits": [],
   "frontapp.utils.AutoComplete": [],
   "frontapp.utils.Config": [],
@@ -804,6 +800,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "frontapp.utils.TimePickerField": [],
   "frontapp.view.Commande": [],
   "frontapp.view.EnvoyerOrdonnance": [],
+  "frontapp.view.FicheCommande": [],
   "frontapp.view.FicheOrdonnance": [],
   "frontapp.view.FicheProduit": [],
   "frontapp.view.Login": [],
@@ -1615,17 +1612,6 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.layout.wrapper.BoxDock": [],
   "Ext.layout.wrapper.Dock": [],
   "Ext.layout.wrapper.Inner": [],
-  "Ext.log.Base": [],
-  "Ext.log.Logger": [],
-  "Ext.log.filter.Filter": [],
-  "Ext.log.filter.Priority": [],
-  "Ext.log.formatter.Default": [],
-  "Ext.log.formatter.Formatter": [],
-  "Ext.log.formatter.Identity": [],
-  "Ext.log.writer.Console": [],
-  "Ext.log.writer.DocumentTitle": [],
-  "Ext.log.writer.Remote": [],
-  "Ext.log.writer.Writer": [],
   "Ext.mixin.Bindable": [],
   "Ext.mixin.Filterable": [],
   "Ext.mixin.Mixin": [],
@@ -1767,19 +1753,34 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "frontapp.components.DropdownMenu": [
+    "widget.dropdownmenu"
+  ],
+  "frontapp.components.PanierTop": [
+    "widget.paniertop"
+  ],
+  "frontapp.controller.Commande": [],
   "frontapp.controller.Facebook": [],
   "frontapp.controller.Google": [],
   "frontapp.controller.Main": [],
   "frontapp.controller.Ordonnance": [],
+  "frontapp.controller.Panier": [],
   "frontapp.controller.Produit": [],
   "frontapp.model.Commande": [],
+  "frontapp.model.LigneCommande": [],
   "frontapp.model.Ordonnance": [],
   "frontapp.model.Produit": [],
   "frontapp.store.Commandes": [
     "store.Commande"
   ],
+  "frontapp.store.DetailCommande": [
+    "store.DetailCommande"
+  ],
   "frontapp.store.Ordonnances": [
     "store.Ordonnances"
+  ],
+  "frontapp.store.Panier": [
+    "store.Panier"
   ],
   "frontapp.store.Produits": [
     "store.Produits"
@@ -1810,6 +1811,9 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "frontapp.view.EnvoyerOrdonnance": [
     "widget.envoyer-ordonnance"
+  ],
+  "frontapp.view.FicheCommande": [
+    "widget.main"
   ],
   "frontapp.view.FicheOrdonnance": [
     "widget.fiche-ordonnance"

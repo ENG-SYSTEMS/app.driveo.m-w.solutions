@@ -1,8 +1,6 @@
 .product-list-page{
-    background-color: white;
-  /*background-image: url('../images/bg_tour.jpg');*/
+   background-color: white;
   background-size: cover;
-  background-position: 0 54px;
 }
 
 
@@ -18,13 +16,12 @@
 
 .product-list  .product {
   width: 100%;
-  margin-bottom: 0px;
   position: relative;
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 5px;
   background-color: rgba(255,255,255,0.9);
-  border-bottom: 2px solid #8d188f;
+  border-bottom: 1px solid rgba(93,18,96,0.5);
 }
 
 .product-list .x-body{overflow: hidden;}
@@ -60,7 +57,7 @@
 
 .product-list {padding-top:5px}
 .product-list  .product > .product-avatar{width:60px;height:60px}
-.product > h2 {font-weight: 400;font-size: 12px;margin-bottom: 2px;  min-height: 20px;}
+.product > h2 {font-weight: 600;font-size: 12px;margin-bottom: 2px;  min-height: 20px;}
 .product > .product-address{font-size: 12px;font-family: 'Roboto', sans-serif;font-weight: 300;color:#1f1f1f}
 .product-dist{    display: inline-block;
   float: right;

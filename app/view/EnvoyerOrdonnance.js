@@ -17,7 +17,7 @@ Ext.define('frontapp.view.EnvoyerOrdonnance', {
                xtype: 'toolbar',
                docked: 'top',
                title: 'Envoyer une ordonnance',
-               cls: 'header',
+               cls: 'header top',
                items: [
                     {
                         xtype: 'button',

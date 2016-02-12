@@ -13,7 +13,13 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
         },
-        "phonegap-plugin-barcodescanner": {
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
+        },
+        "cordova-plugin-barcodescanner": {
+            "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
+        },
+        "cordova-plugin-camera": {
             "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
         }
     },

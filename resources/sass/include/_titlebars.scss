@@ -13,15 +13,13 @@ vert: #80cc28
     z-index: 999999;
     transition: all 350ms ease-in-out;
   /*  background-color: #8d188f;*/
-  background-color: #8d188f;
+    background-color: #8d188f;
 
-    border-left: solid 1px rgba(255,255,255,0.05);
-    border-bottom: 5px solid #80cc28;
-    border-right: solid 1px rgba(255,255,255,0.05);
+/*    border-left: solid 1px rgba(255,255,255,0.05);
+    border-right: solid 1px rgba(255,255,255,0.05);*/
 }
 .x-toolbar.x-docked-top {
-    border-bottom: 5px solid #80cc28;
-    
+  box-shadow: 0 0 10px #666;
 }
 .header .x-innerhtml{
     font-family: 'Titillium Web', sans-serif;
@@ -34,4 +32,8 @@ vert: #80cc28
     font-size: 16px;
     font-weight: 300;
     z-index: 0;
+}
+.header.top{
+  background-color: #3E4144;
+  border-bottom: 5px solid #80cc28;
 }

@@ -15,9 +15,8 @@ Ext.define('frontapp.view.FicheProduit', {
             {
                 docked: 'top',
                 xtype: 'toolbar',
-                action: 'produittitle',
-                title: 'Stéphanie Delaporta',
-                cls: 'header',
+                title: 'Détail produit',
+                cls: 'header top',
                 items: [
                     {
                         xtype: 'button',
@@ -39,8 +38,20 @@ Ext.define('frontapp.view.FicheProduit', {
                         iconCls: 'fa fa-arrow-left',
                         cls: 'open-socials',
                         text  : ''
+                    },
+                    {
+                        xtype: 'paniertop',
+                        iconCls:'fa fa-shopping-basket',
+                        cls: 'open-socials'
                     }
                 ]
+            },
+            {
+                docked: 'top',
+                xtype: 'toolbar',
+                action: 'produittitle',
+                title: 'Stéphanie Delaporta',
+                cls: 'header'
             },
             {
                 align: 'center',
@@ -48,7 +59,7 @@ Ext.define('frontapp.view.FicheProduit', {
                 items: [
                     {
                         layout: 'hbox',
-                        height: 70,
+                        height: 68,
                         width: '100%',
                         cls: 'product-barre',
                         items: [
@@ -62,42 +73,57 @@ Ext.define('frontapp.view.FicheProduit', {
                             {
                                 layout: 'vbox',
                                 flex: 1,
+                                height: '100%',
                                 items: [
                                     {
                                         layout: 'hbox',
+                                        width: '100%',
                                         items: [
 
                                             {
+                                                flex:1,
                                                 xtype: 'button',
-                                                cls: 'ypm-button',
-                                                html: '<i class="fa fa-plus-circle"></i>',
+                                                cls: 'driveo-button alt',
+                                                iconCls: 'fa fa-minus',
                                                 handler: function() {
-                                                    this.up('form').down('[name=bottles]').spinDown();
+                                                    var spin =this.up().down('[action=nbproduit]');
+                                                    spin.setValue(spin.getValue()-1);
                                                 }
                                             },
                                             {
                                                 xtype: 'numberfield',
                                                 anchor: '100%',
                                                 name: 'bottles',
+                                                action: 'nbproduit',
                                                 labelWidth: 0,
-                                                value: 99,
+                                                cls: 'driveo-input product-count',
+                                                value: 1,
                                                 maxValue: 99,
+                                                clearIcon: false,
                                                 minValue: 0
                                             },
                                             {
+                                                flex:1,
                                                 xtype: 'button',
-                                                cls: 'ypm-button',
-                                                html: '<i class="fa fa-minus-circle"></i>',
+                                                cls: 'driveo-button alt',
+                                                iconCls: 'fa fa-plus',
                                                 handler: function() {
-                                                    this.up('form').down('[name=bottles]').spinDown();
+                                                    var spin =this.up().down('[action=nbproduit]')
+                                                    spin.setValue(spin.getValue()+1);
                                                 }
                                             }
                                         ]
                                     },
                                     {
                                         xtype: 'button',
-                                        cls: 'ypm-button',
+                                        cls: 'driveo-button',
+                                        action: 'ajouterpanier',
                                         text: 'Ajouter au panier'
+                                    },
+                                    {
+                                        xtype: 'hiddenfield',
+                                        value: 'zob',
+                                        action: 'ref'
                                     }
                                 ]
                             }
@@ -105,7 +131,7 @@ Ext.define('frontapp.view.FicheProduit', {
                     },
                     {
                         scrollable: true,
-                        style: 'height: calc( 100% - 100px );',
+                        style: 'height: calc( 100% - 100px );margin-top:10px;',
                         items: [
                             {
                                 xtype: 'image',
@@ -131,7 +157,7 @@ Ext.define('frontapp.view.FicheProduit', {
         if (!record) return;
         console.log(record);
         //title
-        this.down('[action=produittitle]').setTitle(record.get('Nom').substr(0,35)+'...');
+        this.down('[action=produittitle]').setTitle(record.get('Nom').substr(0,55)+'...');
         this.down('[action=produitImage]').setSrc(frontapp.utils.Config.getDomain()+'/'+record.get('Image'));
         this.down('[action=produit-info]').setHtml(
             '<h2>'+record.get('Nom')+'</h2>'+
@@ -140,38 +166,7 @@ Ext.define('frontapp.view.FicheProduit', {
         this.down('[action=produit-tarif]').setHtml(
             record.get('TarifText')
         );
-
-        //show valet histo
-        var me = this;
-        /*this.down('[action=show-valet-histo]').addListener('tap',function () {*/
-/*            var url  = frontapp.utils.Config.getHistoValetUrl();
-            console.log('show valet histo',me.down('[action=valet-histo]'));
-            var store = new Ext.data.Store({
-                model: 'frontapp.model.Course',
-                proxy: {
-                    method: 'POST',
-                    actionMethods: {
-                        create : 'POST',
-                        read   : 'POST', // by default GET
-                        update : 'POST',
-                        destroy: 'POST'
-                    },
-                    useDefaultXhrHeader: false,
-                    type: 'ajax',
-                    url: url,
-                    reader: {
-                        type: 'json',
-                        rootProperty: 'courses'
-                    }
-                }
-            });
-            store.getProxy().setExtraParams({
-                user_id: frontapp.utils.Config.getCurrentUser().user_id,
-                valet_id: record.get('id'),
-                logkey: frontapp.utils.Config.getCurrentKey()
-            });            store.load();
-            me.down('[action=valet-histo]').setStore(store);
-            me.down('[action=valet-histo]').setStyle('height: 750px; overflow:hidden');
-        /*});*/
+        this.down('[action=nbproduit]').setValue(1);
+        this.down('[action=ref]').setValue(record.get('Reference'));
     }
 });

@@ -8,7 +8,8 @@ Ext.define('frontapp.view.Produit', {
         'Ext.tab.Panel',
         'Ext.Menu',
         'Ext.Anim',
-        'Ext.util.Geolocation'
+        'Ext.util.Geolocation',
+        'frontapp.components.PanierTop'
     ],
     id: 'produit',
     config: {
@@ -23,7 +24,7 @@ Ext.define('frontapp.view.Produit', {
                xtype: 'toolbar',
                docked: 'top',
                title: 'Liste des produits',
-               cls: 'header',
+               cls: 'header top',
                items: [
                     {
                         xtype: 'button',
@@ -36,6 +37,11 @@ Ext.define('frontapp.view.Produit', {
                     },
                     {
                         xtype: 'spacer'
+                    },
+                    {
+                        xtype: 'paniertop',
+                        iconCls:'fa fa-shopping-basket',
+                        cls: 'open-socials'
                     }
                 ]
             },

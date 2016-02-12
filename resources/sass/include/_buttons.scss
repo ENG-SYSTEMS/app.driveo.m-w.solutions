@@ -137,3 +137,36 @@ margin: 10px auto;
 .x-layout-box>.x-layout-box-item.button-call-dialer, .x-layout-box>.x-layout-box-item.button-call-map {
   display: flex !important;
 }
+
+/*********** DRIVEO BUTTONS ************/
+.driveo-button{
+  background-color: #8d188f;
+  padding: 5px 10px;
+  overflow: initial;
+  display: block;
+  transition: all 200ms ease;
+  transform: scale(1,1);
+  -webkit-transform: scale(1,1);
+  color: #fff;
+  font-weight: 800;
+  border: 0;
+  font-family: inherit;
+  font-size: 1.3em;
+  text-align: center;
+  line-height: 24px;
+}
+.driveo-button .x-button-label{
+  margin: auto;
+}
+.driveo-button.alt{
+  background-color: #80cc28;
+  color: #333;
+}
+.driveo-button:active{
+  background-color: #80cc28;
+  color: #333;
+}
+.driveo-button.alt:active{
+  background-color: #8d188f;
+  color: #fff;
+}
