@@ -4,7 +4,32 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {}
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
     },
     "installed_plugins": {
         "cordova-plugin-splashscreen": {
@@ -20,6 +45,12 @@
             "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
         },
         "cordova-plugin-camera": {
+            "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
+        },
+        "cordova-plugin-network-information": {
             "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
         }
     },

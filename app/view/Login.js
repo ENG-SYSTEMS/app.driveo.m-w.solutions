@@ -74,6 +74,13 @@ Ext.define('frontapp.view.Login', {
                                         text: 'Connexion',
                                         cls: 'ypm-button block',
                                         value: ''
+                                    },
+                                    {
+                                        xtype: 'button',
+                                        action: 'creacompte',
+                                        text: 'Créer un compte',
+                                        cls: 'ypm-button block',
+                                        value: ''
                                     }
                                 ]
                             }

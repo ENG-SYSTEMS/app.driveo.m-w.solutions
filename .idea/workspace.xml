@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c309a758-0ec1-474b-b2b6-65492269fce9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova/platforms/android/res/drawable/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/Commande.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/store/DetailCommande.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/FicheCommande.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/LigneCommande.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/Panier.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/store/Panier.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/PanierTop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/sass/include/_toast.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/platforms/android/platform_www/plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/platforms/android/res/drawable-hdpi/icon.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/platforms/android/res/drawable-land-hdpi/screen.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/platforms/android/res/drawable-land-ldpi/screen.png" afterPath="" />
@@ -25,629 +14,23 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/platforms/android/res/drawable-port-mdpi/screen.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/platforms/android/res/drawable-port-xhdpi/screen.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/platforms/android/res/drawable-xhdpi/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/ant.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-de/about1d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-de/about2d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-de/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-de/scanning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-de/sharing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-de/whatsnew.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-en/about1d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-en/about2d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-en/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-en/scanning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-en/sharing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-en/whatsnew.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-es/about1d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-es/about2d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-es/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-es/scanning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-es/sharing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-es/whatsnew.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-fr/about1d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-fr/about2d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-fr/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-fr/scanning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-fr/sharing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-fr/whatsnew.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-it/about1d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-it/about2d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-it/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-it/scanning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-it/sharing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-it/whatsnew.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ja/about1d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ja/about2d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ja/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ja/scanning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ja/sharing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ja/whatsnew.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ko/about1d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ko/about2d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ko/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ko/scanning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ko/sharing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ko/whatsnew.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-nl/about1d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-nl/about2d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-nl/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-nl/scanning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-nl/sharing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-nl/whatsnew.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-pt/about1d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-pt/about2d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-pt/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-pt/scanning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-pt/sharing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-pt/whatsnew.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ru/about1d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ru/about2d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ru/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ru/scanning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ru/sharing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-ru/whatsnew.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-zh-rCN/about1d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-zh-rCN/about2d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-zh-rCN/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-zh-rCN/scanning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-zh-rCN/sharing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-zh-rCN/whatsnew.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-zh-rTW/about1d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-zh-rTW/about2d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-zh-rTW/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-zh-rTW/scanning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-zh-rTW/sharing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/html-zh-rTW/whatsnew.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/images/big-1d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/images/big-datamatrix.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/images/big-qr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/images/contact-results-screen.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/images/demo-no.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/images/demo-yes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/images/scan-example.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/images/scan-from-phone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/images/search-book-contents.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/assets/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/build.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/proguard-android-optimize.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/drawable-hdpi/launcher_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/drawable-hdpi/shopper_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/drawable-xhdpi/launcher_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/drawable-xxhdpi/launcher_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/drawable/launcher_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/drawable/share_via_barcode.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/drawable/shopper_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/layout-land/encode.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/layout-land/share.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/layout-ldpi/capture.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/layout/bookmark_picker_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/layout/capture.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/layout/encode.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/layout/help.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/layout/history_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/layout/search_book_contents.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/layout/search_book_contents_header.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/layout/search_book_contents_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/layout/share.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/menu/capture.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/menu/encode.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/menu/history.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/raw/beep.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-ar/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-bg/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-ca/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-cs/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-da/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-de/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-el/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-es/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-eu/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-fi/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-fr/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-he/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-hi/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-hu/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-id/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-it/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-iw/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-ja/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-ko/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-nl/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-pl/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-pt/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-ru/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-sk/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-sl/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-sv/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-tr/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-zh-rCN/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values-zh-rTW/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values/arrays.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values/colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values/ids.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/res/xml/preferences.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/BarcodeFormat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/Binarizer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/BinaryBitmap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/ChecksumException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/DecodeHintType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/EncodeHintType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/FakeR.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/FormatException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/LuminanceSource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/MultiFormatReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/MultiFormatWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/NotFoundException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/PlanarYUVLuminanceSource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/RGBLuminanceSource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/Reader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/ReaderException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/Result.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/ResultMetadataType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/ResultPoint.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/ResultPointCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/Writer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/WriterException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/aztec/AztecDetectorResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/aztec/AztecReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/aztec/decoder/Decoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/aztec/detector/Detector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/BeepManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/CaptureActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/CaptureActivityHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/Contents.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/DecodeFormatManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/DecodeHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/DecodeThread.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/FinishListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/HelpActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/HttpHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/InactivityTimer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/IntentSource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/Intents.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/LocaleManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/PreferencesActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/ViewfinderResultPointCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/ViewfinderView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/book/BrowseBookListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/book/SearchBookContentsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/book/SearchBookContentsAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/book/SearchBookContentsListItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/book/SearchBookContentsResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/camera/AutoFocusManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/camera/CameraConfigurationManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/camera/CameraManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/camera/PreviewCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/camera/exposure/DefaultExposureInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/camera/exposure/ExposureInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/camera/exposure/ExposureManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/camera/exposure/FroyoExposureInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/camera/open/DefaultOpenCameraInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/camera/open/GingerbreadOpenCameraInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/camera/open/OpenCameraInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/camera/open/OpenCameraManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/common/PlatformSupportManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/common/executor/AsyncTaskExecInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/common/executor/AsyncTaskExecManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/common/executor/DefaultAsyncTaskExecInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/common/executor/HoneycombAsyncTaskExecInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/encode/ContactEncoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/encode/EncodeActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/encode/Formatter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/encode/MECARDContactEncoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/encode/QRCodeEncoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/encode/VCardContactEncoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/history/DBHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/history/HistoryActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/history/HistoryItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/history/HistoryItemAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/history/HistoryManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/pref/BSPlusPreference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/AddressBookResultHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/CalendarResultHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/EmailAddressResultHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/GeoResultHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/ISBNResultHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/ProductResultHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/ResultButtonListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/ResultHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/ResultHandlerFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/SMSResultHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/TelResultHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/TextResultHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/URIResultHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/WifiResultHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/supplement/BookResultInfoRetriever.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/supplement/ProductResultInfoRetriever.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/supplement/SupplementalInfoRetriever.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/supplement/TitleRetriever.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/result/supplement/URIResultInfoRetriever.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/share/AppPickerActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/share/BookmarkAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/share/BookmarkPickerActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/share/LoadPackagesAsyncTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/share/ShareActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/wifi/NetworkType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/android/wifi/WifiConfigManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/AbstractDoCoMoResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/AddressBookAUResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/AddressBookDoCoMoResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/AddressBookParsedResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/BizcardResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/BookmarkDoCoMoResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/CalendarParsedResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/EmailAddressParsedResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/EmailAddressResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/EmailDoCoMoResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/ExpandedProductParsedResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/ExpandedProductResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/GeoParsedResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/GeoResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/ISBNParsedResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/ISBNResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/ParsedResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/ParsedResultType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/ProductParsedResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/ProductResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/ResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/SMSMMSResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/SMSParsedResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/SMSTOMMSTOResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/SMTPResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/TelParsedResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/TelResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/TextParsedResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/URIParsedResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/URIResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/URLTOResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/VCardResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/VEventResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/WifiParsedResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/client/result/WifiResultParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/BitArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/BitMatrix.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/BitSource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/CharacterSetECI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/DecoderResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/DefaultGridSampler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/DetectorResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/GlobalHistogramBinarizer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/GridSampler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/HybridBinarizer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/PerspectiveTransform.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/StringUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/detector/MathUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/detector/MonochromeRectangleDetector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/detector/WhiteRectangleDetector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/reedsolomon/GenericGF.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/reedsolomon/GenericGFPoly.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/reedsolomon/ReedSolomonDecoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/reedsolomon/ReedSolomonEncoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/common/reedsolomon/ReedSolomonException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/datamatrix/DataMatrixReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/datamatrix/decoder/BitMatrixParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/datamatrix/decoder/DataBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/datamatrix/decoder/DecodedBitStreamParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/datamatrix/decoder/Decoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/datamatrix/decoder/Version.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/datamatrix/detector/Detector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/maxicode/MaxiCodeReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/maxicode/decoder/BitMatrixParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/maxicode/decoder/DecodedBitStreamParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/maxicode/decoder/Decoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/multi/ByQuadrantReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/multi/GenericMultipleBarcodeReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/multi/MultipleBarcodeReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/multi/qrcode/QRCodeMultiReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/multi/qrcode/detector/MultiDetector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/multi/qrcode/detector/MultiFinderPatternFinder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/CodaBarReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/CodaBarWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/Code128Reader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/Code128Writer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/Code39Reader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/Code39Writer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/Code93Reader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/EAN13Reader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/EAN13Writer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/EAN8Reader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/EAN8Writer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/EANManufacturerOrgSupport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/ITFReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/ITFWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/MultiFormatOneDReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/MultiFormatUPCEANReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/OneDReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/OneDimensionalCodeWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/UPCAReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/UPCAWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/UPCEANExtension2Support.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/UPCEANExtension5Support.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/UPCEANExtensionSupport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/UPCEANReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/UPCEANWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/UPCEReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/AbstractRSSReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/DataCharacter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/FinderPattern.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/Pair.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/RSS14Reader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/RSSUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/BitArrayBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/ExpandedPair.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/RSSExpandedReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/AI013103decoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/AI01320xDecoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/AI01392xDecoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/AI01393xDecoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/AI013x0x1xDecoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/AI013x0xDecoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/AI01AndOtherAIs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/AI01decoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/AI01weightDecoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/AbstractExpandedDecoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/AnyAIDecoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/BlockParsedResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/CurrentParsingState.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/DecodedChar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/DecodedInformation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/DecodedNumeric.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/DecodedObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/FieldParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/oned/rss/expanded/decoders/GeneralAppIdDecoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/PDF417Reader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/decoder/BitMatrixParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/decoder/DecodedBitStreamParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/decoder/Decoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/decoder/ec/ErrorCorrection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/decoder/ec/ModulusGF.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/decoder/ec/ModulusPoly.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/detector/Detector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder/BarcodeMatrix.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder/BarcodeRow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder/Compaction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder/Dimensions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder/PDF417.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder/PDF417ErrorCorrection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder/PDF417HighLevelEncoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/pdf417/encoder/PDF417Writer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/QRCodeReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/QRCodeWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/BitMatrixParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/DataBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/DataMask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/DecodedBitStreamParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/Decoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/ErrorCorrectionLevel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/FormatInformation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/Mode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/decoder/Version.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/detector/AlignmentPattern.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/detector/AlignmentPatternFinder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/detector/Detector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/detector/FinderPattern.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/detector/FinderPatternFinder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/detector/FinderPatternInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/encoder/BlockPair.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/encoder/ByteMatrix.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/encoder/Encoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/encoder/MaskUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/encoder/MatrixUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/LibraryProject/src/com/google/zxing/qrcode/encoder/QRCode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/com.google.zxing.client.android.captureactivity.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/android/com/phonegap/plugins/barcodescanner/BarcodeScanner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/.cproject" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/.settings/com.qnx.tools.ide.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/device/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/device/libBarcodeScanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/json/autolink.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/json/config.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/json/features.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/json/forwards.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/json/json.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/json/reader.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/json/value.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/json/writer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/json_batchallocator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/json_internalarray.inl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/json_internalmap.inl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/json_reader.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/json_value.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/json_valueiterator.inl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/json_writer.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/plugin.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/plugin.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/tokenizer.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/public/tokenizer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/simulator/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/simulator/libBarcodeScanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/src/Logger.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/src/Logger.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/src/barcodescanner_js.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/src/barcodescanner_js.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/src/barcodescanner_ndk.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/blackberry10/native/src/barcodescanner_ndk.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/browser/BarcodeScannerProxy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/ios/CDVBarcodeScanner.bundle/beep.caf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/ios/CDVBarcodeScanner.mm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/ios/scannerOverlay.xib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/ios/zxing-all-in-one.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/ios/zxing-all-in-one.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/windows/BarcodeScannerProxy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/windows/lib/Properties/AssemblyInfo.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/windows/lib/Reader.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/windows/lib/WinRTBarcodeReader.csproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/windows/lib/ZXing.winmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/wp8/BarcodeScanner.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/wp8/BarcodeScannerTask.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/wp8/BarcodeScannerUI.xaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/wp8/BarcodeScannerUI.xaml.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/wp8/assets/cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/src/wp8/lib/zxing.wp8.0.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/tests/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/tests/tests.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/phonegap-plugin-barcodescanner/www/blackberry10/client.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0c9b600b7c2e7d7317af0e94103e32dfe9aeb85c/_AbstractChart.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_blueprint-grid.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_carbon-fiber.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_checkerboard.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_cicada.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_gradients.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_houndstooth.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_lined-paper.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_madras.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_noise.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_polka-dot.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_radial-overlay.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_striped.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_stripes.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_tablecloth.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1411a251fc2cc743e4661898f9e0fd3d1f25dd8a/_tartan.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/148df003e7e66dcda2e56bff2af531baaf070441/_Table.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/17710e3ff4d21113bd7e9993c03ba0b3ae867b70/_Scroller.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/18ba8ab623692980a36c2d0418d523f89d36d1b1/_ListPaging.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/18ba8ab623692980a36c2d0418d523f89d36d1b1/_PullRefresh.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1ca449cbcc4894ccac57754fd3b99685a1af8173/_PaintMonitor.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1ca449cbcc4894ccac57754fd3b99685a1af8173/_SizeMonitor.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/1ca449cbcc4894ccac57754fd3b99685a1af8173/_Translatable.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/37915a4a44659acffcc709505379fdb7e593b898/_Picker.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/3d2582a9afc1fa650eb7a46dcbf10f78bf1a1b03/_base.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/46ef22d7d833a217fcd77598c2582b7786bbfc23/_Panel.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/47aa23bacde586cf80432a34774942cca08535af/_Panel.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/50ba1b5b289a6fb2bfa44db1c7afebfebfad1a11/_Default.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5561fff0ded5f78f4c265c30cd6a1c51cf42829a/_Button.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5561fff0ded5f78f4c265c30cd6a1c51cf42829a/_Class.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5561fff0ded5f78f4c265c30cd6a1c51cf42829a/_Img.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5561fff0ded5f78f4c265c30cd6a1c51cf42829a/_Map.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5561fff0ded5f78f4c265c30cd6a1c51cf42829a/_Mask.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5561fff0ded5f78f4c265c30cd6a1c51cf42829a/_Media.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5561fff0ded5f78f4c265c30cd6a1c51cf42829a/_Menu.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5561fff0ded5f78f4c265c30cd6a1c51cf42829a/_MessageBox.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5561fff0ded5f78f4c265c30cd6a1c51cf42829a/_Panel.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5561fff0ded5f78f4c265c30cd6a1c51cf42829a/_ProgressIndicator.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5561fff0ded5f78f4c265c30cd6a1c51cf42829a/_Sheet.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5561fff0ded5f78f4c265c30cd6a1c51cf42829a/_Toast.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5561fff0ded5f78f4c265c30cd6a1c51cf42829a/_Toolbar.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5561fff0ded5f78f4c265c30cd6a1c51cf42829a/_all.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_animation.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_autoComplete.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_body.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_fieldsets.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_footer.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_loading.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_login.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_message.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_popup.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_product_list.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_scroll_container.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_selectfields.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_sidebar.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_textfields.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_titlebars.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/64e684f8ed403b35653842aa25a9ff5d3c1b7040/_toggle.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/7228c6b6b54ecc0bad949e11dcdde8c7029c754a/_all.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/7b07b4295948238d95a9521f2ad48b549006b125/_Carousel.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/965c02fe0b161a9ee997934736c24ac219910340/_background.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/965c02fe0b161a9ee997934736c24ac219910340/_color.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/a8f4a67eeb867d86d55094744e61d30c9c50a9d7/_Class.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/acc26b27dab4f8dc1433f77cb55acdb07f2e9e89/_DataView.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/acc26b27dab4f8dc1433f77cb55acdb07f2e9e89/_IndexBar.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/acc26b27dab4f8dc1433f77cb55acdb07f2e9e89/_List.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/b7a8d1f9b2d9bc1cb145a67c6b069acff77f63c7/_Grid.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/c5ecda99de4df973c88e0ace653bb15ada4cadac/app.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/ec9ec205a0e32686fe11e7b659c2227fcf09ec57/_Slider.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/ff0b1e6c46b34ae3f6016b6e43739047ff59dc78/_Abstract.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/ff0b1e6c46b34ae3f6016b6e43739047ff59dc78/_Box.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/ff0b1e6c46b34ae3f6016b6e43739047ff59dc78/_Card.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/ff0b1e6c46b34ae3f6016b6e43739047ff59dc78/_Dock.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/ff0b1e6c46b34ae3f6016b6e43739047ff59dc78/_Fit.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/ff0b1e6c46b34ae3f6016b6e43739047ff59dc78/_Float.scssc" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/fonts/FontAwesome.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/www/resources/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/cordova/www/resources/fonts/FontAwesome.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/resources/fonts/FontAwesome.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_body.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_body.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_buttons.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_buttons.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_product.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_product.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_product_list.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_product_list.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_search.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_search.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_textfields.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_textfields.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_titlebars.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_titlebars.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/6ad6ab3a7d506c3cb8d9c4d3031069891fe4477d/app.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/6ad6ab3a7d506c3cb8d9c4d3031069891fe4477d/app.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/libs/com.google.zxing.client.android.captureactivity.jar" afterPath="$PROJECT_DIR$/cordova/platforms/android/libs/com.google.zxing.client.android.captureactivity.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/images/cuir.jpg" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/images/cuir.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/www/resources/images/cuir.jpg" afterPath="$PROJECT_DIR$/cordova/www/resources/images/cuir.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/cuir.jpg" afterPath="$PROJECT_DIR$/resources/images/cuir.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/fonts/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/www/resources/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/cordova/www/resources/fonts/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/fonts/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/www/resources/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/cordova/www/resources/fonts/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/fonts/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/www/resources/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/cordova/www/resources/fonts/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/cordova/platforms/android/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/src/com/phonegap/plugins/barcodescanner/BarcodeScanner.java" afterPath="$PROJECT_DIR$/cordova/platforms/android/src/com/phonegap/plugins/barcodescanner/BarcodeScanner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Commande.js" afterPath="$PROJECT_DIR$/app/model/Commande.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Commande.js" afterPath="$PROJECT_DIR$/app/view/Commande.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/EnvoyerOrdonnance.js" afterPath="$PROJECT_DIR$/app/view/EnvoyerOrdonnance.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/FicheOrdonnance.js" afterPath="$PROJECT_DIR$/app/view/FicheOrdonnance.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/FicheProduit.js" afterPath="$PROJECT_DIR$/app/view/FicheProduit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/Main.js" afterPath="$PROJECT_DIR$/app/controller/Main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Main.js" afterPath="$PROJECT_DIR$/app/view/Main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Ordonnance.js" afterPath="$PROJECT_DIR$/app/view/Ordonnance.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Produit.js" afterPath="$PROJECT_DIR$/app/view/Produit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_body.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_body.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_buttons.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_product.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_product.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_product_list.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_product_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Login.js" afterPath="$PROJECT_DIR$/app/view/Login.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_search.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_search.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_textfields.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_textfields.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_titlebars.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_titlebars.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/android.json" afterPath="$PROJECT_DIR$/cordova/platforms/android/android.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/plugins/android.json" afterPath="$PROJECT_DIR$/cordova/plugins/android.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/css/app.css" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/www/resources/css/app.css" afterPath="$PROJECT_DIR$/cordova/www/resources/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/app.css" afterPath="$PROJECT_DIR$/resources/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/app.js" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/www/app.js" afterPath="$PROJECT_DIR$/cordova/www/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/app.scss" afterPath="$PROJECT_DIR$/resources/sass/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.js" afterPath="$PROJECT_DIR$/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.json" afterPath="$PROJECT_DIR$/bootstrap.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/build.gradle" afterPath="$PROJECT_DIR$/cordova/platforms/android/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/config.xml" afterPath="$PROJECT_DIR$/cordova/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/cordova/platforms/android/res/xml/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova/platforms/android/platform_www/cordova_plugins.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/plugins/fetch.json" afterPath="$PROJECT_DIR$/cordova/plugins/fetch.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/www/resources/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/cordova/www/resources/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/www/index.html" afterPath="$PROJECT_DIR$/cordova/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/project.properties" afterPath="$PROJECT_DIR$/cordova/platforms/android/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/res/values/strings.xml" afterPath="$PROJECT_DIR$/cordova/platforms/android/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/images/lists/license.txt" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/images/lists/license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/www/resources/images/lists/license.txt" afterPath="$PROJECT_DIR$/cordova/www/resources/images/lists/license.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="app.driveo.m-w.solutions.iws" />
@@ -664,9 +47,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="app.driveo.m-w.solutions" />
@@ -676,9 +56,12 @@
       <file leaf-file-name="_body.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sass/include/_body.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="601" max-vertical-offset="22854">
-              <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+              <folding>
+                <marker date="1455280876052" expanded="true" signature="1033:1081" placeholder="{...}" />
+                <marker date="1455280876052" expanded="true" signature="27867:27871" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -686,18 +69,30 @@
       <file leaf-file-name="_product_list.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sass/include/_product_list.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1937">
-              <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+              <folding>
+                <marker date="1455280876052" expanded="true" signature="18:23" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_search.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sass/include/_search.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.125">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_search.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/sass/include/_search.scss">
+      <file leaf-file-name="Login.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/view/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23603351" vertical-offset="0" max-vertical-offset="716">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.37726358">
+              <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -706,8 +101,8 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cordova/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="637">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -716,9 +111,11 @@
       <file leaf-file-name="_product.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sass/include/_product.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="234">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="16" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <marker date="1455280876052" expanded="true" signature="14:36" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -726,7 +123,7 @@
       <file leaf-file-name="_valet_list.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sass/include/_valet_list.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="1872">
+            <state vertical-scroll-proportion="0.0">
               <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
               <folding />
             </state>
@@ -736,8 +133,8 @@
       <file leaf-file-name="Commande.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/model/Commande.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="871">
-              <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -746,20 +143,8 @@
       <file leaf-file-name="FicheCommande.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/FicheCommande.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="858" max-vertical-offset="1417">
+            <state vertical-scroll-proportion="0.0">
               <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-              <folding>
-                <marker date="1454545748724" expanded="true" signature="3264:3274" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Commandes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/store/Commandes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="520">
-              <caret line="12" column="89" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -768,7 +153,7 @@
       <file leaf-file-name="LigneCommande.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/model/LigneCommande.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="507">
+            <state vertical-scroll-proportion="0.0">
               <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
               <folding />
             </state>
@@ -786,50 +171,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/sass/include/_textfields.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/include/_product.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/include/_buttons.scss" />
-        <option value="$PROJECT_DIR$/app/controller/Commandes.js" />
-        <option value="$PROJECT_DIR$/app/controller/Commande.js" />
-        <option value="$PROJECT_DIR$/resources/sass/include/_product_list.scss" />
-        <option value="$PROJECT_DIR$/app.json" />
-        <option value="$PROJECT_DIR$/app/view/EnvoyerOrdonnance.js" />
-        <option value="$PROJECT_DIR$/app/view/FicheOrdonnance.js" />
-        <option value="$PROJECT_DIR$/app/view/Main.js" />
-        <option value="$PROJECT_DIR$/app/view/Ordonnance.js" />
-        <option value="$PROJECT_DIR$/app/store/Panier.js" />
-        <option value="$PROJECT_DIR$/app/view/Produit.js" />
-        <option value="$PROJECT_DIR$/resources/sass/include/_titlebars.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/include/_dropdownmenu.scss" />
-        <option value="$PROJECT_DIR$/app/controller/Main.js" />
-        <option value="$PROJECT_DIR$/app/view/FicheProduit.js" />
-        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/include/_toast.scss" />
-        <option value="$PROJECT_DIR$/app/components/DropdownMenu.js" />
-        <option value="$PROJECT_DIR$/app/components/PanierTop.js" />
-        <option value="$PROJECT_DIR$/app/controller/FicheProduit.js" />
-        <option value="$PROJECT_DIR$/app/controller/Panier.js" />
-        <option value="$PROJECT_DIR$/app/view/Commande.js" />
-        <option value="$PROJECT_DIR$/app/model/Commande.js" />
-        <option value="$PROJECT_DIR$/app/store/DetailCommande.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/app/model/LigneCommande.js" />
-        <option value="$PROJECT_DIR$/app/view/FicheCommande.js" />
-        <option value="$PROJECT_DIR$/resources/sass/include/_body.scss" />
-        <option value="$PROJECT_DIR$/cordova/config.xml" />
         <option value="$PROJECT_DIR$/resources/sass/include/_search.scss" />
+        <option value="$PROJECT_DIR$/app/view/Login.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="24" />
-    <option name="width" value="1393" />
-    <option name="height" value="876" />
+    <option name="x" value="1977" />
+    <option name="y" value="52" />
+    <option name="width" value="1854" />
+    <option name="height" value="2107" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -858,6 +219,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1076,7 +438,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1096,18 +457,18 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
       <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
@@ -1117,11 +478,11 @@
       <node-options />
       <gulpfile />
       <tasks />
-      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
-    <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -1137,21 +498,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="24" width="1393" height="876" extended-state="6" />
-    <editor active="false" />
+    <frame x="1977" y="52" width="1854" height="2107" extended-state="4" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22723909" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23178808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1173,11 +534,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="2" />
@@ -1185,296 +541,290 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/model/LigneCommande.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_textfields.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_login.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_client_registration.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_fieldsets.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.057522126" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.057522126">
           <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_animation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/utils/Config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/store/Ordonnances.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14328809" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.14328809">
           <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/Ordonnance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="13" column="31" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/store/Produits.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_sidebar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21374045" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.21374045">
           <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_textfields.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.454546" vertical-offset="912" max-vertical-offset="1664">
+        <state vertical-scroll-proportion="-16.454546">
           <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-97.40909" vertical-offset="80" max-vertical-offset="2314">
+        <state vertical-scroll-proportion="-97.40909">
           <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.272728" vertical-offset="595" max-vertical-offset="2262">
+        <state vertical-scroll-proportion="-17.272728">
           <caret line="75" column="10" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/EnvoyerOrdonnance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="2418">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/FicheOrdonnance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2301">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="599" max-vertical-offset="1339">
-          <caret line="90" column="14" selection-start-line="90" selection-start-column="14" selection-end-line="90" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/Ordonnance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1430">
+        <state vertical-scroll-proportion="0.0">
           <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/store/Panier.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3341">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_popup.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_panel.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.090909" vertical-offset="0" max-vertical-offset="286">
+        <state vertical-scroll-proportion="-7.090909">
           <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_titlebars.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.409091" vertical-offset="0" max-vertical-offset="585">
+        <state vertical-scroll-proportion="-12.409091">
           <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/Ordonnance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1235">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="53" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/Produit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08648649" vertical-offset="40" max-vertical-offset="975">
+        <state vertical-scroll-proportion="0.08648649">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85694635" vertical-offset="3212" max-vertical-offset="3952">
+        <state vertical-scroll-proportion="0.85694635">
           <caret line="295" column="8" selection-start-line="295" selection-start-column="8" selection-end-line="295" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/include/_dropdownmenu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38700947" vertical-offset="0" max-vertical-offset="739">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/Produit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1833">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/Commande.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="455" max-vertical-offset="689">
+        <state vertical-scroll-proportion="0.0">
           <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/DropdownMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1235">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/FicheProduit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1092" max-vertical-offset="2314">
+        <state vertical-scroll-proportion="0.0">
           <caret line="120" column="65" selection-start-line="120" selection-start-column="65" selection-end-line="120" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/PanierTop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="910">
+        <state vertical-scroll-proportion="0.0">
           <caret line="50" column="48" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/Panier.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="936" max-vertical-offset="1768">
+        <state vertical-scroll-proportion="0.0">
           <caret line="116" column="55" selection-start-line="116" selection-start-column="55" selection-end-line="116" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_toast.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9545455" vertical-offset="0" max-vertical-offset="169">
+        <state vertical-scroll-proportion="-2.9545455">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/Commande.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="1313">
+        <state vertical-scroll-proportion="0.0">
           <caret line="57" column="36" selection-start-line="55" selection-start-column="33" selection-end-line="59" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/Produit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1794">
+        <state vertical-scroll-proportion="0.0">
           <caret line="125" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3238" max-vertical-offset="3965">
+        <state vertical-scroll-proportion="0.0">
           <caret line="306" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/store/DetailCommande.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/store/Commandes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="89" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="89" />
           <folding />
         </state>
@@ -1482,15 +832,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/Commande.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="871">
-          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/LigneCommande.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="507">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding />
         </state>
@@ -1498,41 +848,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/FicheCommande.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1417">
+        <state vertical-scroll-proportion="0.0">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <marker date="1454545748724" expanded="true" signature="3264:3274" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_body.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="601" max-vertical-offset="22854">
-          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+          <folding>
+            <marker date="1455280876052" expanded="true" signature="1033:1081" placeholder="{...}" />
+            <marker date="1455280876052" expanded="true" signature="27867:27871" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cordova/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="637">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_product.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="234">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="16" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1455280876052" expanded="true" signature="14:36" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_valet_list.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="1872">
+        <state vertical-scroll-proportion="0.0">
           <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding />
         </state>
@@ -1540,20 +893,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_product_list.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1937">
-          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+          <folding>
+            <marker date="1455280876052" expanded="true" signature="18:23" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_search.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23603351" vertical-offset="0" max-vertical-offset="716">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37726358">
+          <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-
