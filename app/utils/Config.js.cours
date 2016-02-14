@@ -16,6 +16,7 @@ Ext.define('frontapp.utils.Config', {
         currentUser: null,
         domain: 'pharmaducours.fr',
         storeName: 'Pharmacie du cours',
+        pdaPrepare: true,
         /**
          * Server Urls
          */
