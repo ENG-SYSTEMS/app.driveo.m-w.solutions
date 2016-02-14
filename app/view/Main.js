@@ -40,6 +40,7 @@ Ext.define('frontapp.view.Main', {
                     {
                         xtype: 'label',
                         cls: 'driv-panel',
+                        action: 'user-infos',
                         html: '<h1>Mr MESSIN Enguerrand</h1>'+
                             '<div>Email: enguer@enguer.com</div>'+
                             '<div>Téléphone: 06 76 56 81 14 </div>'+
@@ -59,7 +60,7 @@ Ext.define('frontapp.view.Main', {
                             {
                                 xtype: 'button',
                                 width: '100%',
-                                cls: 'ypm-button',
+                                cls: 'ypm-button warning',
                                 action: 'menu-ordonnance',
                                 text: 'Liste des ordonnances'
                             },
@@ -86,7 +87,7 @@ Ext.define('frontapp.view.Main', {
                             {
                                 xtype: 'button',
                                 width: '100%',
-                                cls: 'ypm-button',
+                                cls: 'ypm-button warning',
                                 action: 'menu-commande',
                                 text: 'Liste des commandes'
                             },
@@ -247,5 +248,16 @@ Ext.define('frontapp.view.Main', {
         }else{
             ordonnances_input.setHtml('<div>Il y a '+tab_ordonnance.length+' ordonnance(s) en cours.</div>');
         }
+
+        //mise à jour des infos utilisateurs
+        var user_infos = this.down('[action=user-infos]'),
+            user = frontapp.utils.Config.getCurrentUser();
+        if (user){
+            user_infos.setHtml('<h1>'+user.Civilite+' '+user.Nom+' '+user.Prenom+'</h1>'+
+            '<div>Email: '+user.Mail+'</div>'+
+            '<div>Téléphone: '+user.Tel+' </div>'+
+            '<div>Adresse: '+user.Adresse+' '+user.CodePostal+' '+user.Ville+' </div>');
+        }
+
     }
 });

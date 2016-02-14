@@ -72,14 +72,21 @@ Ext.define('frontapp.view.Login', {
                                         xtype: 'button',
                                         action: 'loginbutton',
                                         text: 'Connexion',
-                                        cls: 'ypm-button block',
+                                        cls: 'ypm-button block success',
                                         value: ''
                                     },
                                     {
                                         xtype: 'button',
                                         action: 'creacompte',
                                         text: 'Créer un compte',
-                                        cls: 'ypm-button block',
+                                        cls: 'ypm-button block warning',
+                                        value: ''
+                                    },
+                                    {
+                                        xtype: 'button',
+                                        action: 'resetpassword',
+                                        text: 'Mot de passe perdu',
+                                        cls: 'ypm-button block danger',
                                         value: ''
                                     }
                                 ]

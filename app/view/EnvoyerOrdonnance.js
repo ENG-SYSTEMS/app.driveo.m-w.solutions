@@ -51,7 +51,7 @@ Ext.define('frontapp.view.EnvoyerOrdonnance', {
                                 height: '30',
                                 text: 'Prendre une photo de l\'ordonnance',
                                 action: 'take-photo',
-                                cls: 'ypm-button',
+                                cls: 'ypm-button warning',
                                 handler: function () {
                                     try {
                                         navigator.camera.getPicture(onSuccess, onFail, {

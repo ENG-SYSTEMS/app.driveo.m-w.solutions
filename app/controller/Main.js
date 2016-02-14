@@ -92,7 +92,9 @@ Ext.define('frontapp.controller.Main', {
             'login' : 'showLogin',
             'product/:id': 'showProduct',
             'product/add': 'addProduct',
-            'param' : 'showParametres'
+            'param' : 'showParametres',
+            'registration' : 'showRegistration',
+            'resetpassword' : 'showResetPassword'
         }
     },
      /***************************
@@ -195,7 +197,7 @@ Ext.define('frontapp.controller.Main', {
         console.log('---- show view ----', name_view,'level',level);
 
         //redirection accueil si pas de clef
-        if (!frontapp.utils.Config.getCurrentKey()&& name_view!='frontapp.view.Login') {
+        if (!frontapp.utils.Config.getCurrentKey()&&name_view!='frontapp.view.Login'&&name_view=='frontapp.form.Registration') {
             console.log('perte de clef... attente...');
             //_____________________________________________________________________________________________________________
             //                                                                                                  ANIMATIONS
@@ -263,6 +265,14 @@ Ext.define('frontapp.controller.Main', {
     showProduit: function () {
         frontapp.utils.Config.hideMenu();
         this.manageView(1,'frontapp.view.Produit');
+    },
+    showRegistration: function () {
+        frontapp.utils.Config.hideMenu();
+        this.manageView(1,'frontapp.view.Registration');
+    },
+    showResetPassword: function () {
+        frontapp.utils.Config.hideMenu();
+        this.manageView(1,'frontapp.view.ResetPassword');
     },
     showCommande: function () {
         frontapp.utils.Config.hideMenu();

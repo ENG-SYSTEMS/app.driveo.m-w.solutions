@@ -36,10 +36,11 @@ Ext.application({
         'Produit',
         'Ordonnance',
         'Commande',
-        'Panier'
+        'Panier',
+        'Registration'
     ],
     views: [
-        'Main','Login','Produit','FicheProduit','Commande','Ordonnance','FicheOrdonnance', 'EnvoyerOrdonnance', 'FicheCommande'
+        'Main','Login','Produit','FicheProduit','Commande','Ordonnance','FicheOrdonnance', 'EnvoyerOrdonnance', 'FicheCommande', 'Registration', 'ResetPassword'
     ],
 
     icon: {
@@ -71,7 +72,9 @@ Ext.application({
     eventPublishers: {
         touchGesture: {
             recognizers: {
-                doubleTap: null
+                doubleTap: null,
+                longPress: null,
+                rotate: null
             }
         }
     },
