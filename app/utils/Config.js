@@ -14,7 +14,8 @@ Ext.define('frontapp.utils.Config', {
         currentKey: '',
         address: 'Adresse en cours d\'acquisition...',
         currentUser: null,
-        domain: 'pharmaciedelecluse.fr',
+        domain: 'pharmaciedecastanet.fr',
+        storeName: 'Pharmacie de castanet',
         /**
          * Server Urls
          */

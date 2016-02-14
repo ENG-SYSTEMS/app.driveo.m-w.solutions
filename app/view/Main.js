@@ -103,7 +103,7 @@ Ext.define('frontapp.view.Main', {
                     {
                         cls: 'driv-panel info',
                         xtype: 'label',
-                        html: '<div><strong>La pharmacie de l\'ecluse</strong> vous remercie d\'utiliser son application. <br/> Vous pouvez envoyer une ordonnance directement votre ordonnance depuis le menu "Nouvelle ordonnance" ou rechercher un produit et effectuer une commande depuis le menu "liste des produits". <br/></div>'
+                        html: '<div><strong>La '+frontapp.utils.Config.getStoreName()+'</strong> vous remercie d\'utiliser son application. <br/> Vous pouvez envoyer une ordonnance directement votre ordonnance depuis le menu "Nouvelle ordonnance" ou rechercher un produit et effectuer une commande depuis le menu "liste des produits". <br/></div>'
                     }
                 ]
             }
