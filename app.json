@@ -105,6 +105,10 @@
         {
             "path": "resources/css/app.css",
             "update": "delta"
+        },
+        {
+            "path": "resources/css/font-awesome.min.css",
+            "remote": true
         }
     ],
 

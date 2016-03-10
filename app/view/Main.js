@@ -31,21 +31,97 @@ Ext.define('frontapp.view.Main', {
                 ]
             },
             {
-                width: '80%',
+                width: '100%',
                 layout: {
                     type: 'vbox'
                 },
-                style: 'margin: 10px 10%',
                 items: [
                     {
-                        xtype: 'label',
-                        cls: 'driv-panel',
-                        action: 'user-infos',
-                        html: '<h1>Mr MESSIN Enguerrand</h1>'+
-                            '<div>Email: enguer@enguer.com</div>'+
-                            '<div>Téléphone: 06 76 56 81 14 </div>'+
-                            '<div>Adresse: 1 chemin des alouettes, 30230 Bouillargues </div>'
+                        layout: 'hbox',
+                        items: [
+                            {
+                                cls: 'driveo-case success fa fa-shopping-bag',
+                                flex: 1,
+                                action: 'menu-commande',
+                                html: 'Commandes'
+                            },
+                            {
+                                cls: 'driveo-case warning fa fa-medkit',
+                                flex: 1,
+                                action: 'menu-ordonnance',
+                                html: 'Ordonnances'
+                            },
+                            {
+                                cls: 'driveo-case danger fa fa-envelope',
+                                flex: 1,
+                                action: 'menu-message',
+                                html: 'Messages'
+                            }
+                        ]
                     },
+                    {
+                        layout: 'hbox',
+                        items: [
+                            {
+                                cls: 'driveo-case danger fa fa-user',
+                                flex: 1
+                            },
+                            {
+                                flex: 2,
+                                xtype: 'label',
+                                cls: 'driveo-case success text',
+                                action: 'user-infos',
+                                html: ''
+                            }
+                        ]
+                    },
+                    //promotions
+                    {
+                        xtype: 'carousel',
+                        height: 200,
+                        defaults: {
+                            styleHtmlContent: true
+                        },
+
+                        items: [
+                            {
+                                html : 'Item 1',
+                                cls: 'warning'
+                            },
+                            {
+                                html : 'Item 2',
+                                cls: 'success'
+                            },
+                            {
+                                html : 'Item 3',
+                                cls: 'danger'
+                            }
+                        ]
+                    },
+                    //produits à la une
+                    {
+                        xtype: 'carousel',
+                        height: 200,
+                        defaults: {
+                            styleHtmlContent: true
+                        },
+
+                        items: [
+                            {
+                                html : 'Item 1',
+                                cls: 'success'
+                            },
+                            {
+                                html : 'Item 2',
+                                cls: 'danger'
+                            },
+                            {
+                                html : 'Item 3',
+                                cls: 'warning'
+                            }
+                        ]
+                    },
+                    /*,
                     {
                         cls: 'driv-panel warning',
                         items: [
@@ -104,7 +180,7 @@ Ext.define('frontapp.view.Main', {
                         cls: 'driv-panel info',
                         xtype: 'label',
                         html: '<div><strong>La '+frontapp.utils.Config.getStoreName()+'</strong> vous remercie d\'utiliser son application. <br/> Vous pouvez envoyer une ordonnance directement votre ordonnance depuis le menu "Nouvelle ordonnance" ou rechercher un produit et effectuer une commande depuis le menu "liste des produits". <br/></div>'
-                    }
+                    }*/
                 ]
             }
         ],
@@ -224,7 +300,7 @@ Ext.define('frontapp.view.Main', {
         });
 
         //mise à jour des contenus
-        if (tab_commande.length==0){
+/*        if (tab_commande.length==0){
             commande_input.setHtml('<div>Il n\'y a pas de commande en cours.</div>');
         }else{
             commande_input.setHtml('<div>Il y a '+tab_commande.length+' commande(s) en cours.</div>');
@@ -248,7 +324,7 @@ Ext.define('frontapp.view.Main', {
         }else{
             ordonnances_input.setHtml('<div>Il y a '+tab_ordonnance.length+' ordonnance(s) en cours.</div>');
         }
-
+*/
         //mise à jour des infos utilisateurs
         var user_infos = this.down('[action=user-infos]'),
             user = frontapp.utils.Config.getCurrentUser();
