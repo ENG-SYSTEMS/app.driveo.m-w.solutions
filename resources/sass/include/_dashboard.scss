@@ -16,3 +16,17 @@
 .driveo-case.text h1{
   color: white! important;
 }
+.prom-title,.prom-price{
+  box-shadow: 0 0 10px #666;
+  padding: 10px;
+  font-size: 12px;
+  text-decoration: none !important;
+  color: white !important;
+  font-weight: bold;
+  margin: 10px;
+}
+.prom-price{
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}

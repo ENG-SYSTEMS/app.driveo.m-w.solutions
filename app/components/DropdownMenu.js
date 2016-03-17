@@ -28,22 +28,6 @@ Ext.define('frontapp.components.DropdownMenu',{
             },
             initialize: function () {
                 var me = this;
-                this._animationShow = new Ext.Anim({
-                    easing: 'easeIn',
-                    duration: 300,
-                    autoClear: false,
-                    to: {
-                        top: '5px'
-                    }
-                });
-                this._animationHide = new Ext.Anim({
-                    easing: 'easeOut',
-                    duration: 300,
-                    autoClear: false,
-                    to: {
-                        top: '-100%'
-                    }
-                });
             },
             hide: function (){
                 this.hidePanel();
@@ -67,6 +51,22 @@ Ext.define('frontapp.components.DropdownMenu',{
         //creation du contenu
         this._panel.add(this.getItems());
     },
+    _animationShow: new Ext.Anim({
+        easing: 'easeIn',
+        duration: 300,
+        autoClear: false,
+        to: {
+            top: '5px'
+        }
+    }),
+    _animationHide: Ext.Anim({
+        easing: 'easeOut',
+        duration: 300,
+        autoClear: false,
+        to: {
+            top: '-100%'
+        }
+    }),
     _show: false,
     showPanel: function () {
         console.log('show');
