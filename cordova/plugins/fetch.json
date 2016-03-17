@@ -71,12 +71,14 @@
         "is_top_level": false,
         "variables": {}
     },
-    "cordova-plugin-dialogs": {
+    "phonegap-plugin-push": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-dialogs"
+            "id": "phonegap-plugin-push"
         },
         "is_top_level": true,
-        "variables": {}
+        "variables": {
+            "SENDER_ID": "1026573343411"
+        }
     }
 }

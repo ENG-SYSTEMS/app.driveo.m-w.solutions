@@ -10,10 +10,10 @@ if [ $1 ]; then
 			cp -f app/utils/Config.js.$1 app/utils/Config.js
 			rm resources.last -Rf
 			mv resources resources.last
-			cp -Rf resources.$1 resources
+			cp -Rf "resources.$1" resources
 			rm cordova.last -Rf
 			mv cordova cordova.last
-			cp -Rf cordova.$1 cordova
+			cp -Rf "cordova.$1" cordova
 			cp -f app.json app.json.last	
 			cp -f app.json.$1 app.json	
 			echo "switch autre projet $(cat current) vers $1. sauvegarde en .last"
@@ -24,10 +24,10 @@ if [ $1 ]; then
 	fi
 else
 	cp -f app/utils/Config.js app/utils/Config.js.$(cat current)
-	rm resources.$(cat current) -Rf
-        cp -Rf resources resources.$(cat current)
-	rm cordova.$(cat current) -Rf
-        cp -Rf cordova cordova.$(cat current)
+	rm -Rf resources.$(cat current)
+        cp -Rf resources "resources.$(cat current)"
+	rm -Rf cordova.$(cat current)
+        cp -Rf cordova "cordova.$(cat current)"
 	cp -f app.json app.json.$(cat current)	
 
 	echo "sauvegarde du projet par défaut $(cat current)";

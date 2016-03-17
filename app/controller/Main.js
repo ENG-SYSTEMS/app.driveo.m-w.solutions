@@ -274,15 +274,15 @@ Ext.define('frontapp.controller.Main', {
         frontapp.utils.Config.hideMenu();
         this.manageView(1,'frontapp.view.ResetPassword');
     },
-    showCommande: function () {
-        frontapp.utils.Config.hideMenu();
-        this.manageView(1,'frontapp.view.Commande');
-    },
     showFicheCommande: function (id) {
         var ficheview = this.manageView(2,'frontapp.view.FicheCommande');
         var comStore = Ext.getStore('Commandes');
         var record = comStore.getById(id);
         ficheview.setRecord(record);
+    },
+    showCommande: function () {
+        frontapp.utils.Config.hideMenu();
+        this.manageView(1,'frontapp.view.Commande');
     },
     showOrdonnance: function () {
         frontapp.utils.Config.hideMenu();

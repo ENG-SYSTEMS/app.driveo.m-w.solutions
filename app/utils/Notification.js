@@ -1,12 +1,11 @@
-Ext.define('frontapp.utils.Notifications', {
+Ext.define('frontapp.utils.Notification', {
     singleton : true,
     mixins: ['Ext.mixin.Observable'],
     id: 'notifications',
     config: {
 
     },
-    register: function (config) {
-        this.callParent([config]);
+    register: function () {
         //initialisation du push
         var push = PushNotification.init({
             android: {
@@ -29,7 +28,9 @@ Ext.define('frontapp.utils.Notifications', {
                 useDefaultXhrHeader: false,
                 params:{
                     KEY:  data.registrationId,
-                    user_id: frontapp.utils.Config.getCurrentUser().user_id
+                    user_id: frontapp.utils.Config.getCurrentUser().user_id,
+                    Type: device.platform,
+                    Admin: 0
                 },
                 success: function (response, opts) {
                     console.log('Définition du register Id OK');
@@ -47,7 +48,8 @@ Ext.define('frontapp.utils.Notifications', {
             console.log('receive notification',data)
 
             //declenche une notification local
-            var sound = device.platform == 'Android' ? 'file://sound.mp3' : 'file://beep.caf';
+//            var sound = device.platform == 'Android' ? 'file://resources/sounds/sound.mp3' : 'file://resources/sounds/beep.caf';
+            var sound = device.platform =='file://resources/sounds/sound.mp3';
             var date = new Date();
 
             cordova.plugins.notification.local.schedule({
@@ -56,7 +58,7 @@ Ext.define('frontapp.utils.Notifications', {
                 message: data.message,
                 firstAt: date,
                 sound: sound,
-                icon: "http://domain.com/icon.png"
+                icon: "icon.png"
             });
 
             //on rafraichit également le store correspondant

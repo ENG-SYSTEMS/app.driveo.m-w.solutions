@@ -3,7 +3,8 @@ Ext.define('frontapp.view.Main', {
     xtype: 'main',
     requires: [
         'Ext.util.Geolocation',
-        'Ext.Label'
+        'Ext.Label',
+        'Ext.carousel.Carousel'
     ],
     id: 'mainCard',
     config: {
@@ -59,12 +60,25 @@ Ext.define('frontapp.view.Main', {
                             }
                         ]
                     },
+                    //promotions
+                    {
+                        xtype: 'carousel',
+                        height: 150,
+                        action: 'promotion',
+                        defaults: {
+                            styleHtmlContent: true
+                        },
+
+                        items: [
+                        ]
+                    },
                     {
                         layout: 'hbox',
                         items: [
                             {
                                 cls: 'driveo-case danger fa fa-user',
-                                flex: 1
+                                flex: 1,
+                                html: 'Utilisateur'
                             },
                             {
                                 flex: 2,
@@ -75,50 +89,16 @@ Ext.define('frontapp.view.Main', {
                             }
                         ]
                     },
-                    //promotions
-                    {
-                        xtype: 'carousel',
-                        height: 200,
-                        defaults: {
-                            styleHtmlContent: true
-                        },
-
-                        items: [
-                            {
-                                html : 'Item 1',
-                                cls: 'warning'
-                            },
-                            {
-                                html : 'Item 2',
-                                cls: 'success'
-                            },
-                            {
-                                html : 'Item 3',
-                                cls: 'danger'
-                            }
-                        ]
-                    },
                     //produits à la une
                     {
                         xtype: 'carousel',
-                        height: 200,
+                        height: 300,
+                        action: 'palu',
                         defaults: {
                             styleHtmlContent: true
                         },
 
                         items: [
-                            {
-                                html : 'Item 1',
-                                cls: 'success'
-                            },
-                            {
-                                html : 'Item 2',
-                                cls: 'danger'
-                            },
-                            {
-                                html : 'Item 3',
-                                cls: 'warning'
-                            }
                         ]
                     },
                     /*,
@@ -282,6 +262,8 @@ Ext.define('frontapp.view.Main', {
             }
         }
     },
+    _pal_interval: 0,
+    _prom_interval: 0,
     refreshData: function () {
         //Définition des commandes
         var commandes = Ext.getStore('Commandes'),
@@ -333,6 +315,80 @@ Ext.define('frontapp.view.Main', {
             '<div>Email: '+user.Mail+'</div>'+
             '<div>Téléphone: '+user.Tel+' </div>'+
             '<div>Adresse: '+user.Adresse+' '+user.CodePostal+' '+user.Ville+' </div>');
+        }
+
+        console.log('affichage du dashboard');
+
+        if (!this._prom_interval) {
+            var promotions = Ext.getStore('Promotions'),
+                prom = this.down('[action=promotion]');
+
+            //affichage du chargement
+            prom.setMasked({
+                xtype: 'loadmaskypm',
+                indicator: false,
+                message: 'Chargement des promotions'
+            });
+
+            promotions.on('load', function () {
+                prom.setHidden(true);
+                prom.removeAll();
+                promotions.findBy(function (r) {
+                    prom.add([
+                        {
+                            html: '<span class="prom-title warning">' + r.get('text') + '</span>' +
+                            '<span class="prom-price danger">' + r.get('textdate') + '</span>',
+                            style: {
+                                background: 'url(' + frontapp.utils.Config.getDomain() + '/' + r.get('image') + ')',
+                                backgroundSize: 'cover'
+                            }
+                        }
+                    ]);
+                    prom.setHidden(false);
+                });
+                prom.setMasked(null);
+            });
+
+            promotions.load();
+            this._prom_interval = setInterval(function () {
+                prom.next();
+            }, 5000);
+        }
+
+        if (!this._pal_interval) {
+            var palu = Ext.getStore('ProduitALaUne'),
+                pa = this.down('[action=palu]');
+
+            //affichage du chargement
+            pa.setMasked({
+                xtype: 'loadmaskypm',
+                indicator: false,
+                message: 'Chargement des produits à la une'
+            });
+
+            palu.on('load',function () {
+                pa.setHidden(true);
+                pa.removeAll();
+                palu.findBy(function (r) {
+                    pa.add([
+                        {
+                            html : '<a href="#product/'+r.get('id')+'" class="prom-title warning">'+r.get('Nom')+'</a>'+
+                            '<a href="#product/'+r.get('id')+'" class="prom-price danger">'+r.get('TarifText')+'</a>',
+                            style: {
+                                background: 'url('+frontapp.utils.Config.getDomain()+'/'+r.get('Image')+')',
+                                backgroundSize: 'cover'
+                            }
+                        }
+                    ]);
+                    pa.setHidden(false);
+                });
+                pa.setMasked(null);
+            });
+
+            palu.load();
+            this._pal_interval = setInterval(function () {
+                pa.next();
+            }, 5000);
         }
 
     }

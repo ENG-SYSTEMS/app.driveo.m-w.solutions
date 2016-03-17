@@ -16,6 +16,7 @@ Ext.define('frontapp.utils.Config', {
         currentUser: null,
         domain: 'pharmaciedecastanet.fr',
         storeName: 'Pharmacie de castanet',
+        pdaPrepare: false,
         /**
          * Server Urls
          */

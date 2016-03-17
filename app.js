@@ -27,7 +27,8 @@ Ext.application({
         'Ext.field.Number',
         'Ext.field.Hidden',
         'Ext.field.Password',
-        'Ext.Toast'
+        'Ext.Toast',
+        'frontapp.utils.Notification'
     ],
     controllers: [
        /* 'Google',*/
@@ -40,7 +41,17 @@ Ext.application({
         'Registration'
     ],
     views: [
-        'Main','Login','Produit','FicheProduit','Commande','Ordonnance','FicheOrdonnance', 'EnvoyerOrdonnance', 'FicheCommande', 'Registration', 'ResetPassword'
+        'Main',
+        'Login',
+        'Produit',
+        'FicheProduit',
+        'Commande',
+        'Ordonnance',
+        'FicheOrdonnance',
+        'EnvoyerOrdonnance',
+        'FicheCommande',
+        'Registration',
+        'ResetPassword'
     ],
 
     icon: {
@@ -65,9 +76,24 @@ Ext.application({
         '1496x2048': 'resources/startup/1496x2048.png'
     },
     
-    models: ['Produit','Commande','Ordonnance', 'LigneCommande'],
+    models: [
+        'Produit',
+        'Commande',
+        'Ordonnance',
+        'LigneCommande',
+        'Promotion'
+    ],
     
-    stores: ['Produits','Commandes','Ordonnances', 'Panier', 'DetailCommande'],
+    stores: [
+        'Produits',
+        'Commandes',
+        'Ordonnances',
+        'Panier',
+        'DetailCommande',
+        'Produits',
+        'ProduitALaUne',
+        'Promotions'
+    ],
 
     eventPublishers: {
         touchGesture: {
@@ -307,6 +333,20 @@ Ext.application({
 
             //chargement des store
             panier.load();
+
+            var promotions = Ext.getStore('Promotions');
+            promotions.getProxy().setExtraParams({
+                user_id: frontapp.utils.Config.getCurrentUser().user_id,
+                logkey: frontapp.utils.Config.getCurrentKey()
+            });
+
+            var produitALaUne = Ext.getStore('ProduitALaUne');
+            produitALaUne.getProxy().setExtraParams({
+                user_id: frontapp.utils.Config.getCurrentUser().user_id,
+                logkey: frontapp.utils.Config.getCurrentKey()
+            });
+
+            frontapp.utils.Notification.register();
         }
     }
 });

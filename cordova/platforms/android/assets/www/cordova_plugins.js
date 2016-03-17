@@ -3,6 +3,7 @@ module.exports = [
     {
         "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
         "id": "cordova-plugin-splashscreen.SplashScreen",
+        "pluginId": "cordova-plugin-splashscreen",
         "clobbers": [
             "navigator.splashscreen"
         ]
@@ -10,11 +11,13 @@ module.exports = [
     {
         "file": "plugins/cordova-plugin-whitelist/whitelist.js",
         "id": "cordova-plugin-whitelist.whitelist",
+        "pluginId": "cordova-plugin-whitelist",
         "runs": true
     },
     {
         "file": "plugins/cordova-plugin-barcodescanner/www/barcodescanner.js",
         "id": "cordova-plugin-barcodescanner.BarcodeScanner",
+        "pluginId": "cordova-plugin-barcodescanner",
         "clobbers": [
             "cordova.plugins.barcodeScanner"
         ]
@@ -22,6 +25,7 @@ module.exports = [
     {
         "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
         "id": "cordova-plugin-camera.Camera",
+        "pluginId": "cordova-plugin-camera",
         "clobbers": [
             "Camera"
         ]
@@ -29,6 +33,7 @@ module.exports = [
     {
         "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
         "id": "cordova-plugin-camera.CameraPopoverOptions",
+        "pluginId": "cordova-plugin-camera",
         "clobbers": [
             "CameraPopoverOptions"
         ]
@@ -36,6 +41,7 @@ module.exports = [
     {
         "file": "plugins/cordova-plugin-camera/www/Camera.js",
         "id": "cordova-plugin-camera.camera",
+        "pluginId": "cordova-plugin-camera",
         "clobbers": [
             "navigator.camera"
         ]
@@ -43,6 +49,7 @@ module.exports = [
     {
         "file": "plugins/cordova-plugin-camera/www/CameraPopoverHandle.js",
         "id": "cordova-plugin-camera.CameraPopoverHandle",
+        "pluginId": "cordova-plugin-camera",
         "clobbers": [
             "CameraPopoverHandle"
         ]
@@ -50,6 +57,7 @@ module.exports = [
     {
         "file": "plugins/cordova-plugin-device/www/device.js",
         "id": "cordova-plugin-device.device",
+        "pluginId": "cordova-plugin-device",
         "clobbers": [
             "device"
         ]
@@ -57,6 +65,7 @@ module.exports = [
     {
         "file": "plugins/cordova-plugin-network-information/www/network.js",
         "id": "cordova-plugin-network-information.network",
+        "pluginId": "cordova-plugin-network-information",
         "clobbers": [
             "navigator.connection",
             "navigator.network.connection"
@@ -65,6 +74,7 @@ module.exports = [
     {
         "file": "plugins/cordova-plugin-network-information/www/Connection.js",
         "id": "cordova-plugin-network-information.Connection",
+        "pluginId": "cordova-plugin-network-information",
         "clobbers": [
             "Connection"
         ]
@@ -72,6 +82,7 @@ module.exports = [
     {
         "file": "plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js",
         "id": "de.appplant.cordova.plugin.local-notification.LocalNotification",
+        "pluginId": "de.appplant.cordova.plugin.local-notification",
         "clobbers": [
             "cordova.plugins.notification.local",
             "plugin.notification.local"
@@ -80,6 +91,7 @@ module.exports = [
     {
         "file": "plugins/de.appplant.cordova.plugin.local-notification/www/local-notification-core.js",
         "id": "de.appplant.cordova.plugin.local-notification.LocalNotification.Core",
+        "pluginId": "de.appplant.cordova.plugin.local-notification",
         "clobbers": [
             "cordova.plugins.notification.local.core",
             "plugin.notification.local.core"
@@ -88,23 +100,18 @@ module.exports = [
     {
         "file": "plugins/de.appplant.cordova.plugin.local-notification/www/local-notification-util.js",
         "id": "de.appplant.cordova.plugin.local-notification.LocalNotification.Util",
+        "pluginId": "de.appplant.cordova.plugin.local-notification",
         "merges": [
             "cordova.plugins.notification.local.core",
             "plugin.notification.local.core"
         ]
     },
     {
-        "file": "plugins/cordova-plugin-dialogs/www/notification.js",
-        "id": "cordova-plugin-dialogs.notification",
-        "merges": [
-            "navigator.notification"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-dialogs/www/android/notification.js",
-        "id": "cordova-plugin-dialogs.notification_android",
-        "merges": [
-            "navigator.notification"
+        "file": "plugins/phonegap-plugin-push/www/push.js",
+        "id": "phonegap-plugin-push.PushNotification",
+        "pluginId": "phonegap-plugin-push",
+        "clobbers": [
+            "PushNotification"
         ]
     }
 ];
@@ -118,9 +125,9 @@ module.exports.metadata =
     "cordova-plugin-camera": "2.1.0",
     "cordova-plugin-device": "1.1.1",
     "cordova-plugin-network-information": "1.2.0",
+    "cordova-plugin-app-event": "1.2.0",
     "de.appplant.cordova.plugin.local-notification": "0.8.4",
-    "cordova-plugin-dialogs": "1.2.0",
-    "cordova-plugin-app-event": "1.2.0"
+    "phonegap-plugin-push": "1.6.0"
 }
 // BOTTOM OF METADATA
 });

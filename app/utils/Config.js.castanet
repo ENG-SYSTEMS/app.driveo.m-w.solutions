@@ -33,7 +33,14 @@ Ext.define('frontapp.utils.Config', {
         currentLng: null,
         altitude: null,
         speed: null,
-        heading: null
+        heading: null,
+
+        /**
+         * NOTIFICATION GCM
+         */
+        serverApiKey: 'AIzaSyD-WPYJ39eWmA2aWzgn6fQF1A5WOv3FG5A',
+        senderId: '911879983462'
+
     },
     constructor: function(config) {
         this.initConfig(config);
