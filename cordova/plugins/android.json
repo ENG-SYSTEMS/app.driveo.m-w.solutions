@@ -52,18 +52,7 @@
         },
         "cordova-plugin-network-information": {
             "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
-        },
-        "de.appplant.cordova.plugin.local-notification": {
-            "PACKAGE_NAME": "cours.app.driveo.m_w.solutions"
-        },
-        "phonegap-plugin-push": {
-            "SENDER_ID": "1026573343411",
-            "PACKAGE_NAME": "cours.app.driveo.m_w.solutions"
         }
     },
-    "dependent_plugins": {
-        "cordova-plugin-app-event": {
-            "PACKAGE_NAME": "cours.app.driveo.m_w.solutions"
-        }
-    }
+    "dependent_plugins": {}
 }

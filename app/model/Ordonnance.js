@@ -29,9 +29,8 @@ Ext.define('frontapp.model.Ordonnance', {
                         break;
                 }
             }},
-            {name: 'Date', type: 'string', convert: function (value,record){
-                return record.get('tmsCreate');
-            }}
+            {name: 'DateCreation', type: 'string'},
+            {name: 'DateRetrait', type: 'string'}
         ]
     }
 });

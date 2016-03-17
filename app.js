@@ -27,6 +27,7 @@ Ext.application({
         'Ext.field.Number',
         'Ext.field.Hidden',
         'Ext.field.Password',
+        'Ext.field.Toggle',
         'Ext.Toast',
         'frontapp.utils.Notification'
     ],

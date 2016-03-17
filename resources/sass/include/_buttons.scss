@@ -16,8 +16,8 @@
   transition: all 200ms ease;
   transform: scale(1,1);
   -webkit-transform: scale(1,1);
-  background-color: #f8b750;
-  color: #333;
+  background-color: #7D2A69;
+  color: #fff;
   font-weight: 400;
   border: 0;
   -webkit-border-radius: 10px;
@@ -25,13 +25,13 @@
   border-radius: 10px;
   font-family: inherit;
   font-size: 1.3em;
-  box-shadow: 3px 3px 10px #666;
+  box-shadow: 0 0 5px #666;
 
 }
 .ypm-button:hover.ypm-button:active{
   color: #f4f4f4!important;
   /*border: 2px solid rgba(255,255,255,0.8);*/
-  background-color: #f8b750;
+  background-color: #7D2A69;
 }
 
 .ypm-button.block {
@@ -144,14 +144,14 @@ margin: 10px auto;
 
 /*********** DRIVEO BUTTONS ************/
 .driveo-button{
-  background-color: #f8b750;
+  background-color: #7D2A69;
   padding: 5px 10px;
   overflow: initial;
   display: block;
   transition: all 200ms ease;
   transform: scale(1,1);
   -webkit-transform: scale(1,1);
-  color: #333;
+  color: #fff;
   font-weight: 800;
   border: 0;
   font-family: inherit;
@@ -163,14 +163,14 @@ margin: 10px auto;
   margin: auto;
 }
 .driveo-button.alt{
-  background-color: #7eb72e;
+  background-color: #4e9231;
   color: #333;
 }
 .driveo-button:active{
-  background-color: #f8b750;
+  background-color: #7D2A69;
   color: #fff;
 }
 .driveo-button.alt:active{
-  background-color: #f8b750;
+  background-color: #7D2A69;
   color: #333;
 }

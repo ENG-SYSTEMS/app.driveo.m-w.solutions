@@ -11,7 +11,6 @@ Ext.define('frontapp.view.EnvoyerOrdonnance', {
             align: 'center',
             animation: 'flip'
         },
-        scrollable:true,
         items: [
             {
                xtype: 'toolbar',
@@ -35,6 +34,7 @@ Ext.define('frontapp.view.EnvoyerOrdonnance', {
             },
            {
                 align: 'center',
+                scrollable:true,
                 items:[
                     {
                         xtype: 'fieldset',
@@ -92,7 +92,7 @@ Ext.define('frontapp.view.EnvoyerOrdonnance', {
                                 width: '100%',
                                 action: 'ordonnanceImage',
                                 height: '300px',
-                                src: '/resources/images/default-photo.png'
+                                src: 'resources/images/default-photo.png'
                             },
                             {
                                 xtype: 'hiddenfield',
@@ -111,6 +111,48 @@ Ext.define('frontapp.view.EnvoyerOrdonnance', {
                                 required      : 0,
                                 clearIcon     : false,
                                 action: 'ordonnanceCommentaire'
+                            },
+                            {
+                                action: 'specificPda',
+                                hidden: true,
+                                items: [
+                                    {
+                                        name: 'sachetDose',
+                                        label: 'Souhaitez-vous votre ordonnance en sachet dose ?',
+                                        action: 'ordonnanceSachetDose',
+                                        xtype: 'togglefield',
+                                        labelWrap: true,
+                                        labelWidth: '80%',
+                                        value: '0',
+                                        listeners: {
+                                            change: function (item) {
+                                                console.log('change value sachet dose',item.getValue());
+                                                if (item.getValue()){
+                                                    this.up().down('[name=livraison]').setHidden(false);
+                                                }else
+                                                    this.up().down('[name=livraison]').setHidden(true);
+                                            }
+                                        }
+                                    },
+                                    {
+                                        name: 'livraison',
+                                        hidden: true,
+                                        action: 'ordonnanceLivraison',
+                                        labelWidth: '80%',
+                                        labelWrap: true,
+                                        label: 'Souhaitez-vous être livré à domicile ?',
+                                        xtype: 'togglefield',
+                                        value: '0'
+                                    }
+                                ],
+                                listeners: {
+                                    initialize: function () {
+                                        if (frontapp.utils.Config.getUsePDA()){
+                                            console.log('PDA USAGE');
+                                            this.setHidden(false);
+                                        }
+                                    }
+                                }
                             },
                             {
                                 xtype: 'button',

@@ -63,8 +63,8 @@ Ext.define('frontapp.view.Ordonnance', {
                         itemTpl: '<div class="product">'+
                         '<img src="'+frontapp.utils.Config.getDomain()+'/{Image}.mini.60x60.jpg" class="float-left product-avatar" alt="img">'+
                         '{EtatText}'+
-                        '<h2>{Date}</h2>'+
-                        '<span class="product-hours">{Commentaire}</span>'+
+                        '<h2>{DateCreation}</h2>'+
+                        '<span class="valet-address">A retirer à partir du {DateRetrait}</span>'+
                             /*'<span class="valet-address">Poids: {Poids}<br />Largeur: {Largeur} <br />Hauteur: {Hauteur} <br /> Profondeur: {Profondeur}</span>'+*/
                         '</div>',
                         grouped: false,

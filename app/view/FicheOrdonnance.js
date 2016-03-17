@@ -15,7 +15,7 @@ Ext.define('frontapp.view.FicheOrdonnance', {
             {
                xtype: 'toolbar',
                docked: 'top',
-               title: 'Envoyer une ordonnance',
+               title: 'Ordonnance',
                cls: 'header top',
                items: [
                     {
@@ -131,8 +131,9 @@ Ext.define('frontapp.view.FicheOrdonnance', {
         //title
         this.down('[action=ordonnanceImage]').setSrc(frontapp.utils.Config.getDomain()+'/'+record.get('Image'));
         this.down('[action=ordonnance-info]').setHtml(
-            '<h3>Date: '+record.get('Date')+'</h3>'+
-            '<div>Etat: '+record.get('EtatText')+'</div>'+
+            record.get('EtatText')+
+            '<div>Date de création: '+record.get('DateCreation')+'</div>'+
+            '<h3>Date de retrait prévue: '+record.get('DateRetrait')+'</h3>'+
             '<div>Commentaires: '+record.get('Commentaire')+'</div>'
         );
         //show valet histo

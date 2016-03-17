@@ -14,9 +14,9 @@ Ext.define('frontapp.utils.Config', {
         currentKey: '',
         address: 'Adresse en cours d\'acquisition...',
         currentUser: null,
-        domain: 'pharmaducours.fr',
-        storeName: 'Pharmacie du cours',
-        pdaPrepare: true,
+        domain: 'pharmaciedecastanet.fr',
+        storeName: 'Pharmacie de castanet',
+        pdaPrepare: false,
         /**
          * Server Urls
          */
@@ -36,10 +36,16 @@ Ext.define('frontapp.utils.Config', {
         heading: null,
 
         /**
+         * SPECIFIC
+         */
+        usePDA: false,
+
+        /**
          * NOTIFICATION GCM
          */
-        serverApiKey: 'AIzaSyBbYtVciuBNkTX2h13sHhAvsjBRCSdtb6U',
-        senderId: '1026573343411'
+        serverApiKey: 'AIzaSyD-WPYJ39eWmA2aWzgn6fQF1A5WOv3FG5A',
+        senderId: '911879983462'
+
     },
     constructor: function(config) {
         this.initConfig(config);

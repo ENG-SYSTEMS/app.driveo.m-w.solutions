@@ -17,6 +17,8 @@ Ext.define('frontapp.controller.Ordonnance', {
         refs: {
             ordonnanceImage: '[action=ordonnancePhoto]',
             ordonnanceCommentaire: '[action=ordonnanceCommentaire]',
+            ordonnanceSachetDose: '[action=ordonnanceSachetDose]',
+            ordonnanceLivraison: '[action=ordonnanceLivraison]',
             ordonnanceSubmit: '[action=ordonnanceSubmit]',
             ordonnanceListe: '[action=listeordonnance]'
         },
@@ -54,6 +56,8 @@ Ext.define('frontapp.controller.Ordonnance', {
             user_id: frontapp.utils.Config.getCurrentUser().user_id,
             Image: this.getOrdonnanceImage().getValue(),
             Commentaire: this.getOrdonnanceCommentaire().getValue(),
+            SachetDose: this.getOrdonnanceSachetDose().getValue(),
+            Livraison: this.getOrdonnanceLivraison().getValue(),
             id: (button.getRecord())?button.getRecord().get('id'):''
         };
         console.log('new ordonnance sending ',data);

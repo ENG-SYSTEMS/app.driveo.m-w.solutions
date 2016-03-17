@@ -105,6 +105,10 @@
         {
             "path": "resources/css/app.css",
             "update": "delta"
+        },
+        {
+            "path": "resources/css/font-awesome.min.css",
+            "remote": true
         }
     ],
 
@@ -134,9 +138,11 @@
      * Extra resources to be copied along when build
      */
     "resources": [
+        "resources/js",
+        "resources/css",
         "resources/images",
-        "resources/images/valets",
         "resources/fonts",
+        "resources/sounds",
         "resources/icons",
         "resources/startup"
     ],

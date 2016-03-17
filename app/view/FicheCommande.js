@@ -81,7 +81,7 @@ Ext.define('frontapp.view.FicheCommande', {
     setRecord: function (record){
         this.down('[action=commandetitle]').setTitle(record.get('RefCommande'));
         this.down('[action=detailcommande]').setHtml('<div class="product">'+
-            '<span class="product-dist product-near warning">Montant total: '+record.get('MontantTTC')+' € TTC</span>'+
+            '<span class="product-dist product-near warning">Total: '+record.get('MontantTTC')+' € TTC</span>'+
             '<h2>&nbsp;</h2>'+
             '<div style="float:left">'+record.get('Etat')+'</div>'+
             '</div>');
