@@ -44,3 +44,14 @@
   -webkit-transform: perspective(600px) translate3d(0px, 0px, -500px) rotateY(0deg) !important;
   transform: perspective(600px) translate3d(0px, 0px, -500px) rotateY(0deg) !important;
 }
+.x-container.x-panel.x-sized.x-floating.menuwrapper{
+  -webkit-transition:all 500ms ease !important;
+  transition:all 500ms ease !important;
+  position: absolute;
+  -webkit-transform: perspective(600px) translate3d(0, -600px, 0) rotateX(80deg) !important;
+  transform: perspective(600px) translate3d(0, -600px, 0) rotateX(80deg) !important;
+}
+.x-container.x-panel.x-sized.x-floating.menuwrapper.down{
+  -webkit-transform: perspective(600px) translate3d(0, 0px, 0) rotateY(0deg) !important;
+  transform: perspective(600px) translate3d(0px, 0px, 0px) rotateY(0deg) !important;
+}

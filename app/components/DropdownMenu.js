@@ -11,7 +11,6 @@ Ext.define('frontapp.components.DropdownMenu',{
 			height:'90%',
 			modal:true,
 			hideOnMaskTap:true,
-			top:'-100%',
 			right:'10%',
             style: 'padding-top: 10px;'
 		},
@@ -27,7 +26,22 @@ Ext.define('frontapp.components.DropdownMenu',{
                 this.togglePanel();
             },
             initialize: function () {
-                var me = this;
+                this._animationShow = new Ext.Anim({
+                    easing: 'easeIn',
+                    duration: 300,
+                    autoClear: false,
+                    to: {
+                        top: '5px'
+                    }
+                });
+                this._animationHide = new Ext.Anim({
+                    easing: 'easeOut',
+                    duration: 300,
+                    autoClear: false,
+                    to: {
+                        top: '-100%'
+                    }
+                });
             },
             hide: function (){
                 this.hidePanel();
@@ -51,32 +65,19 @@ Ext.define('frontapp.components.DropdownMenu',{
         //creation du contenu
         this._panel.add(this.getItems());
     },
-    _animationShow: new Ext.Anim({
-        easing: 'easeIn',
-        duration: 300,
-        autoClear: false,
-        to: {
-            top: '5px'
-        }
-    }),
-    _animationHide: Ext.Anim({
-        easing: 'easeOut',
-        duration: 300,
-        autoClear: false,
-        to: {
-            top: '-100%'
-        }
-    }),
     _show: false,
     showPanel: function () {
-        console.log('show');
-        this._animationShow.run(this._panel.element);
+        //this._animationShow.run(this._panel.element);
         this._panel.show();
+        this._panel.setStyle('display','block !important');
+        this._panel.addCls('down');
         this._show = true;
     },
     hidePanel: function () {
         console.log('hide');
-        this._animationHide.run(this._panel.element);
+        //this._animationHide.run(this._panel.element);
+        //TweenLite.to(this._panel.element,0.3,{top: '-800'});
+        this._panel.removeCls('down');
         this._show = false;
     },
     togglePanel: function () {
