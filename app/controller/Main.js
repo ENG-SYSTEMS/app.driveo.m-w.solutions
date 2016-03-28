@@ -20,6 +20,7 @@ Ext.define('frontapp.controller.Main', {
             /*** general ***/
             closeMenu: '[action=close-menu]',
             back: '[action=back]',
+            login: '[action=login]',
             addproduit: '[action=addproduit]',
             /*** navigation ***/
             menuMain: '[action=menu-main]',
@@ -53,6 +54,11 @@ Ext.define('frontapp.controller.Main', {
             },
             back: {
                 tap: 'onBackTap'
+            },
+            login: {
+                tap: function () {
+                    this.redirectTo('login');
+                }
             },
             menuMain: {
                 tap: function () {

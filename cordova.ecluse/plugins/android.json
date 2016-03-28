@@ -52,6 +52,18 @@
         },
         "cordova-plugin-network-information": {
             "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
+        },
+        "cordova-plugin-gcmpushplugin": {
+            "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
+        },
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
         }
     },
     "dependent_plugins": {}

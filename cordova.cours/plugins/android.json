@@ -56,8 +56,7 @@
         "de.appplant.cordova.plugin.local-notification": {
             "PACKAGE_NAME": "cours.app.driveo.m_w.solutions"
         },
-        "phonegap-plugin-push": {
-            "SENDER_ID": "1026573343411",
+        "cordova-plugin-gcmpushplugin": {
             "PACKAGE_NAME": "cours.app.driveo.m_w.solutions"
         }
     },

@@ -16,6 +16,7 @@ Ext.define('frontapp.view.Login', {
             {
                 xtype: 'container',
                 cls: 'login-wrapper',
+                scrollable: true,
                 items:[
                     {
                         xtype: 'container',

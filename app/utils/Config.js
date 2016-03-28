@@ -269,9 +269,9 @@ Ext.define('frontapp.utils.Config', {
     setSwipe: function () {
         if (this._elementMenu){
             //swipe menu
-            this._elementMenu.on('swipe', this.onSwipe);
+            //this._elementMenu.on('swipe', this.onSwipe);
             //swipe bpdy
-            Ext.Viewport.bodyElement.on('swipe', this.onSwipe);
+            //Ext.Viewport.bodyElement.on('swipe', this.onSwipe);
         }
     },
     unsetSwipe: function () {

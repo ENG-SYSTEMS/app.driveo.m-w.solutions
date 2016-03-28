@@ -107,11 +107,11 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/phonegap-plugin-push/www/push.js",
-        "id": "phonegap-plugin-push.PushNotification",
-        "pluginId": "phonegap-plugin-push",
+        "file": "plugins/cordova-plugin-gcmpushplugin/www/gpp.js",
+        "id": "cordova-plugin-gcmpushplugin.GCMPushPlugin",
+        "pluginId": "cordova-plugin-gcmpushplugin",
         "clobbers": [
-            "PushNotification"
+            "GcmPushPlugin"
         ]
     }
 ];
@@ -127,7 +127,7 @@ module.exports.metadata =
     "cordova-plugin-network-information": "1.2.0",
     "cordova-plugin-app-event": "1.2.0",
     "de.appplant.cordova.plugin.local-notification": "0.8.4",
-    "phonegap-plugin-push": "1.6.0"
+    "cordova-plugin-gcmpushplugin": "1.2.0"
 }
 // BOTTOM OF METADATA
 });

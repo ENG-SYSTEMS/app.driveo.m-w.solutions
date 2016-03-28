@@ -34,7 +34,7 @@ Ext.define('frontapp.view.Registration', {
                        xtype : 'button',
                        hidden: false,
                        ui    : 'decline',
-                       action: 'back',
+                       action: 'login',
                        iconCls: 'fa fa-arrow-left',
                        cls: 'open-socials',
                        text  : ''
@@ -154,7 +154,7 @@ Ext.define('frontapp.view.Registration', {
                                     },
                                     {
                                         xtype: 'button',
-                                        action: 'back',
+                                        action: 'login',
                                         text: 'Annuler',
                                         cls: 'ypm-button block warning'
                                     },

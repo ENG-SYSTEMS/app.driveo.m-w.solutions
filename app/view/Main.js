@@ -177,8 +177,8 @@ Ext.define('frontapp.view.Main', {
                         {
                             xtype: 'menu',
                             width: 265,
-                            scrollable: false,
-                            style: 'top: -10%;',
+                            scrollable: true,
+                            style: 'top: 0;',
                             layout: {
                                 type: 'vbox',
                                 pack: 'center'
@@ -312,9 +312,9 @@ Ext.define('frontapp.view.Main', {
             user = frontapp.utils.Config.getCurrentUser();
         if (user){
             user_infos.setHtml('<h1>'+user.Civilite+' '+user.Nom+' '+user.Prenom+'</h1>'+
-            '<div>Email: '+user.Mail+'</div>'+
+            '<div>Email: '+user.Mail+'</div>'/*+
             '<div>Téléphone: '+user.Tel+' </div>'+
-            '<div>Adresse: '+user.Adresse+' '+user.CodePostal+' '+user.Ville+' </div>');
+            '<div>Adresse: '+user.Adresse+' '+user.CodePostal+' '+user.Ville+' </div>'*/);
         }
 
         console.log('affichage du dashboard');
