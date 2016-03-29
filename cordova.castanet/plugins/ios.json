@@ -1,0 +1,50 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+        },
+        "cordova-plugin-barcodescanner": {
+            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "911879983462",
+            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-android-support-v4": {
+            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+        }
+    }
+}

@@ -6,7 +6,7 @@
             "cordova" : {
                 "config": {
                     // Uncomment the line below and add the platform you wish to build for
-                    "platforms": "android",
+                    "platforms": "ios",
 
                     // Uncomment and Set this line to true to enable PhoneGap Remote Building.
                     // To properly use this you must set the following properties in your local.properties file (if this file does not exist create it in your app root)
@@ -105,6 +105,10 @@
         {
             "path": "resources/css/app.css",
             "update": "delta"
+        },
+        {
+            "path": "resources/css/font-awesome.min.css",
+            "remote": true
         }
     ],
 
@@ -134,9 +138,11 @@
      * Extra resources to be copied along when build
      */
     "resources": [
+        "resources/js",
+        "resources/css",
         "resources/images",
-        "resources/images/valets",
         "resources/fonts",
+        "resources/sounds",
         "resources/icons",
         "resources/startup"
     ],

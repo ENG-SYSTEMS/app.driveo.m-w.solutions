@@ -41,7 +41,7 @@ buildscript {
     } else {
         dependencies {
             classpath 'com.android.tools.build:gradle:0.12.0+'
-        }
+    	}
     }
 }
 
@@ -252,9 +252,9 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     debugCompile project(path: "CordovaLib", configuration: "debug")
     releaseCompile project(path: "CordovaLib", configuration: "release")
-    compile "com.android.support:support-v4:+"
     compile "com.android.support:support-v13:23+"
     compile "com.google.android.gms:play-services-gcm:+"
+    compile "com.android.support:support-v4:+"
     // SUB-PROJECT DEPENDENCIES END
 }
 

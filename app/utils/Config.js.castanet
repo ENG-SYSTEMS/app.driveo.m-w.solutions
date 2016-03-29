@@ -36,6 +36,11 @@ Ext.define('frontapp.utils.Config', {
         heading: null,
 
         /**
+         * SPECIFIC
+         */
+        usePDA: false,
+
+        /**
          * NOTIFICATION GCM
          */
         serverApiKey: 'AIzaSyD-WPYJ39eWmA2aWzgn6fQF1A5WOv3FG5A',

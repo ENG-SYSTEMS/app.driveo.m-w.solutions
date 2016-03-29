@@ -1,6 +1,6 @@
 /*
-violet: #7D2A69
-vert: #4e9231
+violet: #f8b750
+vert: #7eb72e
 */
 .header{
     height: 61px;
@@ -12,11 +12,11 @@ vert: #4e9231
     position:relative;
     z-index: 999999;
     transition: all 350ms ease-in-out;
-  /*  background-color: #7D2A69;*/
-    background-color: #7D2A69;
+  /*  background-color: #f8b750;*/
+    background-color: #f8b750;
   /*    border-left: solid 1px rgba(255,255,255,0.05);
       border-right: solid 1px rgba(255,255,255,0.05);*/
-  color: #fff;
+  color: #333;
 }
 .x-toolbar.x-docked-top {
   box-shadow: 0 0 10px #666;
@@ -34,6 +34,6 @@ vert: #4e9231
 }
 .header.top{
   background-color: #3E4144;
-  border-bottom: 5px solid #4e9231;
+  border-bottom: 5px solid #7eb72e;
   color: #fff !important;
 }
