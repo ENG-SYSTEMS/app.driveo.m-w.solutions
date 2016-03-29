@@ -31,7 +31,7 @@ Ext.define('frontapp.utils.Notification', {
     },
     errorHandler: function (error) {
         console.log("GCM Push Error: " + error);
-    }
+    },
     register: function () {
 
         if (device.platform == 'Android'){
