@@ -6,24 +6,8 @@ Ext.define('frontapp.utils.Notification', {
 
     },
     register: function () {
-        if (device.platform == 'Android'){
-            window.GcmPushPlugin.register(successHandler, errorHandler, {
-                "senderId":frontapp.utils.Config.getSenderId(),
-                "jsCallback":"onNotification"
-            });
-        }else{
-            //ios
-            window.GcmPushPlugin.register(successHandler, errorHandler, {
-                "badge":"true",
-                "sound":"true",
-                "alert":"true",
-                "usesGCM":true,
-                "sandbox":true,
-                "jsCallback":"onNotification"
-            });
-        }
         function successHandler(result) {
-            console.log("Token: " + result.gcm);
+            console.log("Notification Token: " + result.gcm);
             //envoi du register id au server
             var url = frontapp.utils.Config.getDomain()+'/Systeme/Device/registerDevice.json';
             Ext.Ajax.request({
@@ -48,6 +32,24 @@ Ext.define('frontapp.utils.Notification', {
         }
         function errorHandler(error) {
             console.log("GCM Push Error: " + error);
+        }
+        if (device.platform == 'Android'){
+            console.log('register device to GCM: Android');
+            window.GcmPushPlugin.register(successHandler, errorHandler, {
+                "senderId":frontapp.utils.Config.getSenderId(),
+                "jsCallback":"onNotification"
+            });
+        }else{
+            //ios
+            console.log('register device to GCM: Ios');
+            window.GcmPushPlugin.register(successHandler, errorHandler, {
+                "badge":"true",
+                "sound":"true",
+                "alert":"true",
+                "usesGCM":true,
+                "sandbox":true,
+                "jsCallback":"onNotification"
+            });
         }
 
         function onNotification(notification) {

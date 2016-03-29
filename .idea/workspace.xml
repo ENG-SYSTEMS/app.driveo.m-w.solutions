@@ -767,54 +767,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Toast.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Toolbar.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_all.scssc" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/Main.js" afterPath="$PROJECT_DIR$/app/controller/Main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/utils/Config.js" afterPath="$PROJECT_DIR$/app/utils/Config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/utils/Config.js.castanet" afterPath="$PROJECT_DIR$/app/utils/Config.js.castanet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/utils/Config.js.cours" afterPath="$PROJECT_DIR$/app/utils/Config.js.cours" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/utils/Config.js.ecluse" afterPath="$PROJECT_DIR$/app/utils/Config.js.ecluse" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/utils/Notification.js" afterPath="$PROJECT_DIR$/app/utils/Notification.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Login.js" afterPath="$PROJECT_DIR$/app/view/Login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Main.js" afterPath="$PROJECT_DIR$/app/view/Main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Registration.js" afterPath="$PROJECT_DIR$/app/view/Registration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/ResetPassword.js" afterPath="$PROJECT_DIR$/app/view/ResetPassword.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/temp/development/frontapp/sencha-compiler/app/full-page-master-bundle.js" afterPath="$PROJECT_DIR$/build/temp/development/frontapp/sencha-compiler/app/full-page-master-bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/android.json" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/assets/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/platform_www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/plugins/android.json" afterPath="$PROJECT_DIR$/cordova.castanet/plugins/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/plugins/fetch.json" afterPath="$PROJECT_DIR$/cordova.castanet/plugins/fetch.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.cours/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/cordova.cours/platforms/android/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.cours/platforms/android/android.json" afterPath="$PROJECT_DIR$/cordova.cours/platforms/android/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.cours/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova.cours/platforms/android/assets/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.cours/platforms/android/build.gradle" afterPath="$PROJECT_DIR$/cordova.cours/platforms/android/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.cours/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova.cours/platforms/android/platform_www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.cours/platforms/android/project.properties" afterPath="$PROJECT_DIR$/cordova.cours/platforms/android/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.cours/platforms/android/res/values/strings.xml" afterPath="$PROJECT_DIR$/cordova.cours/platforms/android/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.cours/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/cordova.cours/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.cours/plugins/android.json" afterPath="$PROJECT_DIR$/cordova.cours/plugins/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.cours/plugins/fetch.json" afterPath="$PROJECT_DIR$/cordova.cours/plugins/fetch.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.ecluse/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/cordova.ecluse/platforms/android/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.ecluse/platforms/android/android.json" afterPath="$PROJECT_DIR$/cordova.ecluse/platforms/android/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.ecluse/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova.ecluse/platforms/android/assets/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.ecluse/platforms/android/build.gradle" afterPath="$PROJECT_DIR$/cordova.ecluse/platforms/android/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.ecluse/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova.ecluse/platforms/android/platform_www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.ecluse/platforms/android/project.properties" afterPath="$PROJECT_DIR$/cordova.ecluse/platforms/android/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.ecluse/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/cordova.ecluse/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.ecluse/plugins/android.json" afterPath="$PROJECT_DIR$/cordova.ecluse/plugins/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.ecluse/plugins/fetch.json" afterPath="$PROJECT_DIR$/cordova.ecluse/plugins/fetch.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/cordova/platforms/android/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/android.json" afterPath="$PROJECT_DIR$/cordova/platforms/android/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/build.gradle" afterPath="$PROJECT_DIR$/cordova/platforms/android/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova/platforms/android/platform_www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/project.properties" afterPath="$PROJECT_DIR$/cordova/platforms/android/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/cordova/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/plugins/android.json" afterPath="$PROJECT_DIR$/cordova/plugins/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/plugins/fetch.json" afterPath="$PROJECT_DIR$/cordova/plugins/fetch.json" />
     </list>
     <ignored path="app.driveo.m-w.solutions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -883,8 +837,8 @@
       <file leaf-file-name="Notification.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/utils/Notification.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+            <state relative-caret-position="225">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -1026,7 +980,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1116,6 +1069,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1186,11 +1140,12 @@
       <updated>1449765385989</updated>
       <workItem from="1458846600372" duration="701000" />
       <workItem from="1459186115468" duration="1046000" />
+      <workItem from="1459243552597" duration="179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1747000" />
+    <option name="totallyTimeSpent" value="1926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="896" width="1877" height="1084" extended-state="6" />
@@ -1478,7 +1433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1602,8 +1556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/utils/Notification.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        <state relative-caret-position="225">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding />
         </state>
       </provider>
