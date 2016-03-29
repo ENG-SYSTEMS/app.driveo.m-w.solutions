@@ -5,44 +5,45 @@ Ext.define('frontapp.utils.Notification', {
     config: {
 
     },
+    successHandler: function (result) {
+        console.log("Notification Token: " + result.gcm);
+        //envoi du register id au server
+        var url = frontapp.utils.Config.getDomain()+'/Systeme/Device/registerDevice.json';
+        Ext.Ajax.request({
+            url: url,
+            useDefaultXhrHeader: false,
+            params:{
+                KEY:  result.gcm,
+                user_id: frontapp.utils.Config.getCurrentUser().user_id,
+                Type: device.platform,
+                Admin: 0
+            },
+            success: function (response, opts) {
+                console.log('Définition du register Id OK');
+            },
+            failure: function (response, opts) {
+                console.log('Petit problème ' + response.status);
+                // Basic alert:
+                var popup = Ext.Msg.alert('Erreur de connexion', 'Vous ne semblez pas connecté à internet. Si il s\'agit d\'un problème temporaire, pressez "OK" pour réessayer.', function () {
+                });
+            }
+        });
+    },
+    errorHandler: function (error) {
+        console.log("GCM Push Error: " + error);
+    }
     register: function () {
-        function successHandler(result) {
-            console.log("Notification Token: " + result.gcm);
-            //envoi du register id au server
-            var url = frontapp.utils.Config.getDomain()+'/Systeme/Device/registerDevice.json';
-            Ext.Ajax.request({
-                url: url,
-                useDefaultXhrHeader: false,
-                params:{
-                    KEY:  result.gcm,
-                    user_id: frontapp.utils.Config.getCurrentUser().user_id,
-                    Type: device.platform,
-                    Admin: 0
-                },
-                success: function (response, opts) {
-                    console.log('Définition du register Id OK');
-                },
-                failure: function (response, opts) {
-                    console.log('Petit problème ' + response.status);
-                    // Basic alert:
-                    var popup = Ext.Msg.alert('Erreur de connexion', 'Vous ne semblez pas connecté à internet. Si il s\'agit d\'un problème temporaire, pressez "OK" pour réessayer.', function () {
-                    });
-                }
-            });
-        }
-        function errorHandler(error) {
-            console.log("GCM Push Error: " + error);
-        }
+
         if (device.platform == 'Android'){
             console.log('register device to GCM: Android');
-            window.GcmPushPlugin.register(successHandler, errorHandler, {
+            window.GcmPushPlugin.register(this.successHandler, this.errorHandler, {
                 "senderId":frontapp.utils.Config.getSenderId(),
                 "jsCallback":"onNotification"
             });
         }else{
             //ios
             console.log('register device to GCM: Ios');
-            window.GcmPushPlugin.register(successHandler, errorHandler, {
+            window.GcmPushPlugin.register(this.successHandler, this.errorHandler, {
                 "badge":"true",
                 "sound":"true",
                 "alert":"true",
