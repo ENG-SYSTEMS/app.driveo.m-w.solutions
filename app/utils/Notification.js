@@ -48,7 +48,7 @@ Ext.define('frontapp.utils.Notification', {
                 "sound":"true",
                 "alert":"true",
                 "usesGCM":true,
-                "sandbox":true,
+                "sandbox":false,
                 "jsCallback":"onNotification"
             });
         }
