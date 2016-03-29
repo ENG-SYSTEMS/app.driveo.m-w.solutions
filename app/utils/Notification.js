@@ -98,7 +98,7 @@ Ext.define('frontapp.utils.Notification', {
             ios: {
                 alert: "true",
                 badge: "true",
-                sound: "true"/*,
+                sound: "default"/*,
                 usesGCM:false,
                 sandbox:true*/
             },
@@ -135,7 +135,7 @@ Ext.define('frontapp.utils.Notification', {
 
             //declenche une notification local
 //            var sound = device.platform == 'Android' ? 'file://resources/sounds/sound.mp3' : 'file://resources/sounds/beep.caf';
-            var sound = device.platform =='file://resources/sounds/sound.mp3';
+            var sound = device.platform== 'Android' ? 'file://resources/sounds/sound.mp3': 'default';
             var date = new Date();
 
             cordova.plugins.notification.local.schedule({
