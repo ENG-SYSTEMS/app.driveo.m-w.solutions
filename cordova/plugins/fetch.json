@@ -71,14 +71,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "de.appplant.cordova.plugin.local-notification": {
-        "source": {
-            "type": "registry",
-            "id": "de.appplant.cordova.plugin.local-notification"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "phonegap-plugin-push": {
         "source": {
             "type": "registry",
@@ -88,5 +80,45 @@
         "variables": {
             "SENDER_ID": "911879983462"
         }
+    },
+    "cordova-plugin-registerusernotificationsettings": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-registerusernotificationsettings"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-android-support-v4": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-android-support-v4"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-common-registerusernotificationsettings-mm": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-common-registerusernotificationsettings-mm"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-android-support-v4": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-android-support-v4"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "de.appplant.cordova.plugin.local-notification": {
+        "source": {
+            "type": "registry",
+            "id": "de.appplant.cordova.plugin.local-notification"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }
