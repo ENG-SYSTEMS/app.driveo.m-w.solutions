@@ -790,7 +790,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Toast.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Toolbar.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_all.scssc" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/utils/Notification.js" afterPath="$PROJECT_DIR$/app/utils/Notification.js" />
     </list>
     <ignored path="app.driveo.m-w.solutions.iws" />
@@ -860,8 +859,8 @@
       <file leaf-file-name="Notification.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/utils/Notification.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+            <state relative-caret-position="248">
+              <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -1166,12 +1165,12 @@
       <workItem from="1459243552597" duration="3873000" />
       <workItem from="1459252374280" duration="113000" />
       <workItem from="1459254369651" duration="709000" />
-      <workItem from="1459255922967" duration="7000" />
+      <workItem from="1459255922967" duration="446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6449000" />
+    <option name="totallyTimeSpent" value="6888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="896" width="1877" height="1084" extended-state="6" />
@@ -1582,8 +1581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/utils/Notification.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+        <state relative-caret-position="248">
+          <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
           <folding />
         </state>
       </provider>

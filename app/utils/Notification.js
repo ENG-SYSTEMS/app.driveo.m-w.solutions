@@ -98,9 +98,9 @@ Ext.define('frontapp.utils.Notification', {
             ios: {
                 alert: "true",
                 badge: "true",
-                sound: "true",
+                sound: "true"/*,
                 usesGCM:false,
-                sandbox:true
+                sandbox:true*/
             },
             windows: {}
         });
