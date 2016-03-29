@@ -658,6 +658,29 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/cordova.cours/plugins/phonegap-plugin-push/src/ios/PushPlugin.m" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cordova.cours/plugins/phonegap-plugin-push/src/windows/PushPluginProxy.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cordova.cours/plugins/phonegap-plugin-push/www/push.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/plugins/cordova-plugin-gcmpushplugin/www/gpp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/platforms/android/cordova-plugin-gcmpushplugin/solutions-build-extras.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/platforms/android/platform_www/plugins/cordova-plugin-gcmpushplugin/www/gpp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/platforms/android/src/com/gonzaloaune/cordova/gcm/GCMPushPlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/platforms/android/src/com/gonzaloaune/cordova/gcm/GPPActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/platforms/android/src/com/gonzaloaune/cordova/gcm/GPPInstanceIDListenerService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/platforms/android/src/com/gonzaloaune/cordova/gcm/GPPListenerService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/platforms/android/src/com/gonzaloaune/cordova/gcm/GPPRegistrationIntentService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/cordova-plugin-gcmpushplugin/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/cordova-plugin-gcmpushplugin/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/cordova-plugin-gcmpushplugin/build-extras.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/cordova-plugin-gcmpushplugin/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/cordova-plugin-gcmpushplugin/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/cordova-plugin-gcmpushplugin/src/android/com/gonzaloaune/cordova/plugin/gcm/GCMPushPlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/cordova-plugin-gcmpushplugin/src/android/com/gonzaloaune/cordova/plugin/gcm/GPPActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/cordova-plugin-gcmpushplugin/src/android/com/gonzaloaune/cordova/plugin/gcm/GPPInstanceIDListenerService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/cordova-plugin-gcmpushplugin/src/android/com/gonzaloaune/cordova/plugin/gcm/GPPListenerService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/cordova-plugin-gcmpushplugin/src/android/com/gonzaloaune/cordova/plugin/gcm/GPPRegistrationIntentService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/cordova-plugin-gcmpushplugin/src/ios/AppDelegate+Notification.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/cordova-plugin-gcmpushplugin/src/ios/AppDelegate+Notification.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/cordova-plugin-gcmpushplugin/src/ios/GCMPushPlugin.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/cordova-plugin-gcmpushplugin/src/ios/GCMPushPlugin.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cordova/plugins/cordova-plugin-gcmpushplugin/www/gpp.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/00e17f5051c44eedf927fcf7b0bd136967ad13d4/_Panel.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_appearance.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_background-clip.scssc" afterPath="" />
@@ -769,6 +792,17 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_all.scssc" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/utils/Notification.js" afterPath="$PROJECT_DIR$/app/utils/Notification.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/cordova/platforms/android/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/android.json" afterPath="$PROJECT_DIR$/cordova/platforms/android/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/app.js" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/build.gradle" afterPath="$PROJECT_DIR$/cordova/platforms/android/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova/platforms/android/platform_www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/project.properties" afterPath="$PROJECT_DIR$/cordova/platforms/android/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/cordova/platforms/android/res/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/plugins/android.json" afterPath="$PROJECT_DIR$/cordova/plugins/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/plugins/fetch.json" afterPath="$PROJECT_DIR$/cordova/plugins/fetch.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/www/app.js" afterPath="$PROJECT_DIR$/cordova/www/app.js" />
     </list>
     <ignored path="app.driveo.m-w.solutions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -790,11 +824,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Config.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/utils/Config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3825">
-              <caret line="255" column="35" selection-start-line="255" selection-start-column="35" selection-end-line="255" selection-end-column="35" />
+            <state relative-caret-position="690">
+              <caret line="46" column="31" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -834,11 +868,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Notification.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Notification.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/utils/Notification.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="39" column="57" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+            <state relative-caret-position="293">
+              <caret line="114" column="24" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -1140,12 +1174,12 @@
       <updated>1449765385989</updated>
       <workItem from="1458846600372" duration="701000" />
       <workItem from="1459186115468" duration="1046000" />
-      <workItem from="1459243552597" duration="2296000" />
+      <workItem from="1459243552597" duration="3033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4043000" />
+    <option name="totallyTimeSpent" value="4780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="896" width="1877" height="1084" extended-state="6" />
@@ -1518,14 +1552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/utils/Config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3825">
-          <caret line="255" column="35" selection-start-line="255" selection-start-column="35" selection-end-line="255" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/FicheOrdonnance.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1995">
@@ -1556,8 +1582,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/utils/Notification.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="39" column="57" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+        <state relative-caret-position="293">
+          <caret line="114" column="24" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/utils/Config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="31" />
           <folding />
         </state>
       </provider>

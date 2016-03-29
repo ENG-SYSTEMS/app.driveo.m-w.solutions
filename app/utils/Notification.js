@@ -5,7 +5,7 @@ Ext.define('frontapp.utils.Notification', {
     config: {
 
     },
-    successHandler: function (result) {
+    /*successHandler: function (result) {
         console.log("Notification Token: " + result.gcm);
         //envoi du register id au server
         var url = frontapp.utils.Config.getDomain()+'/Systeme/Device/registerDevice.json';
@@ -31,10 +31,10 @@ Ext.define('frontapp.utils.Notification', {
     },
     errorHandler: function (error) {
         console.log("GCM Push Error: " + error);
-    },
+    },*/
     register: function () {
 
-        if (device.platform == 'Android'){
+        /*if (device.platform == 'Android'){
             console.log('register device to GCM: Android');
             window.GcmPushPlugin.register(this.successHandler, this.errorHandler, {
                 "senderId":frontapp.utils.Config.getSenderId(),
@@ -84,14 +84,14 @@ Ext.define('frontapp.utils.Notification', {
                     me.redirectTo('ordonnance')
                     break;
             }
-        }
+        }*/
 
         /*****
          *  CLASSIC PUSH PLUGIN
          *  Need to do another config for ios.
          */
         //initialisation du push
-        /*var push = PushNotification.init({
+        var push = PushNotification.init({
             android: {
                 senderID: frontapp.utils.Config.getSenderId()
             },
@@ -165,6 +165,6 @@ Ext.define('frontapp.utils.Notification', {
         push.on('error', function(e) {
             console.log('receive notification error', e.message);
             // e.message
-        });*/
+        });
     }
 });

@@ -53,15 +53,15 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"GCMPushPlugin\"><param name=\"android-package\" value=\"com.gonzaloaune.cordova.gcm.GCMPushPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"Notification\"><param name=\"android-package\" value=\"org.apache.cordova.dialogs.Notification\" /></feature>",
                             "count": 1
                         },
                         {
                             "xml": "<feature name=\"LocalNotification\"><param name=\"android-package\" value=\"de.appplant.cordova.plugin.localnotification.LocalNotification\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"PushNotification\"><param name=\"android-package\" value=\"com.adobe.phonegap.push.PushPlugin\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -80,26 +80,6 @@
                         },
                         {
                             "xml": "<activity android:label=\"@string/share_name\" android:name=\"com.google.zxing.client.android.HelpActivity\"><intent-filter><action android:name=\"android.intent.action.VIEW\" /><category android:name=\"android.intent.category.DEFAULT\" /></intent-filter></activity>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<activity android:exported=\"true\" android:name=\"com.gonzaloaune.cordova.gcm.GPPActivity\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<receiver android:name=\"com.google.android.gms.gcm.GcmReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\"><intent-filter><action android:name=\"com.google.android.c2dm.intent.RECEIVE\" /><action android:name=\"com.google.android.c2dm.intent.REGISTRATION\" /><category android:name=\"castanet.app.driveo.m_w.solutions\" /></intent-filter></receiver>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<service android:name=\"com.gonzaloaune.cordova.gcm.GPPListenerService\"><intent-filter><action android:name=\"com.google.android.c2dm.intent.RECEIVE\" /></intent-filter></service>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<service android:name=\"com.gonzaloaune.cordova.gcm.GPPInstanceIDListenerService\"><intent-filter><action android:name=\"com.google.android.gms.iid.InstanceID\" /></intent-filter></service>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<service android:exported=\"false\" android:name=\"com.gonzaloaune.cordova.gcm.GPPRegistrationIntentService\"></service>",
                             "count": 1
                         },
                         {
@@ -129,6 +109,30 @@
                         {
                             "xml": "<activity android:exported=\"false\" android:launchMode=\"singleInstance\" android:name=\"de.appplant.cordova.plugin.notification.ClickActivity\" android:theme=\"@android:style/Theme.NoDisplay\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<activity android:exported=\"true\" android:name=\"com.adobe.phonegap.push.PushHandlerActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:name=\"com.adobe.phonegap.push.BackgroundActionButtonHandler\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:exported=\"true\" android:name=\"com.google.android.gms.gcm.GcmReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\"><intent-filter><action android:name=\"com.google.android.c2dm.intent.RECEIVE\" /><category android:name=\"castanet.app.driveo.m_w.solutions\" /></intent-filter></receiver>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<service android:exported=\"false\" android:name=\"com.adobe.phonegap.push.GCMIntentService\"><intent-filter><action android:name=\"com.google.android.c2dm.intent.RECEIVE\" /></intent-filter></service>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<service android:exported=\"false\" android:name=\"com.adobe.phonegap.push.PushInstanceIDListenerService\"><intent-filter><action android:name=\"com.google.android.gms.iid.InstanceID\" /></intent-filter></service>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<service android:exported=\"false\" android:name=\"com.adobe.phonegap.push.RegistrationIntentService\"></service>",
+                            "count": 1
                         }
                     ],
                     "/manifest": [
@@ -145,11 +149,19 @@
                             "count": 1
                         },
                         {
-                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "xml": "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />",
                             "count": 1
                         },
                         {
-                            "xml": "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />",
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
                             "count": 1
                         },
                         {
@@ -170,14 +182,6 @@
                         },
                         {
                             "xml": "<uses-permission android:name=\"castanet.app.driveo.m_w.solutions.permission.C2D_MESSAGE\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
                             "count": 1
                         }
                     ],
@@ -675,6 +679,10 @@
                         {
                             "xml": "<string name=\"wifi_type_label\">Type</string>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"google_app_id\">911879983462</string>",
+                            "count": 1
                         }
                     ]
                 }
@@ -703,9 +711,6 @@
         "cordova-plugin-network-information": {
             "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
         },
-        "cordova-plugin-gcmpushplugin": {
-            "PACKAGE_NAME": "castanet.app.driveo.m_w.solutions"
-        },
         "cordova-plugin-app-event": {
             "PACKAGE_NAME": "castanet.app.driveo.m_w.solutions"
         },
@@ -713,6 +718,10 @@
             "PACKAGE_NAME": "castanet.app.driveo.m_w.solutions"
         },
         "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "castanet.app.driveo.m_w.solutions"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "911879983462",
             "PACKAGE_NAME": "castanet.app.driveo.m_w.solutions"
         }
     },
@@ -798,14 +807,6 @@
             ]
         },
         {
-            "file": "plugins/cordova-plugin-gcmpushplugin/www/gpp.js",
-            "id": "cordova-plugin-gcmpushplugin.GCMPushPlugin",
-            "pluginId": "cordova-plugin-gcmpushplugin",
-            "clobbers": [
-                "GcmPushPlugin"
-            ]
-        },
-        {
             "file": "plugins/cordova-plugin-dialogs/www/notification.js",
             "id": "cordova-plugin-dialogs.notification",
             "pluginId": "cordova-plugin-dialogs",
@@ -847,6 +848,14 @@
                 "cordova.plugins.notification.local.core",
                 "plugin.notification.local.core"
             ]
+        },
+        {
+            "file": "plugins/phonegap-plugin-push/www/push.js",
+            "id": "phonegap-plugin-push.PushNotification",
+            "pluginId": "phonegap-plugin-push",
+            "clobbers": [
+                "PushNotification"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -857,9 +866,9 @@
         "cordova-plugin-camera": "2.1.0",
         "cordova-plugin-device": "1.1.1",
         "cordova-plugin-network-information": "1.2.0",
-        "cordova-plugin-gcmpushplugin": "1.2.0",
         "cordova-plugin-app-event": "1.2.0",
         "cordova-plugin-dialogs": "1.2.0",
-        "de.appplant.cordova.plugin.local-notification": "0.8.4"
+        "de.appplant.cordova.plugin.local-notification": "0.8.4",
+        "phonegap-plugin-push": "1.6.1"
     }
 }

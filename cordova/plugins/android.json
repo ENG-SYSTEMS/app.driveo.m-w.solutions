@@ -53,9 +53,6 @@
         "cordova-plugin-network-information": {
             "PACKAGE_NAME": "ecluse.app.driveo.m_w.solutions"
         },
-        "cordova-plugin-gcmpushplugin": {
-            "PACKAGE_NAME": "castanet.app.driveo.m_w.solutions"
-        },
         "cordova-plugin-app-event": {
             "PACKAGE_NAME": "castanet.app.driveo.m_w.solutions"
         },
@@ -63,6 +60,10 @@
             "PACKAGE_NAME": "castanet.app.driveo.m_w.solutions"
         },
         "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "castanet.app.driveo.m_w.solutions"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "911879983462",
             "PACKAGE_NAME": "castanet.app.driveo.m_w.solutions"
         }
     },

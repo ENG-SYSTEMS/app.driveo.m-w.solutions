@@ -55,14 +55,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-gcmpushplugin": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-gcmpushplugin"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-app-event": {
         "source": {
             "type": "registry",
@@ -86,5 +78,15 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "phonegap-plugin-push": {
+        "source": {
+            "type": "registry",
+            "id": "phonegap-plugin-push"
+        },
+        "is_top_level": true,
+        "variables": {
+            "SENDER_ID": "911879983462"
+        }
     }
 }
