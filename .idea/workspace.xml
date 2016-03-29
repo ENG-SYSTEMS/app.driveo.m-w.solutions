@@ -791,8 +791,10 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Toolbar.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_all.scssc" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/Ordonnance.js" afterPath="$PROJECT_DIR$/app/controller/Ordonnance.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/utils/Notification.js" afterPath="$PROJECT_DIR$/app/utils/Notification.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/config.xml" afterPath="$PROJECT_DIR$/cordova/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.js" afterPath="$PROJECT_DIR$/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.json" afterPath="$PROJECT_DIR$/bootstrap.json" />
     </list>
     <ignored path="app.driveo.m-w.solutions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -817,7 +819,7 @@
       <file leaf-file-name="Config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/utils/Config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
+            <state relative-caret-position="-120">
               <caret line="46" column="31" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="31" />
               <folding />
             </state>
@@ -839,8 +841,8 @@
       <file leaf-file-name="EnvoyerOrdonnance.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/EnvoyerOrdonnance.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2130">
-              <caret line="142" column="88" selection-start-line="142" selection-start-column="88" selection-end-line="142" selection-end-column="88" />
+            <state relative-caret-position="278">
+              <caret line="92" column="56" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="56" />
               <folding>
                 <marker date="1458846566103" expanded="true" signature="21801:22258" placeholder="..." />
               </folding>
@@ -848,31 +850,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ordonnance.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Ordonnance.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controller/Ordonnance.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+            <state relative-caret-position="818">
+              <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Notification.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="261" column="33" selection-start-line="261" selection-start-column="33" selection-end-line="261" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notification.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/utils/Notification.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="127" column="23" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResetPassword.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/ResetPassword.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            <state relative-caret-position="150">
+              <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -908,16 +910,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_animation.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/include/_animation.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -931,7 +923,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/controller/Ordonnance.js" />
         <option value="$PROJECT_DIR$/current" />
         <option value="$PROJECT_DIR$/resources/sass/include/_textfields.scss" />
         <option value="$PROJECT_DIR$/app/view/Ordonnance.js" />
@@ -958,6 +949,7 @@
         <option value="$PROJECT_DIR$/app/utils/Config.js.cours" />
         <option value="$PROJECT_DIR$/app/utils/Config.js.ecluse" />
         <option value="$PROJECT_DIR$/app/utils/Notification.js" />
+        <option value="$PROJECT_DIR$/app/controller/Ordonnance.js" />
       </list>
     </option>
   </component>
@@ -1004,7 +996,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1094,6 +1085,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1168,12 +1160,15 @@
       <workItem from="1459252374280" duration="113000" />
       <workItem from="1459254369651" duration="709000" />
       <workItem from="1459255922967" duration="637000" />
-      <workItem from="1459266360439" duration="142000" />
+      <workItem from="1459266360439" duration="743000" />
+      <workItem from="1459268083757" duration="105000" />
+      <workItem from="1459269775379" duration="69000" />
+      <workItem from="1459270150517" duration="1775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7221000" />
+    <option name="totallyTimeSpent" value="9771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="896" width="1877" height="1084" extended-state="6" />
@@ -1436,13 +1431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1484,13 +1472,6 @@
         <state relative-caret-position="435">
           <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1266">
-          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1556,10 +1537,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/utils/Notification.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="261" column="33" selection-start-line="261" selection-start-column="33" selection-end-line="261" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/utils/Config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="94" column="23" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/EnvoyerOrdonnance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2130">
-          <caret line="142" column="88" selection-start-line="142" selection-start-column="88" selection-end-line="142" selection-end-column="88" />
+        <state relative-caret-position="278">
+          <caret line="92" column="56" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="56" />
           <folding>
             <marker date="1458846566103" expanded="true" signature="21801:22258" placeholder="..." />
           </folding>
@@ -1568,24 +1581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/Ordonnance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/utils/Config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/utils/Notification.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="127" column="23" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
+        <state relative-caret-position="818">
+          <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
           <folding />
         </state>
       </provider>

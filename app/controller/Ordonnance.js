@@ -15,7 +15,8 @@ Ext.define('frontapp.controller.Ordonnance', {
         viewCache: [],
 
         refs: {
-            ordonnanceImage: '[action=ordonnancePhoto]',
+            ordonnancePhoto: '[action=ordonnancePhoto]',
+            ordonnanceImage: '[action=ordonnanceImage]',
             ordonnanceCommentaire: '[action=ordonnanceCommentaire]',
             ordonnanceSachetDose: '[action=ordonnanceSachetDose]',
             ordonnanceLivraison: '[action=ordonnanceLivraison]',
@@ -54,7 +55,7 @@ Ext.define('frontapp.controller.Ordonnance', {
         var data = {
             logkey: frontapp.utils.Config.getCurrentKey(),
             user_id: frontapp.utils.Config.getCurrentUser().user_id,
-            Image: this.getOrdonnanceImage().getValue(),
+            Image: this.getOrdonnancePhoto().getValue(),
             Commentaire: this.getOrdonnanceCommentaire().getValue(),
             SachetDose: this.getOrdonnanceSachetDose().getValue(),
             Livraison: this.getOrdonnanceLivraison().getValue(),
@@ -76,11 +77,13 @@ Ext.define('frontapp.controller.Ordonnance', {
                 curview.setMasked(false);
 
                 //enregistrement du commentaire en local
-                console.log('véhicule envoyé avec succés');
                 var produitStore = Ext.getStore('Produits');
                 produitStore.load();
 
-                if (!data.id) me.redirectTo('main');
+                me.redirectTo('ordonnance');
+                //on reinistialise le formulaire
+
+                me.resetForm();
             },
             failure: function(response, opts) {
                 //suppression du masque
@@ -89,5 +92,12 @@ Ext.define('frontapp.controller.Ordonnance', {
                 Ext.Msg.alert('Erreur de connexion', 'Il y a un problème veuillez réessayer ultérieurement.');
             }
         });
+    },
+    resetForm: function () {
+        var Image= this.getOrdonnanceImage(),
+            Commentaire = this.getOrdonnanceCommentaire();
+
+        Image.setSrc('');
+        Commentaire.setValue('');
     }
 });

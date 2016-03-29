@@ -33,7 +33,7 @@ Ext.define('frontapp.utils.Notification', {
         console.log("GCM Push Error: " + error);
     },*/
     register: function () {
-
+        var me = this;
         /*if (device.platform == 'Android'){
             console.log('register device to GCM: Android');
             window.GcmPushPlugin.register(this.successHandler, this.errorHandler, {
