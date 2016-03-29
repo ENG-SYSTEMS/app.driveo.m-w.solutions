@@ -99,7 +99,7 @@ Ext.define('frontapp.utils.Notification', {
                 alert: "true",
                 badge: "true",
                 sound: "true",
-                usesGCM:true,
+                usesGCM:false,
                 sandbox:false
             },
             windows: {}
