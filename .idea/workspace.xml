@@ -3690,333 +3690,13 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/f6610e71c8b5df9022fed40a4260052dffa780b3/_DataView.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/f6610e71c8b5df9022fed40a4260052dffa780b3/_IndexBar.scssc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/f6610e71c8b5df9022fed40a4260052dffa780b3/_List.scssc" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/CordovaLib/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/CordovaLib/build/intermediates/bundles/debug/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/CordovaLib/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/CordovaLib/build/intermediates/bundles/release/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-release.aar" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/CordovaLib/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/CordovaLib/build/intermediates/bundles/debug/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/CordovaLib/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/CordovaLib/build/intermediates/bundles/release/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-release.aar" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/assets/www/resources/images/DRIVEO-frontapp.png" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/assets/www/resources/images/DRIVEO-frontapp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/assets/www/resources/images/logo_menu.png" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/assets/www/resources/images/logo_menu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/res/drawable/icon.png" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/res/drawable/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/res/icon.png" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/res/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/www/resources/images/DRIVEO-frontapp.png" afterPath="$PROJECT_DIR$/cordova.last/www/resources/images/DRIVEO-frontapp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/www/resources/images/logo_menu.png" afterPath="$PROJECT_DIR$/cordova.last/www/resources/images/logo_menu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/cordova/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/CordovaLib/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/cordova/platforms/android/CordovaLib/build/intermediates/bundles/debug/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/CordovaLib/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/cordova/platforms/android/CordovaLib/build/intermediates/bundles/release/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" afterPath="$PROJECT_DIR$/cordova/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-release.aar" afterPath="$PROJECT_DIR$/cordova/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/images/DRIVEO-frontapp.png" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/images/DRIVEO-frontapp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/images/logo_menu.png" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/images/logo_menu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/res/drawable/icon.png" afterPath="$PROJECT_DIR$/cordova/platforms/android/res/drawable/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/res/icon.png" afterPath="$PROJECT_DIR$/cordova/platforms/android/res/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/www/resources/images/DRIVEO-frontapp.png" afterPath="$PROJECT_DIR$/cordova/www/resources/images/DRIVEO-frontapp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/www/resources/images/logo_menu.png" afterPath="$PROJECT_DIR$/cordova/www/resources/images/logo_menu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/images/DRIVEO-frontapp.png" afterPath="$PROJECT_DIR$/resources.last/images/DRIVEO-frontapp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/images/logo_menu.png" afterPath="$PROJECT_DIR$/resources.last/images/logo_menu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/DRIVEO-frontapp.png" afterPath="$PROJECT_DIR$/resources/images/DRIVEO-frontapp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/logo_menu.png" afterPath="$PROJECT_DIR$/resources/images/logo_menu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/00e17f5051c44eedf927fcf7b0bd136967ad13d4/_Panel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/00e17f5051c44eedf927fcf7b0bd136967ad13d4/_Panel.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_appearance.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_appearance.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_background-clip.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_background-clip.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_background-origin.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_background-origin.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_background-size.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_background-size.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_border-radius.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_border-radius.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_box-shadow.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_box-shadow.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_box-sizing.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_box-sizing.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_box.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_box.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_columns.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_columns.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_filter.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_filter.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_font-face.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_font-face.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_hyphenation.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_hyphenation.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_images.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_images.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_inline-block.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_inline-block.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_opacity.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_opacity.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_regions.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_regions.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_shared.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_shared.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_text-shadow.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_text-shadow.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_transform.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_transform.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_transition.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0324355efaae9245b99a587b2904403588b6df79/_transition.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/057d8d53910c873d74003a078c1d29c6406aa40f/_ListPaging.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/057d8d53910c873d74003a078c1d29c6406aa40f/_ListPaging.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/057d8d53910c873d74003a078c1d29c6406aa40f/_PullRefresh.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/057d8d53910c873d74003a078c1d29c6406aa40f/_PullRefresh.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/08942a1c27cff14469b4da8214f9c768bfd875ac/_Table.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/08942a1c27cff14469b4da8214f9c768bfd875ac/_Table.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0a8c7c86f7f3e067db55c94d5ad10766dfc5b997/_Panel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0a8c7c86f7f3e067db55c94d5ad10766dfc5b997/_Panel.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0e6113827c3fe3eddb2a56a891d00b6fc10fb385/_float.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0e6113827c3fe3eddb2a56a891d00b6fc10fb385/_float.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/0e6113827c3fe3eddb2a56a891d00b6fc10fb385/_hacks.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/0e6113827c3fe3eddb2a56a891d00b6fc10fb385/_hacks.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_animation.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_animation.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_autoComplete.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_autoComplete.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_body.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_body.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_buttons.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_buttons.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_dashboard.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_dashboard.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_dropdownmenu.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_dropdownmenu.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_fieldsets.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_fieldsets.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_footer.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_footer.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_loading.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_loading.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_login.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_login.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_message.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_message.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_panel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_panel.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_popup.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_popup.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_product.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_product.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_product_list.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_product_list.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_scroll_container.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_scroll_container.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_search.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_search.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_selectfields.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_selectfields.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_sidebar.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_sidebar.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_textfields.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_textfields.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_titlebars.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_titlebars.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_toast.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_toast.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_toggle.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/142c96674d433ebb887e126d559d2cf41f27fae0/_toggle.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/23fbf0ebf9dd75631d8ba4c3481813e59d690dc3/_PaintMonitor.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/23fbf0ebf9dd75631d8ba4c3481813e59d690dc3/_PaintMonitor.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/23fbf0ebf9dd75631d8ba4c3481813e59d690dc3/_SizeMonitor.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/23fbf0ebf9dd75631d8ba4c3481813e59d690dc3/_SizeMonitor.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/23fbf0ebf9dd75631d8ba4c3481813e59d690dc3/_Translatable.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/23fbf0ebf9dd75631d8ba4c3481813e59d690dc3/_Translatable.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/30cd81b7aed21d733005d9548bca9367377c0f1c/_color.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/30cd81b7aed21d733005d9548bca9367377c0f1c/_color.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/32df767949c8dd4aa798ab8131cfa4cf45746b4f/_Class.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/32df767949c8dd4aa798ab8131cfa4cf45746b4f/_Class.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/399538146443be63fec1acfc7db48014c393fc9c/_AbstractChart.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/399538146443be63fec1acfc7db48014c393fc9c/_AbstractChart.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/3ffb53c4d62c53c42ba707443600631cf967c384/_Grid.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/3ffb53c4d62c53c42ba707443600631cf967c384/_Grid.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_blueprint-grid.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_blueprint-grid.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_gradients.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_gradients.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_lined-paper.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_lined-paper.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_madras.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_madras.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_noise.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_noise.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_stripes.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_stripes.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_tartan.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/400aa4e812b912ea1eb0a50aaa38ebc66ec5a59f/_tartan.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/43ca993cf4282d1ced959bbe34632d5573f119bc/_float.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/43ca993cf4282d1ced959bbe34632d5573f119bc/_float.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/43ca993cf4282d1ced959bbe34632d5573f119bc/_hacks.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/43ca993cf4282d1ced959bbe34632d5573f119bc/_hacks.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/484414a50f59cf25325b2b60be50d33eef52ac28/_DataView.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/484414a50f59cf25325b2b60be50d33eef52ac28/_DataView.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/484414a50f59cf25325b2b60be50d33eef52ac28/_IndexBar.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/484414a50f59cf25325b2b60be50d33eef52ac28/_IndexBar.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/484414a50f59cf25325b2b60be50d33eef52ac28/_List.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/484414a50f59cf25325b2b60be50d33eef52ac28/_List.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_animation.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_animation.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_body.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_body.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_buttons.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_buttons.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_dropdownmenu.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_dropdownmenu.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_login.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_login.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_panel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_panel.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_popup.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_popup.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_product.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_product.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_product_list.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_product_list.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_selectfields.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_selectfields.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_textfields.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_textfields.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_titlebars.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_titlebars.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_toast.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_toast.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_toggle.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/490b8883f60908ddf671b3d42059593e63439927/_toggle.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Abstract.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Abstract.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Box.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Box.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Card.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Card.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Dock.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Dock.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Fit.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Fit.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Float.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/5112750c15216eacce23469a4d54f460ecfbee9f/_Float.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/6ad6ab3a7d506c3cb8d9c4d3031069891fe4477d/app.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/6ad6ab3a7d506c3cb8d9c4d3031069891fe4477d/app.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/7018000cba795f752cfe27475eba96f740786218/_link-colors.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/7018000cba795f752cfe27475eba96f740786218/_link-colors.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/743cd6de073fa739b7a846bb6d28d6628787f915/_support.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/743cd6de073fa739b7a846bb6d28d6628787f915/_support.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_appearance.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_appearance.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_background-clip.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_background-clip.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_background-origin.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_background-origin.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_background-size.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_background-size.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_border-radius.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_border-radius.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_box-shadow.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_box-shadow.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_box-sizing.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_box-sizing.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_box.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_box.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_columns.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_columns.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_filter.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_filter.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_font-face.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_font-face.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_hyphenation.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_hyphenation.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_images.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_images.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_inline-block.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_inline-block.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_opacity.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_opacity.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_regions.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_regions.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_shared.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_shared.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_text-shadow.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_text-shadow.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_transform.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_transform.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_transition.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/749195d3c80068abf41c1b2f91cdf737c6da2fff/_transition.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/7e5bc6774b9b061d630df2640b0372c246199d73/_Class.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/7e5bc6774b9b061d630df2640b0372c246199d73/_Class.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/7e5bc6774b9b061d630df2640b0372c246199d73/_ProgressIndicator.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/7e5bc6774b9b061d630df2640b0372c246199d73/_ProgressIndicator.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/8051cb7eb1150f2bfdf9335ad5f71a3fd6529be6/_typography.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/8051cb7eb1150f2bfdf9335ad5f71a3fd6529be6/_typography.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/87e3640012a052e3ac54c44672d26e39f29cb6a5/_link-colors.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/87e3640012a052e3ac54c44672d26e39f29cb6a5/_link-colors.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/926da4bf731baff5190a08870a3c52a73078dfc0/_color.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/926da4bf731baff5190a08870a3c52a73078dfc0/_color.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/9ade803f7fb2d8acd04c95d8d51c5b226c14be53/_Slider.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/9ade803f7fb2d8acd04c95d8d51c5b226c14be53/_Slider.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/9c9a5cf237ddf31b87e4cea9302dfe50b16d344a/_Picker.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/9c9a5cf237ddf31b87e4cea9302dfe50b16d344a/_Picker.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/9ce60ccda6306afa3d5a2608603f86a00c5af8b9/_colors.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/9ce60ccda6306afa3d5a2608603f86a00c5af8b9/_colors.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/9ce60ccda6306afa3d5a2608603f86a00c5af8b9/_typography.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/9ce60ccda6306afa3d5a2608603f86a00c5af8b9/_typography.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/b9e2ff007ad8c887ed343820e759a8aec9b80abe/_support.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/b9e2ff007ad8c887ed343820e759a8aec9b80abe/_support.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/bdd155a754acdbb5a96d5654b01fe1e9469636a2/_Scroller.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/bdd155a754acdbb5a96d5654b01fe1e9469636a2/_Scroller.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_blueprint-grid.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_blueprint-grid.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_carbon-fiber.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_carbon-fiber.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_checkerboard.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_checkerboard.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_cicada.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_cicada.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_gradients.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_gradients.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_houndstooth.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_houndstooth.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_lined-paper.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_lined-paper.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_madras.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_madras.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_noise.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_noise.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_polka-dot.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_polka-dot.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_radial-overlay.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_radial-overlay.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_striped.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_striped.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_stripes.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_stripes.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_tablecloth.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_tablecloth.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_tartan.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/be0ad34cea8c047d2925741bd9992b6698f8221a/_tartan.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/c0263bbaad562020472274022c04b6f726ee3432/_Default.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/c0263bbaad562020472274022c04b6f726ee3432/_Default.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/cab605f10da13422245513c6805ba7c0c3dd625e/_Carousel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/cab605f10da13422245513c6805ba7c0c3dd625e/_Carousel.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/d3131b30c3fcac3a683f21557d7d120b5e87f1ab/_Class.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/d3131b30c3fcac3a683f21557d7d120b5e87f1ab/_Class.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/d418961dab12e99c8bd5be412c423ccbeb35d412/_AbstractChart.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/d418961dab12e99c8bd5be412c423ccbeb35d412/_AbstractChart.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/f35816c4e7272f2bae3c0ea4ff4f432c7c1a231e/_base.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/f35816c4e7272f2bae3c0ea4ff4f432c7c1a231e/_base.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Button.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Button.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Class.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Class.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Img.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Img.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Map.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Map.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Mask.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Mask.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Media.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Media.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Menu.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Menu.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_MessageBox.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_MessageBox.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Panel.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Panel.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_ProgressIndicator.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_ProgressIndicator.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Sheet.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Sheet.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Toast.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Toast.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Toolbar.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_Toolbar.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_all.scssc" afterPath="$PROJECT_DIR$/resources/sass/.sass-cache/fce95c74185f4d9b9329e538fd42970b8a998f55/_all.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json.castanet" afterPath="$PROJECT_DIR$/app.json.castanet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json.last" afterPath="$PROJECT_DIR$/app.json.last" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/utils/Config.js" afterPath="$PROJECT_DIR$/app/utils/Config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/utils/Config.js.castanet" afterPath="$PROJECT_DIR$/app/utils/Config.js.castanet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/utils/Config.js.last" afterPath="$PROJECT_DIR$/app/utils/Config.js.last" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.js" afterPath="$PROJECT_DIR$/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.json" afterPath="$PROJECT_DIR$/bootstrap.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/temp/development/frontapp/sencha-compiler/app/full-page-master-bundle.js" afterPath="$PROJECT_DIR$/build/temp/development/frontapp/sencha-compiler/app/full-page-master-bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/config.xml" afterPath="$PROJECT_DIR$/cordova.castanet/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/CordovaLib/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/CordovaLib/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/CordovaLib/build/intermediates/incremental/mergeAssets/release/merger.xml" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/CordovaLib/build/intermediates/incremental/mergeAssets/release/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/CordovaLib/build/intermediates/incremental/packageResources/debug/merger.xml" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/CordovaLib/build/intermediates/incremental/packageResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/CordovaLib/build/intermediates/incremental/packageResources/release/merger.xml" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/CordovaLib/build/intermediates/incremental/packageResources/release/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/android.json" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/assets/www/app.js" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/assets/www/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/assets/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/assets/www/resources/css/app.css" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/assets/www/resources/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/build.gradle" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/platform_www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/project.properties" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/res/values/strings.xml" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/platforms/platforms.json" afterPath="$PROJECT_DIR$/cordova.castanet/platforms/platforms.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/plugins/android.json" afterPath="$PROJECT_DIR$/cordova.castanet/plugins/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/plugins/fetch.json" afterPath="$PROJECT_DIR$/cordova.castanet/plugins/fetch.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/www/app.js" afterPath="$PROJECT_DIR$/cordova.castanet/www/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/www/index.html" afterPath="$PROJECT_DIR$/cordova.castanet/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.castanet/www/resources/css/app.css" afterPath="$PROJECT_DIR$/cordova.castanet/www/resources/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/config.xml" afterPath="$PROJECT_DIR$/cordova.last/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/CordovaLib/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/CordovaLib/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/CordovaLib/build/intermediates/incremental/mergeAssets/release/merger.xml" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/CordovaLib/build/intermediates/incremental/mergeAssets/release/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/CordovaLib/build/intermediates/incremental/packageResources/debug/merger.xml" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/CordovaLib/build/intermediates/incremental/packageResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/CordovaLib/build/intermediates/incremental/packageResources/release/merger.xml" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/CordovaLib/build/intermediates/incremental/packageResources/release/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/android.json" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/assets/www/app.js" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/assets/www/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/assets/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/assets/www/resources/css/app.css" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/assets/www/resources/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/build.gradle" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/platform_www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/project.properties" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/res/values/strings.xml" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/android/src/com/adobe/phonegap/push/GCMIntentService.java" afterPath="$PROJECT_DIR$/cordova.last/platforms/android/src/com/adobe/phonegap/push/GCMIntentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/platforms/platforms.json" afterPath="$PROJECT_DIR$/cordova.last/platforms/platforms.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/plugins/android.json" afterPath="$PROJECT_DIR$/cordova.last/plugins/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/plugins/de.appplant.cordova.plugin.local-notification/src/windows/LocalNotificationCore.js" afterPath="$PROJECT_DIR$/cordova.last/plugins/de.appplant.cordova.plugin.local-notification/src/windows/LocalNotificationCore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/plugins/fetch.json" afterPath="$PROJECT_DIR$/cordova.last/plugins/fetch.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/CHANGELOG.md" afterPath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/docs/API.md" afterPath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/docs/API.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/docs/INSTALLATION.md" afterPath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/docs/INSTALLATION.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/docs/PAYLOAD.md" afterPath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/docs/PAYLOAD.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/docs/PHONEGAP_BUILD.md" afterPath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/docs/PHONEGAP_BUILD.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/package.json" afterPath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/plugin.xml" afterPath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/src/android/com/adobe/phonegap/push/GCMIntentService.java" afterPath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/src/android/com/adobe/phonegap/push/GCMIntentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/src/ios/PushPlugin.h" afterPath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/src/ios/PushPlugin.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/src/ios/PushPlugin.m" afterPath="$PROJECT_DIR$/cordova.last/plugins/phonegap-plugin-push/src/ios/PushPlugin.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/www/app.js" afterPath="$PROJECT_DIR$/cordova.last/www/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/www/index.html" afterPath="$PROJECT_DIR$/cordova.last/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova.last/www/resources/css/app.css" afterPath="$PROJECT_DIR$/cordova.last/www/resources/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/config.xml" afterPath="$PROJECT_DIR$/cordova/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/cordova/platforms/android/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/CordovaLib/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/cordova/platforms/android/CordovaLib/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/CordovaLib/build/intermediates/incremental/mergeAssets/release/merger.xml" afterPath="$PROJECT_DIR$/cordova/platforms/android/CordovaLib/build/intermediates/incremental/mergeAssets/release/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/CordovaLib/build/intermediates/incremental/packageResources/debug/merger.xml" afterPath="$PROJECT_DIR$/cordova/platforms/android/CordovaLib/build/intermediates/incremental/packageResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/CordovaLib/build/intermediates/incremental/packageResources/release/merger.xml" afterPath="$PROJECT_DIR$/cordova/platforms/android/CordovaLib/build/intermediates/incremental/packageResources/release/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/android.json" afterPath="$PROJECT_DIR$/cordova/platforms/android/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/app.js" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/css/app.css" afterPath="$PROJECT_DIR$/cordova/platforms/android/assets/www/resources/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/build.gradle" afterPath="$PROJECT_DIR$/cordova/platforms/android/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/cordova/platforms/android/platform_www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/project.properties" afterPath="$PROJECT_DIR$/cordova/platforms/android/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/res/values/strings.xml" afterPath="$PROJECT_DIR$/cordova/platforms/android/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/cordova/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/platforms/platforms.json" afterPath="$PROJECT_DIR$/cordova/platforms/platforms.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/plugins/android.json" afterPath="$PROJECT_DIR$/cordova/plugins/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/plugins/de.appplant.cordova.plugin.local-notification/src/windows/LocalNotificationCore.js" afterPath="$PROJECT_DIR$/cordova/plugins/de.appplant.cordova.plugin.local-notification/src/windows/LocalNotificationCore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/plugins/fetch.json" afterPath="$PROJECT_DIR$/cordova/plugins/fetch.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/www/app.js" afterPath="$PROJECT_DIR$/cordova/www/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/www/index.html" afterPath="$PROJECT_DIR$/cordova/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cordova/www/resources/css/app.css" afterPath="$PROJECT_DIR$/cordova/www/resources/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/current" afterPath="$PROJECT_DIR$/current" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.castanet/css/app.css" afterPath="$PROJECT_DIR$/resources.castanet/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.castanet/sass/app.scss" afterPath="$PROJECT_DIR$/resources.castanet/sass/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.castanet/sass/include/_animation.scss" afterPath="$PROJECT_DIR$/resources.castanet/sass/include/_animation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.castanet/sass/include/_dashboard.scss" afterPath="$PROJECT_DIR$/resources.castanet/sass/include/_dashboard.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.castanet/sass/include/_toggle.scss" afterPath="$PROJECT_DIR$/resources.castanet/sass/include/_toggle.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/css/app.css" afterPath="$PROJECT_DIR$/resources.last/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/sass/include/_animation.scss" afterPath="$PROJECT_DIR$/resources.last/sass/include/_animation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/sass/include/_body.scss" afterPath="$PROJECT_DIR$/resources.last/sass/include/_body.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/sass/include/_buttons.scss" afterPath="$PROJECT_DIR$/resources.last/sass/include/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/sass/include/_dropdownmenu.scss" afterPath="$PROJECT_DIR$/resources.last/sass/include/_dropdownmenu.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/sass/include/_login.scss" afterPath="$PROJECT_DIR$/resources.last/sass/include/_login.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/sass/include/_panel.scss" afterPath="$PROJECT_DIR$/resources.last/sass/include/_panel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/sass/include/_popup.scss" afterPath="$PROJECT_DIR$/resources.last/sass/include/_popup.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/sass/include/_product.scss" afterPath="$PROJECT_DIR$/resources.last/sass/include/_product.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/sass/include/_product_list.scss" afterPath="$PROJECT_DIR$/resources.last/sass/include/_product_list.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/sass/include/_selectfields.scss" afterPath="$PROJECT_DIR$/resources.last/sass/include/_selectfields.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/sass/include/_textfields.scss" afterPath="$PROJECT_DIR$/resources.last/sass/include/_textfields.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/sass/include/_titlebars.scss" afterPath="$PROJECT_DIR$/resources.last/sass/include/_titlebars.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/sass/include/_toast.scss" afterPath="$PROJECT_DIR$/resources.last/sass/include/_toast.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/sass/include/_toggle.scss" afterPath="$PROJECT_DIR$/resources.last/sass/include/_toggle.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.last/sass/include/_valet_list.scss" afterPath="$PROJECT_DIR$/resources.last/sass/include/_valet_list.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/app.css" afterPath="$PROJECT_DIR$/resources/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_animation.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_animation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_body.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_body.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_buttons.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_buttons.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_dropdownmenu.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_dropdownmenu.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_login.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_login.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_panel.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_panel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_popup.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_popup.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_product.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_product.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_product_list.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_product_list.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_selectfields.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_selectfields.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_textfields.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_textfields.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_titlebars.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_titlebars.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_toast.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_toast.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_toggle.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_toggle.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/include/_valet_list.scss" afterPath="$PROJECT_DIR$/resources/sass/include/_valet_list.scss" />
     </list>
     <ignored path="app.driveo.m-w.solutions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -4038,25 +3718,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/utils/Config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-              <folding>
-                <marker date="1459281453706" expanded="true" signature="1404:1523" placeholder="/** applyDomain ...*/" />
-                <marker date="1459281453706" expanded="true" signature="1685:1733" placeholder="/** getDomain ...*/" />
-                <marker date="1459281453706" expanded="true" signature="2072:2172" placeholder="/** getLoginUrl ...*/" />
-                <marker date="1459281453706" expanded="true" signature="2317:2420" placeholder="/** getLogkeyUrl ...*/" />
-                <marker date="1459281453706" expanded="true" signature="2513:2640" placeholder="/** getCheckAlreadyLoggedUrl ...*/" />
-                <marker date="1459281453706" expanded="true" signature="2757:2875" placeholder="/** getVenteSaveUrl ...*/" />
-                <marker date="1459281453706" expanded="true" signature="2974:3086" placeholder="/** getProduitSaveUrl ...*/" />
-                <marker date="1459281453706" expanded="true" signature="3195:3256" placeholder="/** getRegistrationSaveUrl ...*/" />
-                <marker date="1459281453706" expanded="true" signature="3361:3419" placeholder="/** getResetPasswordUrl ...*/" />
-                <marker date="1459281453706" expanded="true" signature="3525:3606" placeholder="/** initLocation ...*/" />
-                <marker date="1459281453706" expanded="true" signature="4986:5094" placeholder="/** getCurrentAddressFromLocation ...*/" />
-                <marker date="1459281453706" expanded="true" signature="6157:6251" placeholder="/** MENU ANIMATION ...*/" />
-              </folding>
+            <state relative-caret-position="495">
+              <caret line="45" column="32" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_dropdownmenu.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sass/include/_dropdownmenu.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_animation.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sass/include/_animation.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -4085,21 +3772,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ordonnance.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Ordonnance.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controller/Ordonnance.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
+            <state relative-caret-position="923">
               <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cordova/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -4120,16 +3797,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DropdownMenu.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/DropdownMenu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -4172,7 +3839,6 @@
         <option value="$PROJECT_DIR$/resources/sass/include/_dashboard.scss" />
         <option value="$PROJECT_DIR$/resources.cours/sass/include/_message.scss" />
         <option value="$PROJECT_DIR$/resources.cours/sass/include/_animation.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/include/_animation.scss" />
         <option value="$PROJECT_DIR$/app/components/DropdownMenu.js" />
         <option value="$PROJECT_DIR$/app/view/Login.js" />
         <option value="$PROJECT_DIR$/app/controller/Main.js" />
@@ -4184,9 +3850,11 @@
         <option value="$PROJECT_DIR$/app/utils/Config.js.ecluse" />
         <option value="$PROJECT_DIR$/app/utils/Notification.js" />
         <option value="$PROJECT_DIR$/app/controller/Ordonnance.js" />
-        <option value="$PROJECT_DIR$/cordova/config.xml" />
         <option value="$PROJECT_DIR$/resources/sass/include/_body.scss" />
         <option value="$PROJECT_DIR$/app/utils/Config.js" />
+        <option value="$PROJECT_DIR$/resources/sass/include/_dropdownmenu.scss" />
+        <option value="$PROJECT_DIR$/resources/sass/include/_animation.scss" />
+        <option value="$PROJECT_DIR$/cordova/config.xml" />
       </list>
     </option>
   </component>
@@ -4234,7 +3902,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -4391,6 +4058,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4469,12 +4137,13 @@
       <workItem from="1459269775379" duration="69000" />
       <workItem from="1459270150517" duration="2315000" />
       <workItem from="1459274221492" duration="102000" />
-      <workItem from="1459274418426" duration="1344000" />
+      <workItem from="1459274418426" duration="2692000" />
+      <workItem from="1459319400751" duration="542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11757000" />
+    <option name="totallyTimeSpent" value="13647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="924" width="1877" height="1056" extended-state="6" />
@@ -4520,13 +4189,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources.bck/sass/include/_dashboard.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources.ecluse/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4744,13 +4406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/include/_animation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/ResetPassword.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -4762,7 +4417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2340">
           <caret line="156" column="54" selection-start-line="156" selection-start-column="54" selection-end-line="156" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4860,48 +4514,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/Ordonnance.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/include/_body.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="153" column="18" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/include/_dropdownmenu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cordova/config.xml">
+    <entry file="file://$PROJECT_DIR$/resources/sass/include/_animation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        <state relative-caret-position="210">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/utils/Config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <marker date="1459281453706" expanded="true" signature="1404:1523" placeholder="/** applyDomain ...*/" />
-            <marker date="1459281453706" expanded="true" signature="1685:1733" placeholder="/** getDomain ...*/" />
-            <marker date="1459281453706" expanded="true" signature="2072:2172" placeholder="/** getLoginUrl ...*/" />
-            <marker date="1459281453706" expanded="true" signature="2317:2420" placeholder="/** getLogkeyUrl ...*/" />
-            <marker date="1459281453706" expanded="true" signature="2513:2640" placeholder="/** getCheckAlreadyLoggedUrl ...*/" />
-            <marker date="1459281453706" expanded="true" signature="2757:2875" placeholder="/** getVenteSaveUrl ...*/" />
-            <marker date="1459281453706" expanded="true" signature="2974:3086" placeholder="/** getProduitSaveUrl ...*/" />
-            <marker date="1459281453706" expanded="true" signature="3195:3256" placeholder="/** getRegistrationSaveUrl ...*/" />
-            <marker date="1459281453706" expanded="true" signature="3361:3419" placeholder="/** getResetPasswordUrl ...*/" />
-            <marker date="1459281453706" expanded="true" signature="3525:3606" placeholder="/** initLocation ...*/" />
-            <marker date="1459281453706" expanded="true" signature="4986:5094" placeholder="/** getCurrentAddressFromLocation ...*/" />
-            <marker date="1459281453706" expanded="true" signature="6157:6251" placeholder="/** MENU ANIMATION ...*/" />
-          </folding>
+        <state relative-caret-position="495">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cordova/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Ordonnance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="923">
+          <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
