@@ -80,6 +80,14 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/phonegap-plugin-push/www/push.js",
+        "id": "phonegap-plugin-push.PushNotification",
+        "pluginId": "phonegap-plugin-push",
+        "clobbers": [
+            "PushNotification"
+        ]
+    },
+    {
         "file": "plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js",
         "id": "de.appplant.cordova.plugin.local-notification.LocalNotification",
         "pluginId": "de.appplant.cordova.plugin.local-notification",
@@ -105,14 +113,6 @@ module.exports = [
             "cordova.plugins.notification.local.core",
             "plugin.notification.local.core"
         ]
-    },
-    {
-        "file": "plugins/cordova-plugin-gcmpushplugin/www/gpp.js",
-        "id": "cordova-plugin-gcmpushplugin.GCMPushPlugin",
-        "pluginId": "cordova-plugin-gcmpushplugin",
-        "clobbers": [
-            "GcmPushPlugin"
-        ]
     }
 ];
 module.exports.metadata = 
@@ -125,9 +125,9 @@ module.exports.metadata =
     "cordova-plugin-camera": "2.1.0",
     "cordova-plugin-device": "1.1.1",
     "cordova-plugin-network-information": "1.2.0",
+    "phonegap-plugin-push": "1.6.1",
     "cordova-plugin-app-event": "1.2.0",
-    "de.appplant.cordova.plugin.local-notification": "0.8.4",
-    "cordova-plugin-gcmpushplugin": "1.2.0"
+    "de.appplant.cordova.plugin.local-notification": "0.8.4"
 }
 // BOTTOM OF METADATA
 });

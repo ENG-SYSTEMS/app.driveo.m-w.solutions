@@ -41,20 +41,23 @@ Ext.define('frontapp.view.Main', {
                         layout: 'hbox',
                         items: [
                             {
-                                cls: 'driveo-case success fa fa-shopping-bag',
+                                cls: 'driveo-case x-iconalign-top success fa fa-shopping-bag',
                                 flex: 1,
+                                xtype: 'button',
                                 action: 'menu-commande',
                                 html: 'Commandes'
                             },
                             {
-                                cls: 'driveo-case warning fa fa-medkit',
+                                cls: 'driveo-case x-iconalign-top warning fa fa-medkit',
                                 flex: 1,
+                                xtype: 'button',
                                 action: 'menu-ordonnance',
                                 html: 'Ordonnances'
                             },
                             {
-                                cls: 'driveo-case danger fa fa-envelope',
+                                cls: 'driveo-case x-iconalign-top danger fa fa-envelope',
                                 flex: 1,
+                                xtype: 'button',
                                 action: 'menu-message',
                                 html: 'Messages'
                             }

@@ -4,6 +4,7 @@
   color: #fff !important;
   font-size: 1.2em;
   line-height: 1.4;
+  border:0;
 }
 .driveo-case:before{
   font-size: 50px !important;
@@ -15,6 +16,16 @@
 }
 .driveo-case.text h1{
   color: white! important;
+}
+.driveo-case.info,.driveo-case.success,.driveo-case.warning,.driveo-case.danger,.driveo-case.success,
+.driveo-case.info:before,.driveo-case.success:before,.driveo-case.warning:before,.driveo-case.danger:before{
+  color: white !important;
+}
+.driveo-case.info:before,.driveo-case.success:before,.driveo-case.warning:before,.driveo-case.danger:before{
+  font-family: "FontAwesome";
+}
+.driveo-case.info,.driveo-case.success,.driveo-case.warning,.driveo-case.danger{
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 .prom-title,.prom-price{
   box-shadow: 0 0 10px #666;

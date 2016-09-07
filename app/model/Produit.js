@@ -30,6 +30,7 @@ Ext.define('frontapp.model.Produit', {
                     case 4: tva=1.021; break;
                 }
                 value = value*tva;
+                value = (parseFloat(value).toPrecision(12));
                 var DecimalSeparator = '.';
                 var AmountWithCommas = value;
                 var arParts = String(AmountWithCommas).split(DecimalSeparator);

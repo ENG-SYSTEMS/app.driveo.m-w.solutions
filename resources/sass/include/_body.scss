@@ -149,21 +149,21 @@ p{
 .label{
   padding: 5px;
   border-radius: 5px;
-  background-color: #5ba1d3;
+  background-color: #EA5A8F;
   color: #333;
   font-size: 10px;
 }
 .success {
-  background-color: #7eb72e !important;
-  color: #333 !important;
+  background-color: #80cc28 !important;
+  color: #fff !important;
 }
 .warning{
-  background-color: #5ba1d3 !important;
-  color: #333 !important;
+  background-color: #EA5A8F !important;
+  color: #fff !important;
 }
 .danger{
-  background-color: #f8b750 !important;
-  color: #333 !important;
+  background-color: #8d188f !important;
+  color: #fff !important;
 }
 
 /***** awesome-fonts.css ******/
@@ -171,6 +171,7 @@ p{
 .x-tab .x-button-icon:before, .x-button .x-button-icon:before {
 font-family: "FontAwesome";
 }
+
 
 
 /*!
@@ -219,11 +220,11 @@ font-family: "FontAwesome";
 }
 
 .fa-left{
-	padding-right:10px;	
+  padding-right:10px;
 }
 
 .fa-right{
-	padding-left:10px;	
+  padding-left:10px;
 }
 
 .fa-ul {

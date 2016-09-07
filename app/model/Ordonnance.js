@@ -13,6 +13,17 @@ Ext.define('frontapp.model.Ordonnance', {
             {name: 'Image', type: 'string'},
             {name: 'Commentaire', type: 'string'},
             {name: 'Etat', type: 'int'},
+            {name: 'Priorite', type: 'int'},
+            {name: 'PorioriteCss', type: 'int', convert: function (value,record) {
+                var t = record.get('Priorite');
+                if (t>10 && t<50)
+                    return 'warning';
+                if (t>=50)
+                    return 'danger';
+                if (t==10)
+                    return 'success';
+                return '';
+            }},
             {name: 'EtatText', type: 'string', convert: function (value,record){
                 switch (record.get('Etat')) {
                     case 1:

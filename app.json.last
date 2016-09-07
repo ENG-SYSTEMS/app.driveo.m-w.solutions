@@ -14,8 +14,8 @@
                     // phonegap.remote.password=mys3cr3tp@ssw0rd
                     //"remote":false,
 
-                    "id": "castanet.app.driveo.m-w.solutions",
-                    "name": "castanet"
+                    "id": "cours.app.driveo.m-w.solutions",
+                    "name": "cours"
                 }
             }
         }
@@ -170,5 +170,5 @@
      * Uniquely generated id for this application, used as prefix for localStorage keys.
      * Normally you should never change this value.
      */
-    "id": "51639e1d-2d35-42d2-9009-c52a39686cdf"
+    "id": "51639e1d-1d35-42d2-9009-c52a39686cdf"
 }

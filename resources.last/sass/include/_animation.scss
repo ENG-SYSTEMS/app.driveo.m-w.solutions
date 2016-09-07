@@ -32,26 +32,31 @@
 }
 
 /****** popup ****/
-.x-container.x-panel.x-sized.x-floating{
-  -webkit-transform: perspective(600px) translate3d(0px, 0px, 20px) rotateY(0deg) !important;
-  transform: perspective(600px) translate3d(0px, 0px, 20px) rotateY(0deg) !important;
+/*.x-container.x-panel.x-sized.x-floating{
+  -webkit-transform: perspective(600px) translate3d(0px, 140px, 20px) rotateY(0deg) !important;
+  transform: perspective(600px) translate3d(0px, 150px, 20px) rotateY(0deg) !important;
   -webkit-transition:all 500ms ease;
   transition:all 500ms ease;
   opacity: 1;
-}
+}*/
 
 .popupClosed {
   -webkit-transform: perspective(600px) translate3d(0px, 0px, -500px) rotateY(0deg) !important;
   transform: perspective(600px) translate3d(0px, 0px, -500px) rotateY(0deg) !important;
 }
-.x-container.x-panel.x-sized.x-floating.menuwrapper{
-  -webkit-transition:all 500ms ease !important;
-  transition:all 500ms ease !important;
+
+.menuwrapper{
+  opacity: 1;
+  -webkit-transition:all 500ms ease;
+  transition:all 500ms ease;
   position: absolute;
-  -webkit-transform: perspective(600px) translate3d(0, -600px, 0) rotateX(80deg) !important;
-  transform: perspective(600px) translate3d(0, -600px, 0) rotateX(80deg) !important;
+  top: -100px;
+  z-index:0;
+  -webkit-transform: perspective(600px) translate3d(0px, -500px, -1000px) rotateX(-90deg) !important;
+  transform: perspective(600px) translate3d(0px, -500px, -1000px) rotateX(-120deg) !important;
 }
-.x-container.x-panel.x-sized.x-floating.menuwrapper.down{
-  -webkit-transform: perspective(600px) translate3d(0, 0px, 0) rotateY(0deg) !important;
-  transform: perspective(600px) translate3d(0px, 0px, 0px) rotateY(0deg) !important;
+.menuwrapper.down{
+  -webkit-transform: perspective(600px) translate3d(0px, 100px, 0px) rotateX(0deg) !important;
+  transform: perspective(600px) translate3d(0px, 100px, 0px) rotateX(0deg) !important;
+  z-index:9;
 }

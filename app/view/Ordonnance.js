@@ -60,7 +60,7 @@ Ext.define('frontapp.view.Ordonnance', {
                         cls: 'product-list',
                         infinite: false,
                         action: 'listeordonnance',
-                        itemTpl: '<div class="product">'+
+                        itemTpl: '<div class="product {PrioriteCss}">'+
                         '<img src="'+frontapp.utils.Config.getDomain()+'/{Image}.mini.60x60.jpg" class="float-left product-avatar" alt="img">'+
                         '{EtatText}'+
                         '<h2>{DateCreation}</h2>'+

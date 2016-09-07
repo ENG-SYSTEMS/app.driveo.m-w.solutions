@@ -63,7 +63,7 @@
                     ],
                     "GCM_SENDER_ID": [
                         {
-                            "xml": "<string>911879983462</string>",
+                            "xml": "<string>1026573343411</string>",
                             "count": 1
                         }
                     ],
@@ -78,42 +78,45 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-android-support-v4": {
-            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+        "cordova-android-support-v4": {
+            "PACKAGE_NAME": "cours.app.driveo.m-w.solutions"
         },
-        "cordova-plugin-app-event": {
-            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+        "cordova-plugin-android-support-v4": {
+            "PACKAGE_NAME": "cours.app.driveo.m-w.solutions"
         },
         "cordova-plugin-barcodescanner": {
-            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+            "PACKAGE_NAME": "cours.app.driveo.m-w.solutions"
         },
         "cordova-plugin-camera": {
-            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+            "PACKAGE_NAME": "cours.app.driveo.m-w.solutions"
         },
         "cordova-plugin-crosswalk-webview": {
-            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+            "PACKAGE_NAME": "cours.app.driveo.m-w.solutions"
         },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+            "PACKAGE_NAME": "cours.app.driveo.m-w.solutions"
         },
         "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+            "PACKAGE_NAME": "cours.app.driveo.m-w.solutions"
         },
         "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+            "PACKAGE_NAME": "cours.app.driveo.m-w.solutions"
         },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+            "PACKAGE_NAME": "cours.app.driveo.m-w.solutions"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+            "PACKAGE_NAME": "cours.app.driveo.m-w.solutions"
         },
         "phonegap-plugin-push": {
-            "SENDER_ID": "911879983462",
-            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+            "SENDER_ID": "1026573343411",
+            "PACKAGE_NAME": "cours.app.driveo.m-w.solutions"
+        },
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "cours.app.driveo.m-w.solutions"
         },
         "de.appplant.cordova.plugin.local-notification": {
-            "PACKAGE_NAME": "castanet.driveo.m-w.solutions"
+            "PACKAGE_NAME": "cours.app.driveo.m-w.solutions"
         }
     },
     "dependent_plugins": {},
@@ -236,8 +239,8 @@
         }
     ],
     "plugin_metadata": {
+        "cordova-android-support-v4": "4.0.0",
         "cordova-plugin-android-support-v4": "21.0.1",
-        "cordova-plugin-app-event": "1.2.0",
         "cordova-plugin-barcodescanner": "0.7.0",
         "cordova-plugin-camera": "2.1.0",
         "cordova-plugin-crosswalk-webview": "1.5.0",
@@ -247,6 +250,7 @@
         "cordova-plugin-splashscreen": "3.0.0",
         "cordova-plugin-whitelist": "1.2.0",
         "phonegap-plugin-push": "1.6.1",
+        "cordova-plugin-app-event": "1.2.0",
         "de.appplant.cordova.plugin.local-notification": "0.8.4"
     }
 }

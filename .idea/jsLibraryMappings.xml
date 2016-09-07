@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/cordova.bck/platforms/android/cordova" libraries="{app.driveo.m-w.solutions/cordova.bck/platforms/android/cordova/node_modules}" />
+    <file url="file://$PROJECT_DIR$/cordova.castanet/platforms/android/cordova" libraries="{app.driveo.m-w.solutions/cordova.castanet/platforms/android/cordova/node_modules}" />
+    <file url="file://$PROJECT_DIR$/cordova.castanet/platforms/ios/cordova" libraries="{app.driveo.m-w.solutions/cordova.castanet/platforms/ios/cordova/node_modules}" />
+    <file url="file://$PROJECT_DIR$/cordova.cours/platforms/android/cordova" libraries="{app.driveo.m-w.solutions/cordova.cours/platforms/android/cordova/node_modules}" />
+    <file url="file://$PROJECT_DIR$/cordova.ecluse/cordova/cordova.ecluse/cordova/platforms/android/cordova" libraries="{app.driveo.m-w.solutions/cordova.ecluse/cordova/cordova.ecluse/cordova/platforms/android/cordova/node_modules}" />
+    <file url="file://$PROJECT_DIR$/cordova.ecluse/cordova/cordova.ecluse/platforms/android/cordova" libraries="{app.driveo.m-w.solutions/cordova.ecluse/cordova/cordova.ecluse/platforms/android/cordova/node_modules}" />
+    <file url="file://$PROJECT_DIR$/cordova.ecluse/cordova/platforms/android/cordova" libraries="{app.driveo.m-w.solutions/cordova.ecluse/cordova/platforms/android/cordova/node_modules}" />
+    <file url="file://$PROJECT_DIR$/cordova.ecluse/platforms/android/cordova" libraries="{app.driveo.m-w.solutions/cordova.ecluse/platforms/android/cordova/node_modules}" />
+    <file url="file://$PROJECT_DIR$/cordova.last/platforms/android/cordova" libraries="{app.driveo.m-w.solutions/cordova.last/platforms/android/cordova/node_modules}" />
+    <file url="file://$PROJECT_DIR$/cordova/platforms/android/cordova" libraries="{app.driveo.m-w.solutions/cordova/platforms/android/cordova/node_modules}" />
+  </component>
+</project>

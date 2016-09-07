@@ -120,8 +120,8 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
+    "cordova-android-support-v4": "4.0.0",
     "cordova-plugin-android-support-v4": "21.0.1",
-    "cordova-plugin-app-event": "1.2.0",
     "cordova-plugin-barcodescanner": "0.7.0",
     "cordova-plugin-camera": "2.1.0",
     "cordova-plugin-crosswalk-webview": "1.5.0",
@@ -131,6 +131,7 @@ module.exports.metadata =
     "cordova-plugin-splashscreen": "3.0.0",
     "cordova-plugin-whitelist": "1.2.0",
     "phonegap-plugin-push": "1.6.1",
+    "cordova-plugin-app-event": "1.2.0",
     "de.appplant.cordova.plugin.local-notification": "0.8.4"
 }
 // BOTTOM OF METADATA

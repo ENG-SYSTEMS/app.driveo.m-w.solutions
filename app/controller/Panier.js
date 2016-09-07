@@ -39,6 +39,14 @@ Ext.define('frontapp.controller.Panier', {
         var nbproduit = this.getNbproduit(),
             ref = this.getReference();
 
+
+        var curview = Ext.Viewport.getActiveItem();
+        curview.setMasked({
+            xtype: 'loadmaskypm',
+            indicator: false,
+            message: 'Ajout du produit en cours ...'
+        });
+
         console.log('ajouterproduit', nbproduit.getValue(),ref.getValue());
         Ext.Ajax.request({
             url:frontapp.utils.Config.getDomain()+'/Boutique/Commande/managePanier.json',
@@ -54,6 +62,7 @@ Ext.define('frontapp.controller.Panier', {
             async: true,
             useDefaultXhrHeader: false,
             success: function (response) {
+                curview.setMasked(null);
                 //chargement des données
                 var obj = Ext.decode(response.responseText);
 console.log('retour add produit',obj);
@@ -64,12 +73,20 @@ console.log('retour add produit',obj);
                 Ext.getStore('Panier').load();
             },
             failure: function (response) {
+                curview.setMasked(null);
                 Ext.Msg.alert('Erreur',"Une erreur s'est produit. Veuillez réessayer.");
             }
         });
     },
     onViderPanier: function (button) {
         var panier = this.getPanier();
+
+        var curview = Ext.Viewport.getActiveItem();
+        curview.setMasked({
+            xtype: 'loadmaskypm',
+            indicator: false,
+            message: 'Vidage du panier en cours ...'
+        });
 
         console.log('viderPanier');
         Ext.Ajax.request({
@@ -84,6 +101,7 @@ console.log('retour add produit',obj);
             async: true,
             useDefaultXhrHeader: false,
             success: function (response) {
+                curview.setMasked(null);
                 //chargement des données
                 var obj = Ext.decode(response.responseText);
                 console.log('retour vider panier',obj);
@@ -94,11 +112,20 @@ console.log('retour add produit',obj);
                 Ext.getStore('Panier').load();
             },
             failure: function (response) {
+                curview.setMasked(null);
                 Ext.Msg.alert('Erreur',"Une erreur s'est produit. Veuillez réessayer.");
             }
         });
     },
     onCommandeValider: function (button) {
+
+        var curview = Ext.Viewport.getActiveItem();
+        curview.setMasked({
+            xtype: 'loadmaskypm',
+            indicator: false,
+            message: 'Validation de commande en cours ...'
+        });
+
         console.log('commandeValider');
         Ext.Ajax.request({
             url:frontapp.utils.Config.getDomain()+'/Boutique/Commande/managePanier.json',
@@ -112,6 +139,7 @@ console.log('retour add produit',obj);
             async: true,
             useDefaultXhrHeader: false,
             success: function (response) {
+                curview.setMasked(null);
                 //chargement des données
                 var obj = Ext.decode(response.responseText);
                 console.log('retour vider panier',obj);
@@ -123,6 +151,7 @@ console.log('retour add produit',obj);
                 Ext.getStore('Commandes').load();
             },
             failure: function (response) {
+                curview.setMasked(null);
                 Ext.Msg.alert('Erreur',"Une erreur s'est produit. Veuillez réessayer.");
             }
         });
